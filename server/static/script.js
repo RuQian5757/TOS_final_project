@@ -2,28 +2,30 @@
 let navigationStack = ['step-home']; 
 
 // 資料變數
-let itineraryItems = []; 
-let currentPendingItem = null; 
-let savedTrips = []; 
+let itineraryItems = []; // 前端暫存的行程列表
+let currentPendingItem = null; // 當前選擇的項目
+let savedTrips = []; // 歷史紀錄 (從後端抓取)
 let savedFavorites = []; 
 let currentViewingTripId = null;
 let isInstantMode = false; 
-let activeServerTripId = null; // [重要] 用來儲存後端回傳的 ID
+let activeServerTripId = null; // 用來儲存後端回傳的 ID
 
 let tripSettings = { 
     tripName: '', 
     location: '台南', 
     date: '2025/10/20',
     companion: '情侶', 
-    transport: '機車'
+    transport: '機車',
+    lat: null, // [新增] 起始點緯度
+    lng: null  // [新增] 起始點經度
 }; 
 
-// --- Mock Data ---
+// --- Mock Data (模擬選項，已補上座標) ---
 const mockOptions = [
-    { id: 1, name: "文章牛肉湯", type: "美食", rating: 4.8, tags: ["排隊名店"], reason: "經典台南早餐，距離近。", distance: "1.2 km" },
-    { id: 2, name: "臺南市美術館 2 館", type: "景點", rating: 4.6, tags: ["冷氣超強", "拍照"], reason: "建築特色美，適合避暑。", distance: "1.5 km" },
-    { id: 3, name: "林百貨", type: "購物", rating: 4.5, tags: ["古蹟"], reason: "文創商品豐富。", distance: "0.9 km" },
-    { id: 4, name: "安平古堡", type: "景點", rating: 4.4, tags: ["歷史", "戶外"], reason: "體驗荷蘭時期的歷史風情。", distance: "3.0 km" }
+    { id: 1, name: "文章牛肉湯", type: "美食", rating: 4.8, tags: ["排隊名店"], reason: "經典台南早餐，距離近。", distance: "1.2 km", lat: 22.9985, lng: 120.2130 },
+    { id: 2, name: "臺南市美術館 2 館", type: "景點", rating: 4.6, tags: ["冷氣超強", "拍照"], reason: "建築特色美，適合避暑。", distance: "1.5 km", lat: 22.9900, lng: 120.2000 },
+    { id: 3, name: "林百貨", type: "購物", rating: 4.5, tags: ["古蹟"], reason: "文創商品豐富。", distance: "0.9 km", lat: 22.9930, lng: 120.2050 },
+    { id: 4, name: "安平古堡", type: "景點", rating: 4.4, tags: ["歷史", "戶外"], reason: "體驗荷蘭時期的歷史風情。", distance: "3.0 km", lat: 23.0010, lng: 120.1610 }
 ];
 
 // --- Initialization ---
@@ -41,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if(nameInput) {
         nameInput.addEventListener('input', (e) => {
             if(currentViewingTripId) {
-                const trip = savedTrips.find(t => t.tripId === currentViewingTripId);
-                if(trip) trip.name = e.target.value;
+                const trip = savedTrips.find(t => t.id === currentViewingTripId);
+                if(trip) trip.meta.trip_name = e.target.value;
             }
         });
     }
@@ -100,7 +102,7 @@ function startPlanningMode() {
     goToStep('plan-setup'); 
 }
 
-// --- [整合後端] 第一階段：初始化並傳送 Meta ---
+// --- [核心] Step 1: 初始化並傳送 Meta ---
 async function initializeAndGoToDashboard() {
     const nameInput = document.getElementById('tripNameInput').value;
     const locInput = document.getElementById('locationInput').value;
@@ -115,7 +117,6 @@ async function initializeAndGoToDashboard() {
     
     tripSettings.tripName = nameInput.trim() || `${tripSettings.location}之旅`;
     
-    // 準備後端 Payload
     const metaPayload = {
         trip_name: tripSettings.tripName,
         location: tripSettings.location,
@@ -124,28 +125,51 @@ async function initializeAndGoToDashboard() {
         transport: tripSettings.transport
     };
 
-    // 呼叫 API
     try {
-        const response = await fetch('/api/create_trip', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(metaPayload)
-        });
-        const result = await response.json();
-        
-        if(response.ok) {
-            console.log("Server 初始化成功，ID:", result.trip_id);
-            activeServerTripId = result.trip_id; // 存下 ID
+        if (!activeServerTripId) {
+            // 新旅程：呼叫 create_trip
+            const response = await fetch('/api/create_trip', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(metaPayload)
+            });
+            const result = await response.json();
+            
+            if(response.ok) {
+                console.log("Server 初始化成功，ID:", result.trip_id);
+                activeServerTripId = result.trip_id; 
+                
+                // [儲存起始點座標]
+                if(result.start_point) {
+                    tripSettings.lat = result.start_point.lat;
+                    tripSettings.lng = result.start_point.lng;
+                    console.log("已記錄起始座標:", tripSettings.lat, tripSettings.lng);
+                }
+                itineraryItems = []; 
+            }
         } else {
-            console.error("Server 錯誤:", result.message);
+            // 舊旅程：呼叫 update_meta
+            const response = await fetch('/api/update_meta', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    trip_id: activeServerTripId,
+                    meta: metaPayload
+                })
+            });
+            const result = await response.json();
+            
+            // [更新座標]
+            if(result.start_point) {
+                tripSettings.lat = result.start_point.lat;
+                tripSettings.lng = result.start_point.lng;
+            }
         }
     } catch(e) {
         console.error("連線失敗 (請確認 python app.py 是否執行):", e);
     }
 
-    itineraryItems = []; 
     renderDashboard();
-    
     navigationStack = ['step-home', 'step-dashboard'];
     _showStep('step-dashboard');
 }
@@ -167,15 +191,104 @@ function startNewBlock() {
     goToStep(2);
 }
 
-function startLoading() {
-    const loading = document.getElementById('loading-screen');
-    loading.classList.remove('hidden'); loading.classList.add('flex');
-    setTimeout(() => {
-        loading.classList.add('hidden'); loading.classList.remove('flex');
-        goToStep(3);
-    }, 1500); 
+// --- [核心] Step 2: 生成 AI Prompt ---
+
+// 產生情境資料 (Context JSON)
+function generateAiPayload() {
+    let prevLat, prevLng;
+
+    // --- 邏輯 A: 決定經緯度 (前一個地點) ---
+    // 如果目前沒行程 -> 用起始點
+    // 如果有行程 -> 用最後一個行程的點
+    if (itineraryItems.length === 0) {
+        prevLat = tripSettings.lat;
+        prevLng = tripSettings.lng;
+    } else {
+        const lastItem = itineraryItems[itineraryItems.length - 1];
+        prevLat = lastItem.lat; 
+        prevLng = lastItem.lng;
+    }
+
+    // --- 邏輯 B: 抓取 UI 輸入值 ---
+    
+    // 1. 預計時段
+    const startTime = document.getElementById('blockStartTime').value;
+    const endTime = document.getElementById('blockEndTime').value;
+
+    // 2. 類型選擇 (抓取所有變藍色的按鈕)
+    const selectedTypes = [];
+    document.querySelectorAll('.tag-btn').forEach(btn => {
+        // 判斷按鈕是否有被選中的 class (依據你原本的 toggle 邏輯)
+        if (btn.classList.contains('bg-blue-100')) {
+            selectedTypes.push(btn.innerText);
+        }
+    });
+
+    // 3. 移動距離限制
+    const distanceInput = document.querySelector('input[type="range"]');
+    const radius = distanceInput ? distanceInput.value + " km" : "5 km";
+
+    // 4. 額外需求
+    const requirementInput = document.querySelector('textarea');
+    const extraReq = requirementInput ? requirementInput.value : "";
+
+    // --- 邏輯 C: 組裝最終 JSON ---
+    return {
+        "time_slot": `${startTime} - ${endTime}`,
+        "category_selection": selectedTypes, // 例如 ["美食", "隨機"]
+        "max_travel_distance": radius,
+        "prompt": extraReq,
+        "companion": tripSettings.companion,
+        "coordinates": {
+            "lat": prevLat,
+            "lng": prevLng
+        }
+    };
 }
 
+// 2. 傳送資料給後端
+async function startLoading() {
+    const loading = document.getElementById('loading-screen');
+    const loadingText = document.getElementById('loading-text');
+    
+    loading.classList.remove('hidden'); loading.classList.add('flex');
+    if(loadingText) loadingText.innerText = "正在儲存您的需求...";
+
+    // 產生 Payload
+    const payload = generateAiPayload();
+    
+    try {
+        const response = await fetch('/api/generate_ai_prompt', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+            console.log("✅ 需求已存成 request.json:", result.saved_data);
+            
+            if(loadingText) loadingText.innerText = "需求已送出！";
+            
+            setTimeout(() => {
+                loading.classList.add('hidden'); loading.classList.remove('flex');
+                goToStep(3); // 跳轉到下一步
+            }, 800); 
+
+        } else {
+            console.error("儲存失敗:", result.message);
+            alert("連線錯誤");
+            loading.classList.add('hidden'); loading.classList.remove('flex');
+        }
+
+    } catch (e) {
+        console.error("連線錯誤:", e);
+        loading.classList.add('hidden'); loading.classList.remove('flex');
+    }
+}
+
+// --- Step 3: 顯示選項 ---
 function renderOptions() {
     const container = document.getElementById('options-container');
     if(!container) return;
@@ -183,7 +296,6 @@ function renderOptions() {
 
     mockOptions.forEach(opt => {
         const card = document.createElement('div');
-        // 使用 onclick 確保相容性，移除 pointer-events-none
         card.className = "bg-white border border-gray-100 rounded-2xl p-4 card-shadow transition transform hover:scale-[1.01] cursor-pointer hover:border-blue-300";
         card.onclick = function() { selectAndProceed(opt); };
         
@@ -279,7 +391,7 @@ function renderStep4Buttons() {
     }
 }
 
-// --- [整合後端] 第二階段：確認並傳送單一項目 ---
+// --- [核心] Step 4: 確認並傳送單一項目 (含座標) ---
 async function confirmAndAddToDashboard() {
     if (currentPendingItem) {
         const startTimeEl = document.getElementById('blockStartTime');
@@ -287,6 +399,7 @@ async function confirmAndAddToDashboard() {
         const startTime = startTimeEl ? startTimeEl.value : "10:00";
         const endTime = endTimeEl ? endTimeEl.value : "12:00";
 
+        // 前端顯示用的物件 (繼承了 mockOptions 的 lat/lng)
         const newItem = {
             ...currentPendingItem, 
             timeRange: `${startTime} - ${endTime}`,
@@ -296,7 +409,7 @@ async function confirmAndAddToDashboard() {
         itineraryItems.sort((a, b) => a.timeRange.localeCompare(b.timeRange));
         renderDashboard();
 
-        // 呼叫後端 API
+        // 後端同步
         if (activeServerTripId) {
             try {
                 const itemPayload = {
@@ -308,11 +421,13 @@ async function confirmAndAddToDashboard() {
                         rating: newItem.rating,
                         tags: newItem.tags,
                         ai_reason: newItem.reason,
-                        distance_info: newItem.distance
+                        distance_info: newItem.distance,
+                        lat: newItem.lat, // 存入座標供下次AI判斷
+                        lng: newItem.lng
                     }
                 };
                 
-                // 不使用 await，讓它在背景執行，不卡使用者介面
+                // 背景發送不卡頓
                 fetch('/api/add_item', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -383,18 +498,16 @@ function startInstantNavigation() {
     window.open(mapUrl, '_blank');
 }
 
-// --- Finalize Functions ---
+// --- [核心] 完成儲存 & 跳轉詳情 ---
 function saveCurrentTrip() {
     if(itineraryItems.length === 0) {
         alert("您的行程表是空的，請先新增至少一個行程喔！");
         return;
     }
 
-    // [關鍵修正] 
-    // 我們要手動建構一個符合 Server JSON 格式的物件
-    // 這樣 openTripDetail 才能正確讀取它
-    const tripId = activeServerTripId || Date.now().toString(); // 確保有 ID (字串)
+    const tripId = activeServerTripId || Date.now().toString(); 
 
+    // 將前端資料結構轉為後端結構，以便 openTripDetail 讀取
     const finalTripData = {
         id: tripId,
         meta: {
@@ -402,51 +515,40 @@ function saveCurrentTrip() {
             location: tripSettings.location,
             date: tripSettings.date,
             companion: tripSettings.companion,
-            transport: tripSettings.transport
+            transport: tripSettings.transport,
+            lat: tripSettings.lat,
+            lng: tripSettings.lng
         },
-        // 將前端暫存的 items 轉換成後端 schedule 的格式
         schedule: itineraryItems.map(item => ({
             place_name: item.name,
             category: item.type,
-            time_range: item.timeRange, // 對應 items 的 camelCase
+            time_range: item.timeRange, 
             rating: item.rating,
             tags: item.tags,
             ai_reason: item.reason,
-            distance_info: item.distance
+            distance_info: item.distance,
+            lat: item.lat,
+            lng: item.lng
         }))
     };
 
-    // 1. 將這個標準格式的資料，推入前端的 savedTrips 陣列最前面
-    // 這樣不用重新 fetch 也能立刻看到
     savedTrips.unshift(finalTripData); 
-
-    // 2. 重置狀態
     activeServerTripId = null; 
     
-    // 3. 執行跳轉與渲染
-    // 這時候 openTripDetail 會去 savedTrips 找這個 ID，因為我們剛剛 push 進去了，所以找得到
     openTripDetail(tripId);
-    
-    // 4. 設定導航堆疊
     navigationStack = ['step-home', 'step-dashboard', 'step-trip-detail'];
-}   
+}
 
 function openTripDetail(tripId) {
-    // [修改] 比對 ID
+    // 依據 ID 查找 (字串)
     const trip = savedTrips.find(t => t.id === tripId);
-    if (!trip) {
-        console.error("找不到行程 ID:", tripId);
-        return;
-    }
+    if(!trip) return;
 
     currentViewingTripId = tripId;
-
     const nameInput = document.getElementById('detail-trip-name');
-    // [修改] 讀取 meta.trip_name
-    if (nameInput) nameInput.value = trip.meta.trip_name;
+    if(nameInput) nameInput.value = trip.meta.trip_name;
 
     const badgeContainer = document.getElementById('detail-badges');
-    // [修改] 讀取 meta 資訊
     badgeContainer.innerHTML = `
         <span class="bg-blue-100 text-blue-600 text-xs font-bold px-2 py-1 rounded-md"><i class="fa-regular fa-calendar mr-1"></i>${trip.meta.date}</span>
         <span class="bg-purple-100 text-purple-600 text-xs font-bold px-2 py-1 rounded-md"><i class="fa-solid fa-user-group mr-1"></i>${trip.meta.companion}</span>
@@ -463,11 +565,8 @@ function openTripDetail(tripId) {
         </div>
     `;
 
-    // [修改] 遍歷 schedule
     trip.schedule.forEach(item => {
-        // item.category 對應原本的 type
         const bgImage = `https://source.unsplash.com/random/200x200/?${item.category === '美食' ? 'food' : 'building'}&sig=${Math.random()}`;
-        
         listContainer.innerHTML += `
             <div class="relative pl-8">
                 <div class="absolute -left-[9px] top-6 w-4 h-4 bg-blue-600 rounded-full border-2 border-white shadow ring-2 ring-blue-100"></div>
@@ -493,7 +592,6 @@ function openTripDetail(tripId) {
     goToStep('trip-detail');
 }
 
-// [修改] 導航功能也要改讀 place_name
 function startNavigation() {
     if (!currentViewingTripId) return;
     const trip = savedTrips.find(t => t.id === currentViewingTripId);
@@ -551,24 +649,36 @@ function renderDashboard() {
     }
 }
 
+// --- History & Tabs ---
+
+async function fetchAndRenderHistory() {
+    try {
+        const response = await fetch('/api/get_all_trips');
+        const data = await response.json();
+        
+        if (data.status === 'success') {
+            savedTrips = data.trips; 
+            renderHistory(); 
+        } else {
+            console.error("無法讀取行程:", data.message);
+        }
+    } catch (e) {
+        console.error("連線失敗:", e);
+    }
+}
+
 function renderHistory() {
     const container = document.getElementById('history-list-container');
     container.innerHTML = '';
-
-    if (savedTrips.length === 0) {
+    if(savedTrips.length === 0) {
         container.innerHTML = `<div class="bg-gray-50 border border-gray-100 rounded-2xl p-6 text-center text-gray-400 text-sm">尚未有儲存的行程</div>`;
         return;
     }
-
     savedTrips.forEach(trip => {
-        // [修改] 資料結構對應 Server JSON
-        // trip.id (字串 UUID)
-        // trip.meta.trip_name
-        // trip.meta.date
-        // trip.schedule (陣列)
-        
-        // 為了讓 onclick 能傳遞字串 ID，需要加引號
         const tripIdParam = `'${trip.id}'`;
+        const lat = trip.meta.lat ? trip.meta.lat.toFixed(4) : "未取得";
+        const lng = trip.meta.lng ? trip.meta.lng.toFixed(4) : "未取得";
+        const locationDisplay = (lat !== "未取得") ? `<span class="text-[10px] bg-gray-100 px-1 rounded text-gray-500 ml-2"><i class="fa-solid fa-map-pin"></i> ${lat}, ${lng}</span>` : ``;
 
         container.innerHTML += `
             <div onclick="openTripDetail(${tripIdParam})" class="bg-white rounded-2xl p-4 card-shadow flex gap-4 mb-4 border-l-4 border-blue-600 cursor-pointer hover:shadow-lg transition">
@@ -577,37 +687,19 @@ function renderHistory() {
                         <h4 class="font-bold text-lg text-gray-800">${trip.meta.trip_name}</h4>
                         <span class="bg-blue-100 text-blue-600 text-xs font-bold px-2 py-1 rounded">已儲存</span>
                     </div>
-                    <p class="text-sm text-gray-500 mb-2">
+                    <p class="text-sm text-gray-500 mb-2 flex items-center">
                         <i class="fa-regular fa-calendar mr-2"></i>${trip.meta.date} • ${trip.meta.location}
+                        ${locationDisplay}
                     </p>
                     <div class="text-xs text-gray-400 mb-3 pl-2 border-l-2 border-gray-100">
                         ${trip.schedule.length > 0 ? `<div>• ${trip.schedule[0].place_name}</div>` : ''}
                         ${trip.schedule.length > 1 ? `<div>• ${trip.schedule[1].place_name}</div>` : ''}
                         ${trip.schedule.length > 2 ? `<div>...還有 ${trip.schedule.length - 2} 個行程</div>` : ''}
-                        ${trip.schedule.length === 0 ? '<div>(尚未安排行程)</div>' : ''}
                     </div>
                 </div>
             </div>
         `;
     });
-}
-
-// [新增] 從 Server 抓取歷史紀錄
-async function fetchAndRenderHistory() {
-    try {
-        const response = await fetch('/api/get_all_trips');
-        const data = await response.json();
-        
-        if (data.status === 'success') {
-            // 更新全域變數，讓其他函式也能用到最新的資料
-            savedTrips = data.trips; 
-            renderHistory(); // 呼叫渲染
-        } else {
-            console.error("無法讀取行程:", data.message);
-        }
-    } catch (e) {
-        console.error("連線失敗:", e);
-    }
 }
 
 function switchTab(tabName) {
@@ -625,7 +717,7 @@ function switchTab(tabName) {
 
     if (tabName === 'history') {
         historySection.classList.add('active');
-        fetchAndRenderHistory();
+        fetchAndRenderHistory(); 
     } else if (tabName === 'favorites') {
         favoritesSection.classList.add('active');
         renderFavorites();
