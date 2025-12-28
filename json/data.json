@@ -1,0 +1,701 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9966246,
+                    "lng": 120.1983081
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99791127989272,
+                        "lng": 120.1996342798927
+                    },
+                    "southwest": {
+                        "lat": 22.99521162010728,
+                        "lng": 120.1969346201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 917 708 565",
+            "name": "文品牛肉湯（民權店）",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2653,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107159929369492539410\">Curitis</a>"
+                    ],
+                    "photo_reference": "AZLasHp54nkXYTnzdq46d31cJj4pGwxaB0VgLSUHl6Ux5zSFI9qK1T_sHbqpW0mA5VwQwhWfHFC2tsV2mJadBlgLkpI2sr9Hq6uqgNQ2wddeP4KbGc9KZrQudHvDojTieibnjlaEl09zjxXVFsffnbGdVeiftlAhV3mjJuD-DU4Gqjt39GPzFet2wEm6S8TZJxDB2pTNB7gy1H0qJ9qUUu0SOOIVVqXjAcYsh1RyX0w77svZbxNnqCnmldMe7vwWn28Wir5b-HIgh3C5l9_IWvc9c5tV1klxgb-h4D3c868IEqhuKSYBTovD98g1GOBttszks5mtaSq_p08wvukvPOjnQU2lqHhMwyCKlvP7bb2jn2WKbxuuLhZwW4vama2JcUtPHFoiCK_Nh88p6-zqh-hrBwujb_30AYrw8MQWlJoug-FwKMLcL4NoR4BBbpgH_5EQS015srKSWp_FvIvDW1uZkkK4JnExR0_AcvwFVEsdqdChea6sGlFjZ8sAFz3Eblt82IhG7hakQsrPmUR9Ht47EtZbf6bNYhtV0Jov097dw3kS7ukp5csEfM7CzS0V8ba19A6YZsOmpdNz7J714zr7OX-Z_CeoXw",
+                    "width": 2963
+                }
+            ],
+            "place_id": "ChIJzUcV_6V3bjQRg9I9UOzkABI",
+            "rating": 4.8,
+            "reference": "ChIJzUcV_6V3bjQRg9I9UOzkABI",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 129,
+            "vicinity": "民權路三段56號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.0003582,
+                    "lng": 120.226906
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00166592989272,
+                        "lng": 120.2282306298927
+                    },
+                    "southwest": {
+                        "lat": 22.99896627010728,
+                        "lng": 120.2255309701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 967 022 143",
+            "name": "小董牛肉湯爐",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109944399854964807551\">爵安Jheng</a>"
+                    ],
+                    "photo_reference": "AZLasHrFJZ-WOtI4DZ5PCE_HZAKGfAB4jsHxnkM6l2jWAtzxYNwovgBkjRlCvYFt350FvyNMnsd6qUxEWDI3gwEvLiR-VMaWjvPU-OI_P6C83_wKUEfUACB4btlGfk-izQq8aYG_tNIWhzvHrThSv36GWcIiSO-AI3oL3WFlwBcQ-WMf9ZgIxWWPEHhqSSqDh96vleFx0iVVIkx_Ly5T7_W73X66tVSYOAHuTPrlxA0ptkG-D4EOkJXkh7kW9LYYpHDbjIcw4jBbr0wO7k4GlBPaxxJvYv6Crkzjbwz6fUNkARODJ6wCI6WA__enLyZLuEt7fX0-a94z0qGMGFiVzcxiu7L5o9uF_RgsJvu7Lue8iczVnLIaqybU84GY7wOE0mACgi6p0otB5RXuJ0t_YKhYRWIMbIgOxQ2M83btH2OqTginjRdWVhfuIG4FP6tKqJbTTHxM9DQqzY8YDnRwIQHNlRiKTCD5-2J8ovOzQOewlww6AXRLOjlGU3TrykhxrAYKAmNPGnIWMvxnQLXKNca8pwiSQo_HVgzl1sWQzgpWy80EZgr1fAoR8diq9Mgi0sp2YPRfVPiIOkLEOw",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJGXsaVBx3bjQRHTFIqFgVfVM",
+            "price_level": 2,
+            "rating": 4.9,
+            "reference": "ChIJGXsaVBx3bjQRHTFIqFgVfVM",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 13203,
+            "vicinity": "小東路157號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9983826,
+                    "lng": 120.1969065
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99979462989272,
+                        "lng": 120.1982824298927
+                    },
+                    "southwest": {
+                        "lat": 22.99709497010728,
+                        "lng": 120.1955827701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "鬍鬚忠牛肉湯",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101231111389846331577\">佩吟</a>"
+                    ],
+                    "photo_reference": "AZLasHo4Uv4U5lvLSfVqwyAAkVOD8ssN9UIqOtJ29YWmtqN7C_VRa18khyE4z8XHPIpYjWA4bCyZC1WvkIA0NP8h028KlCgEoa-R-gH3wLnFw30N14QZkTMaZ1CIJmNNqddfLrNlSzfC2YIZDsQXwJhOlv7a5xShChpU_9T4znUBB7NaXc2hG8KcxogKTrb5V9H9NPPL_5q7v5_rQfRFYpEdSwa_a-nJPQvAvUmLw9GFrG-T0hGctIQ-0gp8AmjPI9cBJZI3DJB_4_JG-67YxkZQ4Xnc0E_WiHcXeNj4Hoo7slucYV0efOBwrWQBiNX65Oupbsh6N1-QL2ilUKyZqQJEszhIDVwkTxYK7gBU1BsAuBa1r6GwstG4z8BD0h5iSCcTsZXxjPSI_iay5pqoik1FNI9gWnp8NPukur1z2Gm8tCyJsJueiVn7w2XQfph93F_QyEGuNMpH-gg1qdk_e4hoFp-5nXLiOVDWPVnrLjg3xuLm2lL8GmXwRlwItyV6vuee-0WCjyQO0IrZC2VZk2mjNewOJD8kOD6I2Ggxn_sZBp3XxEsuGs99dTuO_RaT0_uHjuaWKG5OUOOzLw",
+                    "width": 2880
+                }
+            ],
+            "place_id": "ChIJ7f-bjmZ2bjQRZXmwL_jWvpQ",
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJ7f-bjmZ2bjQRZXmwL_jWvpQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5563,
+            "vicinity": "民族路三段91號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9884837,
+                    "lng": 120.2347287
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.98988047989272,
+                        "lng": 120.2360764798928
+                    },
+                    "southwest": {
+                        "lat": 22.98718082010728,
+                        "lng": 120.2333768201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 260 2990",
+            "name": "停車場(億哥牛肉湯)",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117613479251806648545\">金城式</a>"
+                    ],
+                    "photo_reference": "AZLasHqzazxwxAnxmJRcars17YHVvhab5_AjKgtW5rOCFHjZFQBL9q58Ig-G00U0gBHe9G22C8qp1HWh48NwzhTVwsn1roa6eMacqyOQ-1d0Og5u35taR5VvtLJUYen6bkv6n4w2WCOfWxUHJiZxJzW-EBHt7YJEWBylFZS1T2arew5RNBsTUH3quZTtP_6TGebP_T-sF_zVtDL4U8k1BpFF8RuImldi5P0a9ZE4X1RbCqRdZO9CsRax7Umibivg_77QDZrnyScDxB3CbdZzEkhmQr4_4smkxfV9vmHnZAaDZTGLicbJr-Mf0xCO4WQnLQfEkYh5gokuE-RoeHLSS58pZAXEJ4XvKRO4lAC5rz7QBuGOfSdiJUx_KPU7schFl8M8K0-nZQbClYiet8ARye19WnB5EtnqvQ8pccV9u5o65p7cQjalN37dJC3eexZq5y6SC9rgfRQoA2CiS8ANUjtdnaak9MM-jgtDwQTDodIRGEEAjJpaSJlIrX0UX5YH0Zly_SrYLoh2Iy05kzA_YV8zBtGl83UgMpwU9sI5EwzE8PlvJRxOyviwebRUcaUymwswXmlnIxrwwosv0AXngHLCadMHIAw-mQ",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJ-ZhSFQB3bjQR2ebQBFE58xo",
+            "rating": 4.3,
+            "reference": "ChIJ-ZhSFQB3bjQR2ebQBFE58xo",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 29,
+            "vicinity": "裕農路588號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9974942,
+                    "lng": 120.198864
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99883752989272,
+                        "lng": 120.2002326798927
+                    },
+                    "southwest": {
+                        "lat": 22.99613787010728,
+                        "lng": 120.1975330201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "international_phone_number": "+886 6 211 2464",
+            "name": "永樂牛肉湯",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2160,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105760509174392555054\">Jane_Carat</a>"
+                    ],
+                    "photo_reference": "AZLasHo5OhgKf82fRKfGmk7iEk-qdzd-4YBIFKQpOcp4THUUJhhwcSX3Dz1-87hEcoCK3PTzh1WlgAxhkk9PBBxCFJB3EkO9hDkxi3ewenrPr2I53O5EA7cJX_Afs_KDt4Uk-JyR1F-BZ2ohpu9LdXMiTWJVGxKSN-yvh7Dc85oH4hBoQPU_jQXQKbq7N-R43636JjlrlJRwju00C4mR9QB2wYaA07OhBA4EFFLy-s80EW5yEOFNTyTLaDrONz0qH4E9kJiUCkxhNzVkGDh2EAlaa7SGHoXzd2v1MBnhIw8wxRGqtYHmuGtDWJIqBr2myBHNeJxZLAu8zKUngvgfHoHyjhUIYmn_xmTDAHBdfZQVp0noLQvsl7T4_Mxsj4DUgqIfhcOiOXVvBukgwo5sdfC4lrU01X99xSelE-s2ojIPT-d6Hypyrjnx5r-ie9RVTIOc7MuqMZ1wmEGqjD20h3FU1V4ZUv1ctFuRqJzY3j8ZFCsMOWxf5fTsxJhSmkl6U9QMEAjCiJ1oF0atnefDBbEB2WIlf_1RrWx02iaWtwdSV1nHUQlyBwYYFPzuodDMKMqdhjuEPgli",
+                    "width": 2160
+                }
+            ],
+            "place_id": "ChIJ18NJrmZ2bjQRLm4dURTcDtQ",
+            "price_level": 1,
+            "rating": 4.2,
+            "reference": "ChIJ18NJrmZ2bjQRLm4dURTcDtQ",
+            "scope": "GOOGLE",
+            "types": [
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1944,
+            "vicinity": "國華街三段175號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.995932,
+                    "lng": 120.2005554
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99725207989272,
+                        "lng": 120.2018929798927
+                    },
+                    "southwest": {
+                        "lat": 22.99455242010728,
+                        "lng": 120.1991933201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 221 5988",
+            "name": "鴻牛溫體牛肉湯-民權店｜中西區美食｜宵夜牛肉湯｜熱門牛肉湯｜台南美食推薦｜台南小吃推薦｜牛肉湯推薦｜溫體牛｜必吃牛肉鍋｜宵夜推薦｜熱炒推薦｜必吃美食｜評價牛肉湯｜",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 5712,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104734234509791057357\">JYi</a>"
+                    ],
+                    "photo_reference": "AZLasHo61TsA3WjYmvBi1KB9fkM-jTy9nd0QAbiXuKSW35lEE_Eocu_xMfuvZqfVWFNPmtxvkm17Au9LGt1ZThR4jbY-H3qjozr7ce1maHXh4T_mxGaw1iNtwOZP1AGFU-Jp9Ef9H1cj1E8-owiljqd1UGzZIvAQlgv64yJaviM0GulXlWpPycA5HkMBQkZQenbdLnU7VStQ-_-lUPw1esAlQRtzX4fgSSvCqLso5oGYjIUUJOXGbN5AWT_MzYXfvK9PGAJB8w6-wZSA5-A6Kwpv5xBduw5BlC-fWTsagFHvYe73R9fWTzOmOc2X8pOC5ip3ZVMqWLqwmqLw_rxaUsdAULHdy3ePKxgmXhNFz8mqVdui928sjjvq_tj1vA3LNfG5-ttq4YitZmVpOMwRj5VTZT40oZ3Q_IX-2RJ5JouoPoskChJ6-m7W3hwdkloiTACIuF86-70aZl8CuTv44uwF6KbGwWTPVcUwhtBYKsLPtGf0LIBbwsBBcMG8wvJEuaQX7idyWvetEXvazYpshXUCXZeYJHjyPYV5BTUyd-b4huGCKP0APByxqw_d-gYmva2YVANcGckb",
+                    "width": 4284
+                }
+            ],
+            "place_id": "ChIJdY-Sa9J3bjQRvTbT_Io4HQo",
+            "rating": 4.7,
+            "reference": "ChIJdY-Sa9J3bjQRvTbT_Io4HQo",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 371,
+            "vicinity": "民權路二段250號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9895684,
+                    "lng": 120.2290757
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99097207989272,
+                        "lng": 120.2304444798928
+                    },
+                    "southwest": {
+                        "lat": 22.98827242010728,
+                        "lng": 120.2277448201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 238 8998",
+            "name": "鴻牛溫體牛肉湯-東寧店｜東區美食｜宵夜牛肉湯｜熱門牛肉湯｜台南美食推薦｜台南小吃推薦｜牛肉湯推薦｜溫體牛｜必吃牛肉鍋｜宵夜推薦｜熱炒推薦｜必吃美食｜評價牛肉湯｜",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108530519279429779677\">R. weee_9</a>"
+                    ],
+                    "photo_reference": "AZLasHrRiR5hPuHKgFQyjjQbjoXgOVDJUjqjJBSlkVXf0BuyaGOKHVCoTWcSmReFxByqgscBIjUtkBnb2bDrJ8I0HclCaurNOmiygEWcOXm09QMAwrO5K-ujxYldJe-Xy-LtgSjKZz370fBPOMK8e7NTZgKz8pu5dwEKVaEAbbA-58gUM8Z8BvRGgLbkkvqh3XUWwyCAdgmnGIeazUlSWVhqrix-KPbq48yDIgspmCFNrzPYnj7d2UqhXbi8HRF1z9MKsmWNKwQte5A0lBeDeN2h2-d_5pKVpmNME5QjWb5169lPbGeON1HhFcNjS2ASzCG8VMYtMKbcTuCkHQijWl_OGHvsym9amprcURexu91EcqL5hBDcjKIVP2AZJf0VFAQ5KgO8LpGLpPHsSQ5IcBj5dSG6Ow9ngabsmbox4mYXqI7LrOD3dxcXCe-9dZZOVyzWFfc_zIrsh10VgZNC1x20BSLrg_EGSLbsy2ji4Jwmf8Cq02WSQiKcS9tOOmoSynUrCrzIriFyGh1r0h_0yqFlylAqWNp9qE3ThKqsfL3ce03NGhilVHvgtvkt2aVCpKm7C8vdzSurV-Dd-Q",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJUVjrlFN3bjQRdfJyG2b0984",
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJUVjrlFN3bjQRdfJyG2b0984",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1365,
+            "vicinity": "東寧路430號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9884516,
+                    "lng": 120.2341891
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.98985127989272,
+                        "lng": 120.2354507298927
+                    },
+                    "southwest": {
+                        "lat": 22.98715162010727,
+                        "lng": 120.2327510701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 260 2990",
+            "name": "億哥牛肉湯",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113151225208369801808\">xiang</a>"
+                    ],
+                    "photo_reference": "AZLasHrq4xYWp9a5kgZ0m9R1EoQhigbqhKFvP9wx8CVJ8LAPX51Jiab0R-cfiMXtbxJAf_dbEPvIw8cNtqxAGDmQTQQoBJh0WMeAPS4P_qGbdgToaxN1PwAnJfl6UwIUN4qCVV_Mh7U302gdb99LdATiWb9ZLDiupN1fAxyGjp0KVVt6Hro8lfdl_Y-cC5JpqNq6BpSy0pabUGS4Ed-j6JMZZ_8o93jxomaJ_p6QB2tmAI748boHonXB0KjOPtTZNytbWUUjuSXGbBYc-ZpML7L8651SwM_WaedsR64xJTV2pOoVrhU94hlJp7YzVdZBnSodm2a_QWKJ8Dve1v4hwhDv8jDrtSNQjmLdp3VplDWnDsgfWMUeIMzwz0_9d_NIhRQh-Vq6RZOzpwWQogbFPrwQOQW4qtSyaWz7hjkU1_CLSni4qsoYb53UiimcmOHrvq5xjTQrzPVmRHYOUj2MDH_LNdCf4wcE8lJ7be6GmmQsGaE1dU1Wmg1g92MoN_21bUfobGLIcYte5xHOBumHvCkXqqdgh5mBAv841Li-sceltoI0O9gENi6MvKZSCbvMIcHGXwaISFgUV8-rWg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJC9c687t2bjQRBs1JpxP7Knw",
+            "price_level": 2,
+            "rating": 4,
+            "reference": "ChIJC9c687t2bjQRBs1JpxP7Knw",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11168,
+            "vicinity": "裕農路574號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9894305,
+                    "lng": 120.2303307
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99072687989272,
+                        "lng": 120.2316601298927
+                    },
+                    "southwest": {
+                        "lat": 22.98802722010727,
+                        "lng": 120.2289604701072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 209 0293",
+            "name": "文章牛肉湯 東寧旗艦店",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113777578322445007401\">Miles Lai</a>"
+                    ],
+                    "photo_reference": "AZLasHpijWII6w8eBs98OFP1u4xgEKlmqxyKiUCroEQ3esRAb3Uh3-DqyeleIJnNY3Hlsby5d-0CFpaeF3rQwgyATGZf9p0E_X_B5RWPiuh99QVOCtv8aCY-5VM5EoczCs5tOyDlRPLvX5W3tBd7YKOOURZXXfrkowIeEQ8YKQ2g1g9SEc2S3N49xBr46mWbVNXrGRmLBMhqcp8Cc5qleaEr34K_NP88WgX3hVRoGpFiXIFoDKEbgrrDZ5iXjbD-izOURjuW3EM9-Aux_jh05hIY5zQfpqmQB1JBEhSWzuLI1BvXZ7_VohpKpzK6HZSj34oYJxzlBOyCunjtIIqBXKIGlEjL_5xtCV8K-iFEiSrGl0aXwzrS9sjsJXAa-g6sOLm-FU0ZryTHqNuluWEDF4m03Gten_QyCL75gyZY23rYdNHEybPi50U1lDDE59OWGwsuocmYuiAjcEjxzQOYriHlcjOub0N_hX4qkBeqGB4oySN2nzq-WXsB9bA5tDSAnd5qe1dVgjSJs5U1hJtZtgtaTkz7TFWac-AOdMcHO7sEJKWeYLl8ADSg-Mt8RsQjEGOBiUazWg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJY2MGb-N3bjQRkpmu7DAB2KU",
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJY2MGb-N3bjQRkpmu7DAB2KU",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3229,
+            "vicinity": "東寧路449號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9982824,
+                    "lng": 120.2003014
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99966227989272,
+                        "lng": 120.2017170298928
+                    },
+                    "southwest": {
+                        "lat": 22.99696262010728,
+                        "lng": 120.1990173701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 226 8260",
+            "name": "台南擔仔麵",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110913628457690435687\">棄天帝闇黑</a>"
+                    ],
+                    "photo_reference": "AZLasHribrFo7oAJg1oPRJfq-FtaGwvMFEBvzr3zPLaYHXTnSo7eAfV48XR3cMHrNm34OlIwwu5myOLPZjicISuhsXRxDnC57SeC0FQm0B6Kw8Vqqn3XlesLqc6ht6InZ4EmGxBKY6ItgJVYlfp6OYgCTR3g3tbnlTsr4kObmSYw4O3_gB7vYaK_R4swyn18uPjK4rEEIdkdt1fi8KMyfqEtXkrY5I6b4c48MBqSkQ7fVc5q3ET7b8LyMcvOI-4B0yq8KVmBA4Or2h5AEi9m5KG9fxGCOkbNAu3czMfvhbj_FmSJZQBlSQyNnEpM8d2soDYpEFhJmet2iq2TgI4d1OxwiLtP94mKZpaF1hRQu6KgPv6F35QuWefZvLHjZghIVqSKtkc5m6r1fhnt1stz9xvZ9Vx3BgL7X80QCA9FnBIprfU8N2nwJrpIEDA2p_JsXeHkgOWRz_Ev-77KRgp5dAjI4DpMqxxM8yZ3iRR8WY1GyBDnVwDaFGQxuJS99LMjnyCqZk7Q3S9JWJKQoe67SeAcRyQTso7bxqcbj-9fbr6N43t3Z1q6Xlgq1CZPDrH5gUxD3B8G03NsaT0ySLXgA8jFLfggnGhJLA",
+                    "width": 4096
+                }
+            ],
+            "place_id": "ChIJlSEvOmF2bjQR-0JOvJTxy5M",
+            "rating": 4.1,
+            "reference": "ChIJlSEvOmF2bjQR-0JOvJTxy5M",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 359,
+            "vicinity": "西門路二段379號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9902979,
+                    "lng": 120.1960891
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99168542989272,
+                        "lng": 120.1974477798928
+                    },
+                    "southwest": {
+                        "lat": 22.98898577010728,
+                        "lng": 120.1947481201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 983 647 185",
+            "name": "文品牛肉湯",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115438079805814716535\">FH</a>"
+                    ],
+                    "photo_reference": "AZLasHpExWab3NI0s5a6f7J7hlyZxxSOF45E-BF4zvtztRaj8ZLEn64nfAQ-P_Qf-vMNdIuhROG3T7S-UPBv4ez7r4pR_cY8MhfrOBjmBeVqEjyT7Qn2sTGQiwpMoslWWAQMyO6qdfsMRkojyZiwVXMXqGCWjpTu8fU5mH-f_82zvCQoZimq-CtpRSsn2gfdrc8bDXmP2uoo9i3qmCBUzTW88iPDD1jmCuJNuFCUZS9MyhjhR4IRTORnUn1hJwKxBVzwJNS2yhn2egG6Pyc7jRmpP67y7ULIxp3uZMJ6bmF7Sdic4ev3hH9u52MM1-AKgqOeiXympzWAFGBrq8BW7m56EHsOESGZJUR5QDTijs0bBZRyutgYRmFJN-lkmYMUb8NY8zTGuKJtsHNgU_-nB402OZ-8yHq0im53MH-ojUk2VNPh--ys1n4RJlO-lLpcPlpQF0H_e22eTTyBXikPVq7UYuEI7HdGcna80vRuXe-t10av5Hf3aM5QyBUxOJEy4mC1SQ0dVv7vIJqpjGmPA5hjR_IqLLrVpxR9pYz7EZ1vh0kGPJFEF5PLEjTyjYuw81uSPugx_GMSopU6RJFUzLYpXHEbC29goQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJpV_rCuB3bjQRU-hk_hJZOaQ",
+            "rating": 4.6,
+            "reference": "ChIJpV_rCuB3bjQRU-hk_hJZOaQ",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "meal_takeaway",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 209,
+            "vicinity": "保安路69號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9976263,
+                    "lng": 120.2007187
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99899802989272,
+                        "lng": 120.2020014798928
+                    },
+                    "southwest": {
+                        "lat": 22.99629837010728,
+                        "lng": 120.1993018201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 222 8490",
+            "name": "悅津鹹粥",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105991102517074666136\">陳喬攝夫</a>"
+                    ],
+                    "photo_reference": "AZLasHpu4mP_fpLTyCbHwc3GvpDlD44j22MoJbWgnUno4wtLgqdZha_N_9PmKDwf_jsxfINX2sWfMUygjB5x2icfJL8yEtdkUzfN7WqDijI6bwB6kQiXSMNP8ejpDaC09odruJVaXTquWadqG1aJ7cB_-jNvrjUnrv3BL4PUEBjdYvTfd6ajYtexhAkBrO52bQdMd9AsKVW-_dID1j-OfhktYpCCUOfjX_Z-hmOigeS_c0JihSHUmK9Dw-xOQmuNr2Zncwv5KxIhnWEy1ILXoHf-CvLbo321iTwNPXaxq8XrUkKLjJaCz3WZ-GsUp5GDXbUWGDiya6z9ld1mDsjcrypstzQqTem3qocP1_96Vk4bIzmFz9tyrMqiIFjtqM_b6Qjo3LhKeYDMk09Y6GAmSBIDIM8vH4CsofMrUMP45CUKu2Rp_Yp682A4l5_zcij-sk2bmdma8abK6Kbp7ED8MjO0yY1zfM1qcJe76KomBI_vNKXSwx85E-5jG0zo2XWaUJKCKmWSn8xYmsPHnNg1xQmQrMveJflGMMLm4cvX1qYzK_dWhSb26HtzjuZuHajPB7WuXRjZX3Mr",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ15yaQWF2bjQRZWiE9z_Frhs",
+            "price_level": 1,
+            "rating": 3.7,
+            "reference": "ChIJ15yaQWF2bjQRZWiE9z_Frhs",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5221,
+            "vicinity": "西門路二段332號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.0168036,
+                    "lng": 120.2102595
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.01810837989272,
+                        "lng": 120.2115639298927
+                    },
+                    "southwest": {
+                        "lat": 23.01540872010728,
+                        "lng": 120.2088642701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 6 282 0517",
+            "name": "金牛牛肉湯",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1536,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113502693969327181424\">Sammy</a>"
+                    ],
+                    "photo_reference": "AZLasHoX_be484mfPHJpU4QQhRdoSiKGGSqltk8r-HKsZQhupdhhLrOMXm7NltxJz9E9kWXCUS8Y9vVfDr08m9KnUaLk3dPmEVOT64vr2RxFnCbUUmNicD8kxGKv5-Q5t0oMTQn2_ogTtnisnEF9vivknL9PaLE3zNG3-mLAzsotJ5AMvcGvHhTOTkQdZup9mLpyYZloh7XOE5kwhkUOCklhKFQ8jRixbI0erwb_vd09OVygCIPHOg_LSy-CYajwoiASfWAZUa85HMkF7S4vEgjEq6Pe-pqzgxab2LFFgVtgcqZr87JTAt3ZPCcCV0OH_IiQlyBhpMsKnfyqFiquY3RJx_na9oTS4TxjKvBx7G8Wdptr6hFW2_iZx0v1kM4zhjY3Y6GAcVkPKwR00wYmO1hYX8AMmuCm0y6yUS2-HgPWZ9iySpchQ0rI77m6OoZQh1nOrzfrWpwP-5HGGiUr4ulcJSp1lV9h9rxVn2QZp2f1cqsowWKUsxqwb0k7BtoA6oTRUU57ON728Rs8h7btaXxFTfGtQvL6bPAQRXS3g-SLH24N1jKeRG5BZHgStNSv7VeCoRM2Tx2n",
+                    "width": 2048
+                }
+            ],
+            "place_id": "ChIJUQV2cy93bjQRRBoTpYj7TIk",
+            "rating": 4,
+            "reference": "ChIJUQV2cy93bjQRRBoTpYj7TIk",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 119,
+            "vicinity": "北安路一段102號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9986515,
+                    "lng": 120.1958887
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00010262989272,
+                        "lng": 120.1972770798927
+                    },
+                    "southwest": {
+                        "lat": 22.99740297010728,
+                        "lng": 120.1945774201072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "international_phone_number": "+886 908 081 522",
+            "name": "民族路牛肉湯",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117456121007481801424\">大口吃大口玩台南</a>"
+                    ],
+                    "photo_reference": "AZLasHpABEPFZjpNZluEfEPOYeg6fLRWaZ6UMN-BFgTex36uvrlK4R_E5V9LDkPWfWtFCv6ANaTaZQauJQKwuBlJsxQvBHA7SqjfUqnjj7vrTtDhqXYcLhOYoBccGmyVgVoqT3yTgsojzluNXLyhqHFv1HFvDDueU9z45c49vppi_rt_5MRjCdX8gXDVkkAi7xsXwAn4etxcSmJwm8clyXDCkCBT1tX8wL1kDxw21fyOmF5_5S4TuEstvRtyC6YDtACkHU-hQLjzSPydsJ1lXvieCluKbd8rA2EIJRSNQDmcIxE1FIeRWoPo429TZSePIaIqmuACycwpBi91rB9TnxHrGMB1d7tmC5c9BeD8aTjrvzawabSKncUKX1zUR7mA9Ji93ncm4PLFHQ2Pavk98wFLWJ7gA9KteVG1N0tRSqzXmV08kjhFlYxH6aNpUs7Zejc_axmYyY786zPZfLnNkM8G9iDXSM4_z1qA8XbfSXaZxfABthxXY-ewIL_6Iuc5PcTpnz3b2nlJmEYSts2qhK-dCwRhibA2OUvgQav1EZFpDvdQSt73OgbDa4U9M4dQhreYT_NM6ZO_0McBEA",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJeTzqrsR3bjQRGndzWAF_AeI",
+            "rating": 4.4,
+            "reference": "ChIJeTzqrsR3bjQRGndzWAF_AeI",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 543,
+            "vicinity": "民族路三段137號"
+        }
+    ],
+    "status": "OK"
+}
