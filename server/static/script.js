@@ -9,6 +9,7 @@ let savedFavorites = [];
 let currentViewingTripId = null;
 let isInstantMode = false; 
 let activeServerTripId = null; // 用來儲存後端回傳的 ID
+let aiGeneratedOptions = null;
 
 let tripSettings = { 
     tripName: '', 
@@ -19,6 +20,15 @@ let tripSettings = {
     lat: null, // [新增] 起始點緯度
     lng: null  // [新增] 起始點經度
 }; 
+
+function getGoogleStaticMapUrl(lat, lng) {
+    const apiKey = "AIzaSyBBJ0jNpT6u-PzXGVkx3xNbcrX9kYC-fKw"; 
+    
+    const zoom = 15;
+    const size = "600x400";
+    
+    return `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=${zoom}&size=${size}&maptype=roadmap&markers=color:red%7C${lat},${lng}&key=${apiKey}`;
+}
 
 // --- Mock Data (模擬選項，已補上座標) ---
 const mockOptions = [
@@ -265,7 +275,7 @@ async function startLoading() {
         });
     } catch (e) { console.error("需求傳送失敗", e); }
 
-    // 2. 等待並讀取 place.json
+    // 2. 等待並讀取 options.json
     if(loadingText) loadingText.innerText = "等待 AI 分析資料...";
     
     setTimeout(async () => {
@@ -304,7 +314,7 @@ async function startLoading() {
                 }, 500);
 
             } else {
-                console.warn("尚未取得 option.json，使用 Mock 資料");
+                console.warn("尚未取得 options.json，使用 Mock 資料");
                 loading.classList.add('hidden'); loading.classList.remove('flex');
                 goToStep(3);
             }
@@ -313,7 +323,7 @@ async function startLoading() {
             loading.classList.add('hidden'); loading.classList.remove('flex');
             goToStep(3);
         }
-    }, 2000); 
+    }, 2000);  // waiting time 
 }
 
 //Reload prompt
@@ -399,28 +409,28 @@ function renderOptions() {
     if(!container) return;
     container.innerHTML = ''; 
 
-    // let displayData = (aiGeneratedOptions.length > 0) ? aiGeneratedOptions : mockOptions;
-    // if (aiGeneratedOptions.length > 0) {
-    //     console.warn("ai");
-    // }
-    // else {
-    //     console.warn("mock");
-    // }
+    let displayData = (aiGeneratedOptions.length > 0) ? aiGeneratedOptions : mockOptions;
+    if (aiGeneratedOptions.length > 0) {
+        console.warn("ai");
+    }
+    else {
+        console.warn("mock");
+    }
 
-    // if (displayData.length === 0) {
-    //     container.innerHTML = '<p class="text-center text-gray-400 py-10">目前沒有推薦選項</p>';
-    //     return;
-    // }
+    if (displayData.length === 0) {
+        container.innerHTML = '<p class="text-center text-gray-400 py-10">目前沒有推薦選項</p>';
+        return;
+    }
 
-    mockOptions.forEach(opt => {
+    displayData.forEach(opt => {
         const card = document.createElement('div');
         card.className = "bg-white border border-gray-100 rounded-2xl p-4 card-shadow transition transform hover:scale-[1.01] cursor-pointer hover:border-blue-300";
         card.onclick = function() { selectAndProceed(opt); };
         
-        const bgImage = `https://source.unsplash.com/random/200x200/?${opt.type === '美食' ? 'food' : 'building'}&sig=${opt.id}`;
+        //const bgImage = `https://source.unsplash.com/random/200x200/?${opt.type === '美食' ? 'food' : 'building'}&sig=${opt.id}`;
         card.innerHTML = `
             <div class="flex gap-4">
-                <div class="w-20 h-20 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('${bgImage}')"></div>
+                <div class="w-20 h-20 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('/static/images/icon2.png')"></div>
                 <div class="flex-1">
                     <div class="flex justify-between items-start">
                         <h3 class="font-bold text-gray-800 text-lg">${opt.name}</h3>
@@ -447,7 +457,13 @@ function selectAndProceed(option) {
     currentPendingItem = option; 
     
     const previewContainer = document.getElementById('final-selection');
-    const bgImage = `https://source.unsplash.com/random/200x200/?${option.type === '美食' ? 'food' : 'building'}&sig=${option.id}`;
+    
+    let bgImage;
+    if (option.lat && option.lng) {
+        bgImage = `/api/map_image?lat=${option.lat}&lng=${option.lng}`;
+    } else {
+        bgImage = getImageUrl(option.type, option.id); // 回退方案
+    }
     
     const startTimeEl = document.getElementById('blockStartTime');
     const endTimeEl = document.getElementById('blockEndTime');
@@ -457,9 +473,18 @@ function selectAndProceed(option) {
     document.getElementById('preview-time').innerText = isInstantMode ? "即時出發" : `${startTime} - ${endTime}`;
     document.getElementById('preview-reason').innerText = option.reason;
 
+    // --- [修改 HTML] 確保圖片容器可以正確顯示地圖 ---
     previewContainer.innerHTML = `
         <h2 class="text-2xl font-bold text-gray-800 mb-2">${option.name}</h2>
-        <div class="h-48 rounded-xl bg-gray-200 bg-cover bg-center mb-4 shadow-sm" style="background-image: url('${bgImage}')"></div>
+        
+        <div class="h-64 relative w-full rounded-xl overflow-hidden shadow-sm mb-4 bg-gray-100">
+            <img src="${bgImage}" class="w-full h-full object-cover" alt="地圖預覽">
+            
+            <div class="absolute bottom-2 right-2 bg-white/90 backdrop-blur px-2 py-1 rounded text-[10px] font-bold text-gray-600 shadow-sm">
+                <i class="fa-solid fa-map-location-dot"></i> 地點位置
+            </div>
+        </div>
+
         <div class="flex gap-2 mb-2">
             ${option.tags.map(t => `<span class="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-xs font-bold">${t}</span>`).join('')}
         </div>
@@ -592,10 +617,10 @@ function renderFavorites() {
     }
 
     savedFavorites.forEach(item => {
-        const bgImage = `https://source.unsplash.com/random/200x200/?${item.type === '美食' ? 'food' : 'building'}&sig=${item.id}`;
+        //const bgImage = `https://source.unsplash.com/random/200x200/?${item.type === '美食' ? 'food' : 'building'}&sig=${item.id}`;
         container.innerHTML += `
              <div class="bg-white border border-gray-100 rounded-xl p-3 flex gap-3 shadow-sm mb-4 relative">
-                <div class="w-16 h-16 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('${bgImage}')"></div>
+                <div class="w-16 h-16 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('/static/images/icon2.png')"></div>
                 <div class="flex-1 min-w-0">
                     <h4 class="font-bold text-gray-800 truncate">${item.name}</h4>
                     <p class="text-xs text-gray-500 truncate mt-1">${item.type} • ${item.tags[0] || '熱門'}</p>
@@ -684,12 +709,12 @@ function openTripDetail(tripId) {
     `;
 
     trip.schedule.forEach(item => {
-        const bgImage = `https://source.unsplash.com/random/200x200/?${item.category === '美食' ? 'food' : 'building'}&sig=${Math.random()}`;
+        //const bgImage = `https://source.unsplash.com/random/200x200/?${item.category === '美食' ? 'food' : 'building'}&sig=${Math.random()}`;
         listContainer.innerHTML += `
             <div class="relative pl-8">
                 <div class="absolute -left-[9px] top-6 w-4 h-4 bg-blue-600 rounded-full border-2 border-white shadow ring-2 ring-blue-100"></div>
                 <div class="bg-white border border-gray-100 rounded-xl p-3 flex gap-3 shadow-sm">
-                    <div class="w-14 h-14 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('${bgImage}')"></div>
+                    <div class="w-14 h-14 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('/static/images/icon2.png')"></div>
                     <div class="flex-1 min-w-0">
                         <div class="flex justify-between items-center mb-1">
                             <h4 class="font-bold text-gray-800 truncate">${item.place_name}</h4>
@@ -738,12 +763,12 @@ function renderDashboard() {
     `;
 
     itineraryItems.forEach(item => {
-        const bgImage = `https://source.unsplash.com/random/200x200/?${item.type === '美食' ? 'food' : 'building'}&sig=${item.id}`;
+        //const bgImage = `https://source.unsplash.com/random/200x200/?${item.type === '美食' ? 'food' : 'building'}&sig=${item.id}`;
         listContainer.innerHTML += `
             <div class="relative pl-8 group">
                 <div class="absolute -left-[9px] top-6 w-4 h-4 bg-blue-600 rounded-full border-2 border-white shadow ring-2 ring-blue-100 group-hover:ring-blue-300 transition"></div>
                 <div class="bg-white border border-gray-100 rounded-xl p-3 flex gap-3 shadow-sm hover:shadow-md transition">
-                    <div class="w-14 h-14 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('${bgImage}')"></div>
+                    <div class="w-14 h-14 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('/static/images/icon2.png')"></div>
                     <div class="flex-1 min-w-0">
                         <div class="flex justify-between items-center mb-1">
                             <h4 class="font-bold text-gray-800 truncate">${item.name}</h4>
@@ -823,6 +848,7 @@ function renderHistory() {
 function switchTab(tabName) {
     updateBottomNavState(tabName);
     
+    activeServerTripId = null;
     if (tabName === 'home') {
          navigationStack = ['step-home'];
          _showStep('step-home');

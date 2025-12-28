@@ -1,0 +1,1291 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9994515,
+                    "lng": 120.218255
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00078312989272,
+                        "lng": 120.2194674798927
+                    },
+                    "southwest": {
+                        "lat": 22.99808347010728,
+                        "lng": 120.2167678201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "臺灣府城城垣小東門段殘蹟",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110527189600758329952\">Willy Tsai</a>"
+                    ],
+                    "photo_reference": "AZLasHpr6XOr-qKLCuv6OrNjNjBDEQW3j8h-XNoLRD14HFwwETfIANAW3G2hQRSp1FFny20UhiBgIpmYMqX-v49zgE4nehjwJ63Ksf_wvdnZasG17TdygLnblSkDOa_sXCM2Dm68_BT_fnDaOjSX2y5dDSfn9UG_maid0Tf43WP-hJNUbhpO8e_PM0_6D5kmwOVZutJPNG1Lbk9gEnl8DN66ZshLNgZ-OwgnmFrpJKFflAPE0gCGQHsvgAcfHHEI0c4fYwimvkvTn2ZlitDfs1eAha1JI4Nt3oNISk8qBPExkdaOzlZqLdBZX7S2AuxQLJF4ELOLknqy50a2Nk7CHeSAsByRXk8-6jFwY839RVXarWH6LdYcSSQPuELveMIPWljwv6O6bmKNV4r8RJYw5uFaboZ8fe6wq3TXiy4SdBxWIzNY91VUdt9ifXM12BaI1sHDLdxwnDO84vcvSKy1uaFauJtmERe2a6I4Jif4uGfICYEcKC6LiXGXo0be0u2Qavt5m78iee6vQguXqxfVVoGC5uSgn4PrL30a1DGzlohLUDhzWYGb4lu0y65tRA-AJIp_6n9puw",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJQWUDP-12bjQR9DikaW1dJUg",
+            "rating": 4.4,
+            "reference": "ChIJQWUDP-12bjQR9DikaW1dJUg",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 283,
+            "vicinity": "大學路1號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9719929,
+                    "lng": 120.2225874
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.97334402989272,
+                        "lng": 120.2236553798927
+                    },
+                    "southwest": {
+                        "lat": 22.97064437010728,
+                        "lng": 120.2209557201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "international_phone_number": "+886 6 208 9840",
+            "name": "巴克禮紀念公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111742849853011830311\">Ryan Rey Ybanez</a>"
+                    ],
+                    "photo_reference": "AZLasHrq91Tn_RUA5dFzTQhW_jukhr-1A3vFlJy-MW3h4vgsUkmmTAN1BVzi2yH60fIzFST6nMNo64zjA2oqRWJ1DIWIrt67-kYJEtIxNuhZ_o-enjVctAfYhQy-8bFtw3FkPIaesvU4cc4_LPKc8TheYhrUGrCADKCjRu2Q7zsqrbEsTdGgDd7xfmLmDzBeIrQcBlXXBFkgRe_d_IcTAFqoHUJKHfPNn9_m-1MpWIxfr8xZJg7RpCs1MV33Otui1u1D8tAroOJq7wofmuBFcrWbJOLWeKPh5d2L2Ub993ju-M0hMuR-g62gU_mHnQGXAjEeVEJVG6f0fWkliEcO5aGrhzPPBY7NsmrNWiAUYnnphv96lzdVBYNFYPR3E_E_6yASRhYozbk7_Tj0r3KBFO8-7zk4sOPBUXKrJ3oKlHIOeQ9ORHsNxNnDAfAuD3EcoiSGxG5DyLQk4CgING-QCvGU3XQVx-r3SdQMdHQtbQxv3nXIQo17rQhCzcEn6Ftzj5gikg8oy5zez97ixg2gQMPtmEtEIdJrEpkcO7L8tZS650vXXURqIOEva7MLRO5PpimFP6lxus0S3HwMeg",
+                    "width": 3000
+                }
+            ],
+            "place_id": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
+            "rating": 4.4,
+            "reference": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7123,
+            "vicinity": "巴克禮路100號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9980595,
+                    "lng": 120.2401389
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99937522989272,
+                        "lng": 120.2414889298927
+                    },
+                    "southwest": {
+                        "lat": 22.99667557010727,
+                        "lng": 120.2387892701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 6 312 4645",
+            "name": "臺南永康彩繪眷村",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4128,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103205384122161261979\">許文有</a>"
+                    ],
+                    "photo_reference": "AZLasHpkiYr_JUxs70uVca3uIXqw2co0k33Cp3hNyK3wg8MMgt__Upl6sZEnliCCemUquRQ8fQWKg0rdR-VMxBLueT1zs1aLbLDLWou87kC2a2nZBNtAUJ5wsBr3eAeEV853D1GUQ8JJF8ryaX92uQSEdxgrMiN2kbmGJjTWj8iCTgitqWuFGFeaD7ZCIUDXbeDETjn5o1AXfkoPcn8wLF2PxkKUT7fx7kcxJ-NW3SoyRDqVe8NV3q0cTwLXSjDudfaVs5BU0zEXYidN7mcdfnFoZgOwipBs835jz5WxeSOneruP148vDpu0JPY4OpcEERzpTxb1VLHb5jIYD3fVZEWMKvTYsZiUF8nw9yZjr5HAMOGO4keeA-pewNJhhBRSIvmxnmZUTOn7vfxCkLijjVygL3nHR15JXBR026eq7Za_zqjjOf0uFiaC85VqrgyfD8GjYY3Zgo1Pw16gamk60T6VLiEK9z-ccSX1mBrz7TMk5fsCaszrAUHcE-NOKTqaoxTc5iT7mSfH6sl-fANmwQLQCAEW71REW36h-tcSljufd23JFWnNzYEl8BVra90wrm1yKy8om5FvG4Pv5w",
+                    "width": 3096
+                }
+            ],
+            "place_id": "ChIJJXMnr852bjQR_wiSSWCnbYE",
+            "rating": 3.6,
+            "reference": "ChIJJXMnr852bjQR_wiSSWCnbYE",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1759,
+            "vicinity": "復興路423巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9866091,
+                    "lng": 120.2035692
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.98815092989272,
+                        "lng": 120.2045837298927
+                    },
+                    "southwest": {
+                        "lat": 22.98545127010728,
+                        "lng": 120.2018840701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "南門公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2250,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105150219905764350090\">陳銘材</a>"
+                    ],
+                    "photo_reference": "AZLasHptmIRy8mGNpCOeF0W39u6mupxsL7td-sARUSd9nTUuhjJ2Z2MxGkXrTzd6q7TqIo8nXN4czif8w0lDF5n045OLkT_r_Wz-dc4osJuVNt5jwskp_jbRD-Y4EFtFCOvNTsOm488n8YHp1_xtZPOLNM5d-Qgb0Jvvo5xnRtvJ9LkW62COBfeicLyI_uV1GOAzE6MclryCkxU3PyHWZ3tEYvGqKS4k5fn4wbNyNnFT4rFNMgwdeO1oiPXzhCoVG1_o3ffVuZ14FICANIBwmwPGudJAgdLcU6N1354R8tKB-dk2xsj7plZ9B3KKKxn6VpySnKo-i8PAunrznwFpasrlB4RSx5j5G0caX971Xxnk3VS_XIzJXoeLnWBmbOQzB4SqamKcAWocNYK5WsC10vAevcvCxmr3EF-Fb9oxs4vQbOZzVENCCn-oKftCMG0VBvqhtXNGpCJV1RKIbjnmVA3jmm6ouHRaw14AowpsUFwtY3Sfm30phr50rj_ZJfqI9pK9QcansQjm4NW3n5bh9LvnWkf5xOQTNXzIOmQkx5ZrsDlHuoeNn8YYoHSW6V5kBnj71nlNFaFczmhsVg",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJuR11wH12bjQRLXm1yIXe95A",
+            "rating": 4.3,
+            "reference": "ChIJuR11wH12bjQRLXm1yIXe95A",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1472,
+            "vicinity": "忠義路一段84巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.0022317,
+                    "lng": 120.2115924
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00676895,
+                        "lng": 120.21614355
+                    },
+                    "southwest": {
+                        "lat": 22.99773275,
+                        "lng": 120.20635255
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "臺南公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2730,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103925212678299456427\">我我</a>"
+                    ],
+                    "photo_reference": "AZLasHq2DqXiNA1FGXd2vQkoQ-wiS1TyzaV_2mv2A7yUo3gef8UcWSyqejStjMPSL2zShVsAQ1z119lGvsBKgpzCR38NcoHjNaBsVK_xfg81eDPlp43KtwTZMiteQEqywnknQ1h19Fesy6s8ql2tqez-51tY6f8dW5VqpsfsjA7fdguDwds3UN2G0AEjyteWu5sCRgB3sefwyTcI48q6flZc9NW5LJIEDE2_RAY-afrh-murn3xj-QRbxSENEzD6S6TynjRDY1MCuaQGACTfLPq4hNXJn9-vybD2Lhbl0ylk1f_UffILVRAfJc5HvbaWI5kiVwLAXUB2Pj_UTbTO1tTzOc2xu7uMGTw5WwHpstcyygKfu9g_LSbH6HV3-F-WaqoSf2tnXg2CmlIaR_puW6zNPdX9X1PLyrs01tQonnCOmEpKV1Acise_AycOnWZx0qO5IMIFTRGE2L6sML5_rCC6hm62iy4VUQKcLD9UcjqbxcTJib16JVWmVj8yLAbiaz1lP8NgurklUwW-JKCYdkp5ujvz5c8C8E3fROfczJRGRUPjiHm94r2-acgLXJxnzGH0UfNvch3c",
+                    "width": 4096
+                }
+            ],
+            "place_id": "ChIJB8c7pvR2bjQRtQwHdqx87Y0",
+            "rating": 4.2,
+            "reference": "ChIJB8c7pvR2bjQRtQwHdqx87Y0",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11067,
+            "vicinity": "公園南路89號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.002754,
+                    "lng": 120.244039
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00378182989272,
+                        "lng": 120.2452476298928
+                    },
+                    "southwest": {
+                        "lat": 23.00108217010728,
+                        "lng": 120.2425479701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "international_phone_number": "+886 6 299 1111",
+            "name": "永康公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100566745628369775995\">陳叔中</a>"
+                    ],
+                    "photo_reference": "AZLasHpt3tO98uNUV13oBs6bftkxoL8KEax3iCgikI8SRjN7NoP4_RiRY5WujdgUbKLsBDu9uZDr1xwqJJgUoIwgdps90-Ughs_a3cemc1xUAEgY4xcvPi5Nrm4B3aXhdKQvIl6TsEQLpGbIPnTg30p1ptOl2B3RyTSVrnsiwE0O9mqZJnAXhJ7reGAXQT9phATGSYoZt-67YTeRL_Y7umEdA1wsq4HS916HLZRrPRgGDq80kBzYzz6wQDsjmYYkNOYgV6UDH-V6hSda6RcGFHYEbzm7kGAZoXYtOUFvjRc8iLyhmmc65328WdXz8-mlTxj8tp9yy1wJl5cHu4Fu0xIdEU5c8L2kZxYBtzDXcWF8Gyw1UFCqn2-s4CZ_kJ1C-kzg6U4jbEVIYD6hfTFefUDPKjkc1JabvLvuL6bDnQO-iAcAendduriZ7oy0hbHgAD-9CYa-2LGR8FEJNLUxhnMTP-lxYbW1vdMOqzXm4UHZUJY_3rZeT5YEAx66nVlYqA5mZHtdeT_1OdyNOSaCdLBy9sCS6NxW2x_TQTrfFSlIyH6yT65wm4oVcvHS5kgs0ByVVjiVj_uUBhDOgA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJddWIPc52bjQR4yPHlXrafG4",
+            "rating": 4.2,
+            "reference": "ChIJddWIPc52bjQR4yPHlXrafG4",
+            "scope": "GOOGLE",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2052,
+            "vicinity": "興國街100號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9933068,
+                    "lng": 120.2008079
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99467837989272,
+                        "lng": 120.2021639298927
+                    },
+                    "southwest": {
+                        "lat": 22.99197872010728,
+                        "lng": 120.1994642701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "蝸牛巷",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113338382715620426397\">qoo C.</a>"
+                    ],
+                    "photo_reference": "AZLasHpp7vLiE0B_JLvjuMZBt86cxRtjywgXet4-kvFSZEYlIplmpU7rxlhOMHl90--BmWsXE7xOTuclrbjFoU6oItgFqZiy6sASQzWLJcs7rQJWXcDl8q73s9LdRGbomlrpyW8oH9k3itFOGdZsDLHLeRYTMsGWC-taWW0Kz3hgoJJdIOYzBD4qFN7kshO6or5aES9K5Z67CCF88lOGvgz3510LRTXefoKaMe08kyiYaV1yo2YqG6zGx5fvTAdtooLQhRrXsQkQSH18hs9E4IhGR3CKvli9zRDJeLJ1nLmMIsjTkB5Wwd6dxJV2sbhSSh8IwkMjeaaIgoI_rmSUutF733AZSYdCQA2ffS61DfKBeT89z5-4JVwO1P7bssnkWmJeFjhKO1FqdfrhQSIPRDWfm_F6wGJDYxeE8Uxk9KIbmOwf1TqNM_MhJBUfN56gEncxHaFWA17oiqNTdmWh5c3BCf7Ye9zFgCXdQtWR6jjgshOvQ9Zh4vZLP-okA1QMVXC5k7XHZlXkxNmeGMw7-_hEgTz0e0LiMgU41SzdcdK3OBvGBoakQ1fGJH3CUuZ5DoJ153MSC2VkfP69ew",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJA2cPbWN2bjQRHCZDCoo-M5w",
+            "rating": 4,
+            "reference": "ChIJA2cPbWN2bjQRHCZDCoo-M5w",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5459,
+            "vicinity": "永福路二段97巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9970041,
+                    "lng": 120.2023948
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99830142989272,
+                        "lng": 120.2037251798927
+                    },
+                    "southwest": {
+                        "lat": 22.99560177010728,
+                        "lng": 120.2010255201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 6 220 5647",
+            "name": "赤崁文化園區",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3648,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108602615256267248483\">劉憲勳（Guarso Liu）</a>"
+                    ],
+                    "photo_reference": "AZLasHoucgO0psuCRdb5itZ0LpDz2bFnI7rupRKVD64_tcaEDRnMz_bn1bqq3fqOPiJ8-5Zauf_hCsHQqze_e67Tno9QjNERVMsR0KNJGyEfLRQ3tvKcG8bHbay_QnUE76UYl6vNEfzrJhsg9rvS5ldjN_qY_XWCEJIRN5xZNeYAwHVY5UJIoKOvRq4mXxDEGpQCCSeeNtx-LEojwA3DNKRBERjw-_MgpxBjHFL8NUKK-JqzbbRSLAYPib8lfxtTgR05izCeC5MpkNGEFWSEM-GA09pyxq1EZyUDMm1ORzzRZCIgxSeJFrLp29IbM5qEAZhaPhF03B5bYp1U-8Ulqlx5OFkTpx_9TxZLkOtOxVEsJxtVu89kxci95eiYtJfIQsnbPzka2ee-tkRcOw_Qk7_VZDnLOBaZ8NrbdXQSyWO-ySEeSch9hEi21wccFxyJs3YosxtZNfViugXf4r7YZwhiVKE1Z1b-ZWbXeW4gptjLXZJuEHEtfyQGB_CxKos8yIwH63vPpCNqwpWTZbX9Vx7VHnWn0_Knz8Zi4SuGTrvUxb4JyQX-TojXM_GHzSdJY5EmTC2JFuRHR4VaTw",
+                    "width": 5472
+                }
+            ],
+            "place_id": "ChIJbYl7d2F2bjQRFn6Bt4T-r0Y",
+            "rating": 4.3,
+            "reference": "ChIJbYl7d2F2bjQRFn6Bt4T-r0Y",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 565,
+            "vicinity": "民族路二段212號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9933068,
+                    "lng": 120.2008079
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99467837989272,
+                        "lng": 120.2021639298927
+                    },
+                    "southwest": {
+                        "lat": 22.99197872010728,
+                        "lng": 120.1994642701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "蝸牛巷",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/106067043409733565973\">PENG WANG</a>"
+                    ],
+                    "photo_reference": "AZLasHrjdwnkNefaYvyKGrH5TWTZVNnIHK3vyO8h0G3TDeZq3nfmm8p-XRq1l2C1j_qNcl1U5TdSXeag15z89q1sLJxQOuty7DBVwi13tFCCxUFHwHYfyyGl6Umn99tvYw4Nu31HlIvwQFAT8j2gIcYeIQow_IJQM3WLRSEO9wU7l5nOQYP6jYIaDR1vhGMOg4B4Wj5VMaNPIdoyjXgNSBrsH2UzkPwcTpE3EjwToKqwBr0Zr1nHWLq5wCrymgOSOoh0jTq2BRXX2FojvWMI4JXUyvEPBbapmH3jJ-pBKWRdEmZSL0euuyQQdxrajXSSqE-yuGccRms2e8CzK3LJgXseGmIMyzyddNJRCFYdoOwhmr0OL86ErHrfCIZhVvKAoHChJ-Bl2FBHHVCnHS6ai4K73zzyEP1ARkTwrueoQBJS8DT-YQeKMuevtvhhd-nNR-AcO5LujsexXrC6N6GOfv4G3wKkw3plYUNjUNVtUmIUsjpiBYYJJ4i15PFr65BaMafY9QUFmaNpHTNToPObxoK08zH9u55whVFFd6ZTYycr3setVcC1PKwDrUGXekzpYqk8YNbSBNjIhrshsw",
+                    "width": 2268
+                }
+            ],
+            "place_id": "ChIJA2cPbWN2bjQRHCZDCoo-M5w",
+            "rating": 4,
+            "reference": "ChIJA2cPbWN2bjQRHCZDCoo-M5w",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5459,
+            "vicinity": "永福路二段97巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9980595,
+                    "lng": 120.2401389
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99937522989272,
+                        "lng": 120.2414889298927
+                    },
+                    "southwest": {
+                        "lat": 22.99667557010727,
+                        "lng": 120.2387892701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 6 312 4645",
+            "name": "臺南永康彩繪眷村",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110166126412851709084\">ERIN</a>"
+                    ],
+                    "photo_reference": "AZLasHrIM9Z2AmGqfMkj8mzR2XlRbtxDlR2kPt1tV2guVejklqOVHp4K1m_l24mvGUu17OCbkbIVwqphUgxQSRX70TDMuTPoVuBxulCmKJnETziRoSMGmBEh1Z2wveHwM5kphmZr7HsM27l3T7JsLISmLeO0icF8848UB63DbIutq6LEpr39liYi4EcyRAvnAKFhiQjhtMysg15KsrBaAKsOb7Wiz0OetL5UcMhmW9HHd7QFLnGs_OrSsjbbRgs2YP9n0iRgISFrTGQ0-OamuDZojwwJDWhsRk1L_cFValkgCMA-dt0VM0HShroIBP0vevbM2PjfIUqzYojxyZOOKkbZi_D_xZw1JEwGS__IgWXMHA9Tfpf-kLIbcbinXFVVQFvM0QhVrOvgEE8-PQCfDeOhAAUtu9OwjxW_3DoGjJ6A41g0J3ft2tEbW27DTD7ZGnK7dAY3Dv4KGY9UNc4682DZlvpJ1G7I4c5PBH7BmwvpcsfQ2t-hgzlsoPPmmDJDAZRoXBQw2GqQL7C13bpEw7ALMe09-mcHzeEAZoW0uPnXq9EMJJv46s5vv1ggI9mk91KYJkP5NDTb",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJJXMnr852bjQR_wiSSWCnbYE",
+            "rating": 3.6,
+            "reference": "ChIJJXMnr852bjQR_wiSSWCnbYE",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1759,
+            "vicinity": "復興路423巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.0016659,
+                    "lng": 120.2245671
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00301417989272,
+                        "lng": 120.2259510798928
+                    },
+                    "southwest": {
+                        "lat": 23.00031452010728,
+                        "lng": 120.2232514201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "阿勃勒黃金步道",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105400573860385573588\">陳永昌</a>"
+                    ],
+                    "photo_reference": "AZLasHphbp-f7dKnaHij1ZXiuTIdMmqOAevWChp3FoXrVcAGTHtK0yF0yJbqF7YOJDPAj67AQG_1s0-4UUvQPfYH1rDkl2rj6_JegZf2dyvmAdOrP903TM5yiHEfnRgfR2lpsMvfndMYnAh6wXIBzEfeycgLNAonifqb_PxIkzGfJ7nFzioUQn1fXc0c94F43QPeJ9ZA0J3Ix2ftniyZpxQ2-kgbgUbH3FAVLmTErmlbCacJv5BhHMCS5f0xOfcmAtVicPmrhh1qRvPCfgAgoNMYjngGez6aB-fYbhAUbLnZaBA-hZtUkBQ_xNXcTG1NKnBz8uBPw8z8_jBYkOL9aAy6LdlJrU754lrWuy27H7xO06Qlmyb-p_VS6_ln1vmIqSmLaeX6VHaFBlXXpKYm2t4mpwaLq_SoSEIBxtc4c1EJtrBjls-H6Ch7jvzcWRhCRsh_oDO78Z5UnCa6l8SAAZ1Hr2prFVboVnSlVcEJnmOy4nBSheLvHZgafZjOHk6MaICRJYNSS7jjt3S0c3bY6DONVrWTk688xFGhF56cSmn-PyaUrI84wJF59Qybm5Abzc5fTg-kVPHXqOaocg",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJ5adWxet2bjQR6HvcQVZlzQU",
+            "rating": 4.2,
+            "reference": "ChIJ5adWxet2bjQR6HvcQVZlzQU",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 70,
+            "vicinity": "林森路三段"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9746068,
+                    "lng": 120.200628
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.97594622989272,
+                        "lng": 120.2020187798927
+                    },
+                    "southwest": {
+                        "lat": 22.97324657010728,
+                        "lng": 120.1993191201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "警察新村彩繪村",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104741804013889651090\">王暖</a>"
+                    ],
+                    "photo_reference": "AZLasHocbAH4bR7GAbZGETfVZb_FUHSkAaruHdrbXHNcA70vGH3HbyzBOuI2kyyQNS9gUGmimSC-GClOgQS6TqsmloD4BBALaNVP9nHiRxHa1uVWMx0tUvvZK7fiuUHVpDl88C2yF6QXxz10sRLBCJxKS7418A5CtFM7vtLrOziId-zuJbXxX7wndzN6YfX3zslBc0wE7JxZ2QzJTglEGZkcT0HUj8HF74diz1WGP5i0V3YQWFaTckhoELiOvtABwHL8HYrGbVH_AsMVdT2GBJtUThF-woNy1yuRfcokejMOM4ivg5DgFuDigThmLZCO9w3ZP_HX0MdCdT_5gmkq6avBhbGFCIQhuFyg0wd113-QGk1FoJy0rEbsdO8LaUwxQUbk6MH_ZHEjQLmHnL5bX4SsYlS7EdpTEaoEHp7fPh-BilYQWyH0sx9PHkUWiR-INH9_108F7oQnem9xlBr2HNBm5JX2HFvvD4HdLWpA1inrX_vRImCfZMtBVO1RNbk6NvEsD0CBlGqSAcDebThY7BNmLvU0fB28X6f8rlyfgp0rz0hJAjCOHkGsU7l8E4BjIKGnOAlt02Cn",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJs-is9NN1bjQRJGL0j4PE0IQ",
+            "rating": 3.7,
+            "reference": "ChIJs-is9NN1bjQRJGL0j4PE0IQ",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 338,
+            "vicinity": "大成路一段79號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9935214,
+                    "lng": 120.1961708
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99487007989272,
+                        "lng": 120.1975254798927
+                    },
+                    "southwest": {
+                        "lat": 22.99217042010728,
+                        "lng": 120.1948258201072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 903 014 566",
+            "name": "海安路藝術街",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113342782173926606970\">薇霓</a>"
+                    ],
+                    "photo_reference": "AZLasHryh7J3M_Ru2TqW7iU0lygPHy-nG5xrdW3_-Fi2CjvPPW8PBUXyhNmuZ5mMM0qMocCUUbKruwmcHGTnTOIMQyTCtvtXMtXSaDLAv-gOp5DlSBWMJBOjAddpJhiQUTU0Vo_BfZJWMt8OMkKpKwn6F3FAkdYUCCwhuxaPWPgnikcwN92FhG4-xpzrGuvoJw64gJIrFuPBWMtViGySItYagxG1C-cNhXTb2PhgRVGa-n2tBx1bCaKEkTkxU1BOqfWo43KjFf4LGlZvtpXqPVNdqvl4XEG02NzZhsWBhkl5u40WRI3MiivbEkodQS323u8l0arCTo0RYCFaSq-H4lq8s7ceMQBhRzf06Yk4DL47pvYjovwx_PIB4_B6Tb4KPZ3rkMr-8WVp7n_ZimqKcXVYcP1dvVLC8aWrt-vg6w3_cb6se5QM4rgUu3NIkkH7i_PllzV_06pzHb6O_ludIbSaaz96EHZDj_oSoYawKK6yYj-Y5dDJB3ODar16lko4vFgAUpwjjc1fO5YabPk0G4Hu2rrDkd8vCw7rLTCRgaR63KAEXxFgGntq2IkCrmm-pRkmlWiVmHL1",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ5VdaHmd2bjQRU4n5IbANoPk",
+            "rating": 4.3,
+            "reference": "ChIJ5VdaHmd2bjQRU4n5IbANoPk",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2301,
+            "vicinity": "海安路二段5號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9974775,
+                    "lng": 120.1964743
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99889612989272,
+                        "lng": 120.1978607798927
+                    },
+                    "southwest": {
+                        "lat": 22.99619647010728,
+                        "lng": 120.1951611201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "神農街",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117012259823661840749\">陳小瑜</a>"
+                    ],
+                    "photo_reference": "AZLasHq2PSaq8KCLYwILjv7_gTQc30y7D-ULHuDrZEFwReVnRX8_XXSpT1cTlW8Wv7fIusboA8_6BsgOr4HRqP8v0uEAoFYUaKaXhzOfOL7gqEPwonLXf4n8crUK1DEu1qhki1JY0toNJWQBxUmtNvzfow_s_WYQsdsioI5L4bAqUL2BMtSmx9jxHYCpnSJqdppOB0WkGGN_Vj_msJuoc5svA9zjgrKA4nPzUigxswJJy4C8-5dAydw9geLRhGJPLwjD2EuAdQvw-PuyiteQaCoqLj27PUn-3XlAbsHI7Kiho3fzpuablyxX97KatUd_Dt169974UB0gxVEelY-qQa8MaR3gxMrvWfZdzyVZxDpATa-a4Y6G3niUHStzsrfDMbO_DadocUDVZcxfXvbN3rol1NjY15k8BVqaoSdB6rB6BKfDGYNvEUkbn_oBrdaBCrgWhtrvxy6pEySx5y4ZIYr7HmaOBPQQRaNO3nWXAYOjyhPj6H9_Rh8iNiHnJH4K8uujyjNW3RjvBta8SOGZ2oDlWQFPTyJAkPP54PArPk4-wna-OAeJeqZVo3Yb45rGxvSweQDtHMXs",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJqctagGZ2bjQRGlAjSFrC5hE",
+            "rating": 4.3,
+            "reference": "ChIJqctagGZ2bjQRGlAjSFrC5hE",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 20219,
+            "vicinity": "神農街"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.992797,
+                    "lng": 120.205206
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99425797989272,
+                        "lng": 120.2065067298927
+                    },
+                    "southwest": {
+                        "lat": 22.99155832010728,
+                        "lng": 120.2038070701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "民生綠園文化園區",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2304,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100004924280946517572\">SnapShot CHU CHU</a>"
+                    ],
+                    "photo_reference": "AZLasHpz82DneqmFuYkc-fAf53yaw84jSR3PB9l9q5uvc6TALJ7e5BjxHXw95OqS6OOk-TSLk5t8zLuM1GraT1cvEYQQfFkVjyUPVuiqYNES0lTTTMKC2686uU7pjHIdLtlgx594pACF6s5jBnFZhBGpdqDomTN1GoYXkcFALybVabylOg1QoSUbipml9Rl8EZrrNeb8Y5Wi730Yt8bFWwEJGh-2L9oXLcKhXFMfvH6sz2VvJ3LE_G8oJJNO-TGc3jisGTJDgRH6tBQYhiCsQy63YRrizZXAE-MsnogZdyhAg7r5rBhc8t23pwJQC_jpskle8ipY2fzilKQA7u2WSPQ-hRwXmwFInl--_8OOL90tPGcv4H_6di7HX6lVm525eJJ5MSCuaJ3uqqOR4ZFyn3H8rCmau5ZuYfIymRPpEZMtg_fMBOyoJN_Fi6ctSHHVxqft18qgtBtwMuVOHIJeQpmqhYGgNA4nYtwRybmiMCQXsYF6KkxcSQ--lAMHXsexJSp1wY0x2a7OntnKZrNRx73ujiGWcfVfXuEkzXRrRsW6tS1ahRPN5qsK4H5u6vRF3F0fkKzRFDip",
+                    "width": 4096
+                }
+            ],
+            "place_id": "ChIJV8JdKoh2bjQR1EhwJVSwGbM",
+            "rating": 4.5,
+            "reference": "ChIJV8JdKoh2bjQR1EhwJVSwGbM",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 23,
+            "vicinity": "民生路一段6號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9864954,
+                    "lng": 120.2029658
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.98778752989272,
+                        "lng": 120.2043081798927
+                    },
+                    "southwest": {
+                        "lat": 22.98508787010728,
+                        "lng": 120.2016085201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "大南門碑林",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110227587255609178350\">Hui Lang Liao</a>"
+                    ],
+                    "photo_reference": "AZLasHqO-kYUofiDvKIbjS6hcubVnK71xlKIOWNp7GVZ0rzd7KPqzCwB2F8N-vOYxYVjYcPNi9w29pXHKNTa-Etqq2yYTQduNj5hgsww5j3O-WvH3SDEoL_om9Qc-bZ3qasXofDyoKicZbDtgU35mQlKFXxiI36g-puTOLJ7bMxBO4n78vvpHwBRrLcBtdbIMn7TG9jS67O_rwpk8Z_D9nzUCUabkLCZHn2CA32yLm2XkH8td8wgrl7dOs50pe4PTrRWxys89swSIgK6M7aHFlXVzMYfbGAyRbUE6VTQJy1NjTBqbQhHRWX6sNbioltkQKF7kyy3FsbOxYj9CEbpCA7LdXwa3tWPczcDY1UMFOI4rhcKhnkeQYSRNw6e8NB_z7zxO2MgOyQn1J7PqGxvb6Jvhxmku8nbLSHIEoEUxTiLpfau4YuwLSrKz1EQYW9SaLIiVOdg9Nwtk1mdbuVq66ilh-lQRuhjRJ5GUxrL4movuljkug4RDsgWlHT1m_uL-jZqiagBNdEuMmo3IElpd-H-0cMtjw3U_kVY1Nl2fiC6b7jpBD4IUs67rj5dCExaqUX2WutHxKtQVXBXEA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJjys0xH12bjQRJTUUI6WD_Ok",
+            "rating": 4.4,
+            "reference": "ChIJjys0xH12bjQRJTUUI6WD_Ok",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 76,
+            "vicinity": "樹林街二段"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9969433,
+                    "lng": 120.2008434
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99827822989272,
+                        "lng": 120.2021874798927
+                    },
+                    "southwest": {
+                        "lat": 22.99557857010728,
+                        "lng": 120.1994878201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "米街壁畫",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3120,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105691746057392178769\">Dalibor Dolezal</a>"
+                    ],
+                    "photo_reference": "AZLasHqRo6-k0RZDbTKr29mxSsro4tWDchk8w7oY3vWxfFQSUqJW_qOM98wV4nLa0CCyZfENyvX8ddRLogD33F834aEDGNh0bN38LIUaTI52P1OLIo6mExDD6jgP050MT_enTZZsId1zBMhbjqgEMr-wtw14qhSuxv_rv2PTP8mVL2EulEJJ-pB4nM3PiDTfhvXgiHx9DJy_7_snUQ_hLjzGTaDi_09JZpQrc_Ug3XX8-MDb7D6n9iUMXHXvUyl9oy-UkOOD-NxJTpZrEEmge4d-fbdkGokU-Aoyxwi4qVRBRs243uHI_bBPobOup19qNZWNow4WyDd8-lU6M7r5F-pdBs20p7BhtvwQTMtDrlZQKJn9x_EnlJDu-IqKc3Nm9teF7sBvfgd0RiVDO8zTSKh3f_1A0ik0HgSy7LP4zZOTTRfRysHsT2mgObFfSdAXWUsVrbCZdFm_i24kEE4cizMd_IMoLLagBeY5B9c4riXwofpv0CczZ6oEadktGRW21H72ms5IEyjTme1BxL1JRG_lvc7UgYhBPWZv5mXjLBHk47Xtr0ZnK1lsJsKVRTTORvo5E2Qzaj3rtjeWsw",
+                    "width": 4160
+                }
+            ],
+            "place_id": "ChIJaR2yXWF2bjQRUWhDvXB-J2w",
+            "rating": 3.9,
+            "reference": "ChIJaR2yXWF2bjQRUWhDvXB-J2w",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 131,
+            "vicinity": "新美街125巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.007335,
+                    "lng": 120.237526
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00869602989272,
+                        "lng": 120.2388752798927
+                    },
+                    "southwest": {
+                        "lat": 23.00599637010728,
+                        "lng": 120.2361756201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 988 916 670",
+            "name": "蟲窩",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 5712,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102958335466329251185\">Yu Bao</a>"
+                    ],
+                    "photo_reference": "AZLasHqDc6KckQJfN85RZNxfsJUdzsFLwvxPXVhApnyhzJ-6L_rh8wzjgkLGNwHC9JgiG98pY_BQa95KynDcTj1zcRmGnNeNVMyVDPlAF5GeasjzrvtojPruCaz5Xtcnh1_xhXo8bLVqHnnFRXwSHjlSVeyH-zCTesBtcGI4Ub7Mu2CC6aqCUfDy19uXEOHPAPFZyK9m6DuhP-qwcOqkYSdaJ4SmnoprvVwhv6CZvCFfNg9ZpyVnOoGFe3Ag1QyNXI5CR6VJavSzZKJy-8YYAFAmIrf_HmU3cNVH86qCiphectVojIqHMlg9fIAiYuVVMYCP79aqNHhV-gdH6OBWrQCSuc11BA0fDWNxoDBcpSz3XzrxAipXo6Xf4swkRmbBFvgtBJW8ntJ8cYK9Eylc8KAX02IOJSNYcnFtEMKIgIbrNRijGgga4clqZ3WgcSAdaOHxskkGiEnDXfZ26NDO47OYW-jIcCmD39f-vp6SKofEcusZ5oXP6BY33m6rJdeM5dRjKfCjVjAFGSW-sKEurGEK22-uXUyTN4JmGL7HKlqN1XhcBYRgiw5_unz3zJrgMJC_DFkaBpFQkGZpf3YV84OakTva_mbowA",
+                    "width": 4284
+                }
+            ],
+            "place_id": "ChIJ42tJFwB3bjQRGeP3F8X8jGk",
+            "rating": 5,
+            "reference": "ChIJ42tJFwB3bjQRGeP3F8X8jGk",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 11,
+            "vicinity": "中山東路366巷36號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.997428,
+                    "lng": 120.2215519
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99876287989272,
+                        "lng": 120.2231129298927
+                    },
+                    "southwest": {
+                        "lat": 22.99606322010728,
+                        "lng": 120.2204132701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "永恆之光 裝置藝術",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112377536698059422821\">林伯勛</a>"
+                    ],
+                    "photo_reference": "AZLasHpJ5A46SewcKeF7ns5N6zgTT7sxmdMmMXZB0q0tFfeLSg4ca7A4wxNF3ObcT71ET0B8W037TQJ0WskPmxYn3E0JEudLAmosZJC-Ix8Zyp52eDBmcqtLmcWH2LyljGQJWjmiHpRq6I1Ox8blQn0kzQyNxo_iucPuWIu8pTLk7voJRA7A3bkWBWWq4flsycXAsPOYLgL8F6GFASVTchjNCIt1-bQNUfXyrgL-5VppAbwMnRPNEjDLspKAccw1vVv468xNaAkNc5NbEM0zb1MevgmSXcsioFV4gmECrZdOzndV_xL0nnFDmt8zPkFTO-odf9hfWrqrSblcdp5pgppl_5Q3V70SiQeOBSdFXsZgef0i5T3rj9wuNTm-v5VdOHgIj5lJ-5FSIseJMRvJOxfOMTT3aWeI6rikO0sLLuxawQlSlc16zk3i23X-DKYEvaAK54XtgN13aoe2e8fse2LxuDXVvYO9wZb9HSo-iT8eCtVRtuSUeNKYuOPPlBbn2vZJ5hNnmuMmbSw5P8CxRWQM-pGHW-7t7FZ0QIKdkBFB42crrZL6ROYRqZJ5Pe8vhoe5fr_jknqWQhQrg8UCCBoaT7ycjQLQzQ",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJP12NJ-N3bjQRi6QEuFSu1rE",
+            "rating": 4.8,
+            "reference": "ChIJP12NJ-N3bjQRi6QEuFSu1rE",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 13,
+            "vicinity": "701"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9866091,
+                    "lng": 120.2035692
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.98815092989272,
+                        "lng": 120.2045837298927
+                    },
+                    "southwest": {
+                        "lat": 22.98545127010728,
+                        "lng": 120.2018840701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "南門公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2250,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105150219905764350090\">陳銘材</a>"
+                    ],
+                    "photo_reference": "AZLasHrltsULr3oN0cR1_eHzGIDLvAH_FWhFmL8GQ8zvJwDI3QLIAT8RWurQReQsNYuLMhkB7QyqZ873oKmly8yrhULnLDLiHehD4kRRFvdwJFuuCZH5WISig6dYyae_EYgYdmgUjctuamTwhdMxp0gwLSru8uHKCEvt0ktyvj3KTpn8oxHvbrdiDUFRJShGvL3fVNhVFFcWd2r7TK53hxR1OCtQ6WGYmvV5nRUYvpBHRROq-OvZgyVGMg8bapqNImU4z6298BuIuT2VJ433NNYMkaraFSRWFRaXK6ZlIiWrzgiwmApSc8WHTW1k5ucz8ICC6MZZJrwAkIJaf5O2IRdVi_9wqDHuwzI-M_S3-pOD_fl_aTPNuggwLC1Ltql74q0pv6i3uZ4BO0HK3el6nvp_NNP-x-5DY05Yp0FNK0n-OYTWMVpE2-RkAuOe5tiEQMxHEcVzWBMp_OvoQSwoFkyDTlnraZOXDjOzDre4Ticf6i6NFkDUDJ8qEXj5Er51iNAlQMKEweYYd7mxQbvxWYv7P9NkYKfKVYB2o3stNGmfUg4ZlO3Ot_562k-_jSD48WKRgBC9A3NYp05GNw",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJuR11wH12bjQRLXm1yIXe95A",
+            "rating": 4.3,
+            "reference": "ChIJuR11wH12bjQRLXm1yIXe95A",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1472,
+            "vicinity": "忠義路一段84巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9970116,
+                    "lng": 120.2006785
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99833372989272,
+                        "lng": 120.2020176798927
+                    },
+                    "southwest": {
+                        "lat": 22.99563407010728,
+                        "lng": 120.1993180201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "新美街彩繪巷",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3200,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109138941717265113210\">石見越後</a>"
+                    ],
+                    "photo_reference": "AZLasHp6V63I7dRsMmL3ffd7_yxWlLjNRTMSKZlnKXTEcGwM2bAB_c010OpQoOrcKuj3X11y4meqX4fCXmY8ek2RK5QVXVG8yE6Tbm_oELnmbqg3nD9anZ-zIXLj7-iooqbuJS_Xgq2jI8oaER7mof-yyiXKEsD_B0nQ1X2XHmZK87_WQfltnxUukcqhde8MLUC5VxFct2cPcrZzreS9D3MJriVlMgzyELUtaQx1ZnDQmFDL5ud90m_2SYvRzh-eGHrgV7NnuyT4Y4tPWRg9AYlqvDgB2jTgUFbekLAVF9tA4EYq2BmeRrzCwJ1l2D9Ls4smgxPD42ZO7aeapNn2lYB4hW_Gj2-FmwUcsgkb4E2EYiI_hXh6WFrw5Ly5vhf1ObtgxgHPnRi1Lfp_2vPP1UL_1oKZ50KJnJ6ZfvySwSYGVpNydfeZmHUCj_AcRGNlabCJ9-ueNshUM54DRenSNGKtFoZkoZlGuMb4ilNc9P3sYs3nv3NRozwPoJ-Y9ars68iz6OJ2s8gqjG9a5IwZBdSPg1QFBwsq_MQXi6VSc-Q26AWU8QsWw4-s80TCuUvfGqnic3dOOEi_",
+                    "width": 4800
+                }
+            ],
+            "place_id": "ChIJH27GXWF2bjQRV-FOp-B1vbY",
+            "rating": 3.7,
+            "reference": "ChIJH27GXWF2bjQRV-FOp-B1vbY",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 63,
+            "vicinity": "新美街125巷"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.0066883,
+                    "lng": 120.2240274
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00808827989272,
+                        "lng": 120.2254181298928
+                    },
+                    "southwest": {
+                        "lat": 23.00538862010728,
+                        "lng": 120.2227184701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "開元公園苦楝樹",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2936,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112061387318468391978\">CS CHO</a>"
+                    ],
+                    "photo_reference": "AZLasHqX0Y2i89xsJgRYPGMRh2s4ORFjJrfR5hsYKd9cMvKZLPZg1WCuf8KmhlygGX2anLJADwfTgQg8DN7t4Fhluh5eJy2LB3wg-lwYfW2fUNvHkpYPgo_lgzGf1-1xa8CeN1wT5IdlmhrpUeOF2_AOeF6XvqNvtxm6tGjYj7xzDDRfL9eDQQQLy9IQKLJ-cU5Aw-BYFa3yZrxlBgGfBb7zV7x9SXjHmWyVjNaOs0Ikuk6H4kX_hNv9auHQLJbJSiIDf8AV793-JWXaOiOumkJZt0IiIIqtyY_4BH1Bw9umsVZzvfzIF9j08W74NGyl6FW3XZ8w3d7s9YJs7amL1PT-b6mlQlmDcyqgSEOEkLnaBfB7KmJ12iUJ1-E7ir5qjkusZ9olfNXKqD050nuVZz71LWjHy9DYlcOVVDPN9tNofMpoDchvUtTI745w2rDEDQEWrBuACPZWSYi5jC1xmDBKXCwrgu4cwK4pMXtvMGBg4ySu5L99teb05LxTahhdxcm0nMS0-LSd_Mm24rAZLKHw5AUprmTsuUGje_siDL0UBDoUTFkQykllBJWre7zHUw5MPiMyg52O",
+                    "width": 3916
+                }
+            ],
+            "place_id": "ChIJVQmsleh2bjQRYbq-6TXyKE4",
+            "rating": 4.2,
+            "reference": "ChIJVQmsleh2bjQRYbq-6TXyKE4",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 118,
+            "vicinity": "開南街66號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9885231,
+                    "lng": 120.2077316
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.98993232989272,
+                        "lng": 120.2091690298927
+                    },
+                    "southwest": {
+                        "lat": 22.98723267010728,
+                        "lng": 120.2064693701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "鄭成功雕像",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102456857803752823716\">蔡智文</a>"
+                    ],
+                    "photo_reference": "AZLasHpHR92s0KPurroRszDbncK5xYdVJohYBEUjyBcITTwt5HlQVOaEQqVKk9aWhUj_Rt7dG2ldN18kGrpPZNXSO9AkZdaWw0LRlFajoQaXcNayyjXqaadomYZj9mO5onQ96J7pCU5YuF6uLgqtdz8WQsTTKsocXA2IS5CPa6YjhMyNMrO3wyxhNQAjB1G7lEzx7VMptpiJHyCI-aLZs6OItkQKWWOYX0px8iUF5YOvbSgUCuTp1zDUHhNX1rn6AT7hrdHZt1wmxjZj0ksTXUZVJZUORmshMEO_vkgEX42htUX568eOtNiOhddo0FR1ys7uKgMe2xUBp8HjKm9TuGNgAvPVgysek15Qa0G-5WTbja30qidU9fkIH1nFL8siCgJfV4a_NRChWBgtNtmueSmuJrikCW_UOV1_Sz_IopfsLpgGGrTqpggDpkHdg1VgpoAueIs5XwsjgKbmfsPmA5CFAnzlz2_-8BvndP0wfFhpuzr1sjsNYiDnWzl5zpjo5XXexrk0bGVQNVqcBycQqajJrbDwHb5lAOuz1ZMjdjT8rnLQpSrDGZhPVjPpa04qowd89Byc5qBC",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJqQIFegB3bjQRISEYAdk8acw",
+            "rating": 4.7,
+            "reference": "ChIJqQIFegB3bjQRISEYAdk8acw",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "開山路138號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 23.002754,
+                    "lng": 120.244039
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 23.00378182989272,
+                        "lng": 120.2452476298928
+                    },
+                    "southwest": {
+                        "lat": 23.00108217010728,
+                        "lng": 120.2425479701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "international_phone_number": "+886 6 299 1111",
+            "name": "永康公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114406411133539170590\">Baolung Hsu</a>"
+                    ],
+                    "photo_reference": "AZLasHqDmVejvhTZxQ_cF1eshmYKDEtVd00YgkjOh5hyHaLkVKbZHAa_d5Xv_Gv9GI1cxO7NdXWErNH5zkYXppKYiKDE9Y1n7j0Bl_TKu4iqzJzlM7PW3ntUeCI_q64tcir_nkBCiO7XWOtpL6LdlMTfC2Ex_iUqclncSta8qS_zLtPU0Q13rhVsu1Xva3O5nwxr1fe8uEWz3Tm7FLN2QSSDcgWUA-FB4_YzL4KL9EjMk_XEJasNTnW7MIh5xRnvh_6Uq-mbaUtUHAt0xhv5zXoEF0FWuJmEFEehpQ0y7LlV_EYeRKKeAabrAllqQQA-D79C_1YP6hJCI6KkZB2TcYXjShZe5NFM00j7-UCudxyZQ2uRH913i-cu418X11kVaOh_sMZElQgXdyV4bnmmMXfibqrmG-glTeQkYTwKInIquyQyDcq0ahyyWNI2bv1WRs5aYOqrSML7jlqi2yHVXk2dgA-BlAo8Ioe7IGspPYkP2c94vuri9UwMVt-kHHUxg7JTQ3Haqu0d3L0zkLVJP0UeRGw76gNoiaBBjMq-Sl0hNu76ZLPmODmHKpJwHg2Qhn3_KIKYmsuM",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJddWIPc52bjQR4yPHlXrafG4",
+            "rating": 4.2,
+            "reference": "ChIJddWIPc52bjQR4yPHlXrafG4",
+            "scope": "GOOGLE",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 2052,
+            "vicinity": "興國街100號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9801024,
+                    "lng": 120.2109862
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.98149577989272,
+                        "lng": 120.2124575798927
+                    },
+                    "southwest": {
+                        "lat": 22.97879612010728,
+                        "lng": 120.2097579201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 6 632 2231",
+            "name": "臺南市忠烈祠",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110364664754832679813\">李維安</a>"
+                    ],
+                    "photo_reference": "AZLasHqoVE2t9SQm584zjF-ZAxOffCpOLlHVS5BGctxj4s4MJ1Qj0dHCKSqkQfC3cTh2Qikve3EXo66cpQ2n5DBkOz7aU0uy9FPq5ZDUWu7xPLHfizNhTpCCj-d7JDxPVHJ70ttICc0K1HDLaQVr0uQWSXFHy7McQwKv01_LukTCymWMPmeINy5O6dSyEzWGuhwQvsrma4W-kN60b8GZ54vx3WkNJiTpeZurB8X1wsMerw5jZJ6UOsUUwUOuL0LSIeYltq3H39TAtJmEIv9n8qk730zIFXJbs4cZmbERpWzoSst5D69EkiFeij1EtZcO1qASyaLwdKc5YurvrCVxkCl8h5hJMVJGip642lcGRqD2DrSQJS4IYiuB8M4lgXzkN9DpmKIECMT3xOj10vQsgJq5sGDesRTy8RrV3v3gMqR13iSQdoPUHvu1viAY_rnA5vwozBRuGx3WX-QDcDcBo6dsz258dUIyVaUXU8L-WUEyPQr1denx0XiOW3qb0qf3sGZYhzwIwMKE2yApM9NPsnhZ6bo3snMeCsny8tukqE_JS6fGi8zxYwCDhWAc-zY7ebVGUHsaudjs",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJ44vmJ4J2bjQRxh0oRklM-fk",
+            "rating": 3.7,
+            "reference": "ChIJ44vmJ4J2bjQRxh0oRklM-fk",
+            "scope": "GOOGLE",
+            "types": [
+                "place_of_worship",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 93,
+            "vicinity": "健康路一段1號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9925611,
+                    "lng": 120.1975148
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99388827989272,
+                        "lng": 120.1988598798927
+                    },
+                    "southwest": {
+                        "lat": 22.99118862010728,
+                        "lng": 120.1961602201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "鹿角巷",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102089018851010543642\">謙</a>"
+                    ],
+                    "photo_reference": "AZLasHrxuIILPAQflI9OG7oXqxHxZnGosBQEcYXDAuTEyTkkSosUlf6pQYCtr-qKVHe_5jUg2dK-3l_I6UIQyWNI8w1dP9niW43kMIpdrnwoMz_IyVoOB3mtJdbbaIPkPJToJcPz-TGXf58qDZypb3YOORxB5ji4l6nCl88oKSeIWdqkawZ9nPca4K0TaKwJew-_1PK6fVs33aYdBSkLQSofM2o4nqZBhOf4NPCLEHLRnTUcoknMpjtsmfdLI8iIOl5MPaopDsWsHk8z4MbvCjqZXmbAB3mT4pJejnNBwcEajpvRjm4hW9OUZfoXfZSTZd9PQzoJiY-uU1YDM169sX7pRCwvxeBNqoh_81pju3DgJuFyLNq1Nh7RXPFoiMmhgv0cL34yoYcizyY7xYnMKLfOzA1r33op7o9AmZrtgznEXgeiJENjipZBsLkl-gD8x29y9zpiNZO_xyCQpdzfZwUxPF4CosbtKXjqvwXuUv8b0CTqJqijCZNxhMDCevIe5eSwu1LJGg6eZo0DUVh4JyTuoHnCqznLIFIRV19atySSLOWPGFsOrfNayENkGHyzy-vWLw4f4ByH1Q3-Iw",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJhe20PgB3bjQRjxiqdPnqgiY",
+            "rating": 5,
+            "reference": "ChIJhe20PgB3bjQRjxiqdPnqgiY",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "中正路217巷14號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.9955304,
+                    "lng": 120.2223611
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.99709567989272,
+                        "lng": 120.2237231298927
+                    },
+                    "southwest": {
+                        "lat": 22.99439602010728,
+                        "lng": 120.2210234701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "退役直升機 NA-506 展示",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109517052313552544281\">Shadow lee</a>"
+                    ],
+                    "photo_reference": "AZLasHqszSdR2M3ZMWvKW3bJwJWnrkHDn7ft84EVrRBkcXeNPgLOEEQZtP5ifznGe8IyF4PPh1qtQBQz-PnCFlPfp7Yu_JSg_oQZBOFoRu_VV3H0Q2FUseWXxHcx8G7MPyvfthyr71TAkKgPviRtGlXsG3I76hJPINZn_OVR9xnH76mZHPuLjiYRxlOZr86vi4Z6aidQ9pDemIESZh3_AMAOx2i13imUlLn8stGtn2SnGQ_wNYPA7nCIAAiQWQG1TApjctu5htpZdiX8k-AIeKeBM6uyk_VJpT-cTcnJaCZWsVFFS_JWsxO_KlyK3sjoBMbIKGai7jQQuQtCHSMLRC9ERKAM3rpv9oM2dqPV4m5d3SbSopCpy75iPcZpeUYmqzTSxXilN-sWp31HL-7ufW4vO9JYIm_2R8xlEKENHLdTnMxibwHf6Pz1BeX_DO-oiR5R76qFwrfPWO68EXZNsSKRN1AkkMS79Uz8O6TXOZJeCD4vkfkU9iK-IBZNFM7BMaEwTLKXxo-hDLBrqlwnqPkPF94VT_d7gZT3r_emeIH9eItI7QwuN25QzdbT9JmLBaq-a-dm0foaoSWGUw",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJZbqyzQN3bjQRfAI2VuWG3CY",
+            "rating": 4.6,
+            "reference": "ChIJZbqyzQN3bjQRfAI2VuWG3CY",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 13,
+            "vicinity": "大學路216號"
+        }
+    ],
+    "status": "OK"
+}

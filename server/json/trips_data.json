@@ -1,0 +1,132 @@
+[
+    {
+        "id": "647fe9c1-45d6-4d55-b775-5fba727be01d",
+        "created_at": "2025-12-29 00:44:12",
+        "meta": {
+            "trip_name": "9626556",
+            "location": "台北車站",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 25.0474428,
+            "lng": 121.5170955
+        },
+        "schedule": [
+            {
+                "place_name": "棉花糖小子-樂華夜市 棉花糖冰淇淋&水果優格燕麥",
+                "category": "美食",
+                "time_range": "10:00 - 12:00",
+                "rating": 4.8,
+                "tags": [
+                    "夜市",
+                    "冰品",
+                    "打卡"
+                ],
+                "ai_reason": "甜蜜棉花糖冰淇淋，配上鮮果優格，浪漫氛圍，情侶必試的夏日清涼。",
+                "distance_info": "4.36 km",
+                "lat": 25.0085019,
+                "lng": 121.5119108
+            }
+        ]
+    },
+    {
+        "id": "2aefa56a-0d6f-449a-b787-f461c4eaeb0f",
+        "created_at": "2025-12-29 00:55:20",
+        "meta": {
+            "trip_name": "45646",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "cc6552fa-574d-4fde-99b1-1adb3bab0280",
+        "created_at": "2025-12-29 01:05:45",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "14f0fe99-f2af-4aed-92fb-7bfee7a0d294",
+        "created_at": "2025-12-29 01:05:51",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "11a234e2-1a6c-4791-af62-3df30c2be3b2",
+        "created_at": "2025-12-29 01:06:01",
+        "meta": {
+            "trip_name": "40404",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "4220faa8-b992-4450-a063-3992f027bd2e",
+        "created_at": "2025-12-29 01:06:14",
+        "meta": {
+            "trip_name": "4040777",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": [
+            {
+                "place_name": "赤崁文化園區",
+                "category": "美食",
+                "time_range": "10:00 - 12:00",
+                "rating": 4.3,
+                "tags": [
+                    "歷史文化",
+                    "夜景",
+                    "情侶散步"
+                ],
+                "ai_reason": "古蹟與創意藝術交織，夜幕燈光更添情調，是情侶散步的好去處。",
+                "distance_info": "2.53 km",
+                "lat": 22.9970041,
+                "lng": 120.2023948
+            }
+        ]
+    },
+    {
+        "id": "6ec67070-2340-45ca-b111-0f77c3eef830",
+        "created_at": "2025-12-29 01:09:49",
+        "meta": {
+            "trip_name": "888",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "model": "gpt-oss:120b",
+    "created_at": "2025-12-28T17:08:50.698095Z",
+    "message": {
+        "role": "assistant",
+        "content": "推薦地點1:\n    地點名稱 : 巴克禮紀念公園\n    地址 : 巴克禮路100號\n    評分 : 4.4\n    推薦文 : 落羽松林立，漫步其間如置身童話，情侶約會的浪漫打卡熱點。\n    tags : 落羽松、IG景點、情侶必訪\n---------\n推薦地點2:\n    地點名稱 : 赤崁文化園區\n    地址 : 民族路二段212號\n    評分 : 4.3\n    推薦文 : 古蹟與創意藝術交織，夜幕燈光更添情調，是情侶散步的好去處。\n    tags : 歷史文化、夜景、情侶散步\n---------\n推薦地點3:\n    地點名稱 : 神農街\n    地址 : 神農街\n    評分 : 4.3\n    推薦文 : 文青小店林立、老屋咖啡香，適合情侶慢慢探索的浪漫街道。\n    tags : 文青、老屋、打卡景點\n---------\n推薦地點4:\n    地點名稱 : 蟲窩\n    地址 : 中山東路366巷36號\n    評分 : 5\n    推薦文 : 獨特裝置藝術與自然氛圍融合，情侶拍照、共享奇幻時光的祕密基地。\n    tags : 藝術裝置、隱藏景點、情侶拍照\n---------\n推薦地點5:\n    地點名稱 : 退役直升機 NA-506 展示\n    地址 : 大學路216號\n    評分 : 4.6\n    推薦文 : 巨型直升機靜置於戶外，宏偉又有趣，情侶一起感受軍事歷史的奇特體驗。\n    tags : 軍事展覽、拍照打卡、情侶趣味  ",
+        "thinking": "We need to pick 5 locations from the list that suit a couple (情侶) and unspecified demands (empty). So choose romantic/IG spots, nice scenery. Provide format as described.\n\nWe must ensure no duplicate locations. Use each once.\n\nProvide: \"推薦地點1:\" etc. Each with fields: 地點名稱, 地址, 評分, 推薦文, tags. Tags up to 3, different across locations.\n\nWe must not output any analysis, only final format.\n\nSelect 5: maybe 巴克禮紀念公園, 赤崁文化園區, 神農街, 蟲窩, 退役直升機 NA-506 展示 (unique). All good for couples.\n\nCheck each: need rating. Use given rating.\n\nProvide recommendation 30 Chinese characters approx.\n\nLet's craft.\n\nTags: IG景點, 情侶必訪, 打卡, 文青, 懷舊, 藝術裝置, 觀光, etc.\n\nMake each distinct.\n\nProceed."
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 18264583167,
+    "load_duration": 79784917,
+    "prompt_eval_count": 3563,
+    "prompt_eval_duration": 6257626917,
+    "eval_count": 683,
+    "eval_duration": 11919583750
+}

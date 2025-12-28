@@ -44,8 +44,7 @@ body {
 }
 
 .map-placeholder {
-    /* 這裡使用一個 placeholder 圖片作為示意 */
-    background-image: url('https://img.freepik.com/free-vector/city-map-background-blue-tone_1057-453.jpg?w=740&t=st=1700000000~exp=1700000600~hmac=xyz');
+    background-image: url('/static/images/Backend2.png');
     background-size: cover;
     background-position: center;
 }

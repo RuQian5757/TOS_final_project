@@ -9,7 +9,10 @@ from langchain_community.vectorstores import FAISS
 
 將放在 ./uploaded_files 中的檔案載入，並將其讀成documents
 """
-folder_path = "./uploaded_files" 
+BASE_DIR = os.path.dirname(__file__)
+
+
+folder_path = os.path.join(BASE_DIR, 'uploaded_files')
 documents = []
  
 if not os.path.exists(folder_path):

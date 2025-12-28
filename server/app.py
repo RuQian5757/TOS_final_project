@@ -2,18 +2,19 @@ import json
 import os
 import uuid
 import requests 
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, Response
 from datetime import datetime
+from tools import *
+from google import create_data_json, fetch_static_map_image
 
 app = Flask(__name__)
 
-# [設定] 請替換成你的 Google Maps API Key
 GOOGLE_API_KEY = "AIzaSyBBJ0jNpT6u-PzXGVkx3xNbcrX9kYC-fKw" 
 
-# [修正] 這裡定義檔案名稱
-DATA_FILE = 'trips_data.json'
-REQUEST_FILE = 'request.json'  
-RESPONSE_FILE = 'options.json'
+BASE_DIR = os.path.dirname(__file__)
+DATA_FILE = os.path.join(BASE_DIR, 'json', 'trips_data.json')
+REQUEST_FILE = os.path.join(BASE_DIR, 'json', 'request.json') 
+RESPONSE_FILE = os.path.join(BASE_DIR, 'json', 'options.json') 
 
 # --- 資料讀寫輔助函式 ---
 def load_data():
@@ -73,12 +74,10 @@ def create_trip():
         meta_data = request.json
         new_id = str(uuid.uuid4())
         
-        # 取得經緯度
         address = meta_data.get('location')
         print(f"正在查詢地點座標: {address}...")
         lat, lng = get_coordinates(address)
         
-        # 將座標寫入 meta
         meta_data['lat'] = lat
         meta_data['lng'] = lng
         
@@ -185,15 +184,24 @@ def get_all_trips():
 @app.route('/api/generate_ai_prompt', methods=['POST'])
 def generate_ai_prompt():
     try:
-        # 1. 接收前端傳來的資料
         req_data = request.json
         
-        # 2. 直接將這包資料寫入 request.json
-        # 這裡會用到 REQUEST_FILE 變數
         with open(REQUEST_FILE, 'w', encoding='utf-8') as f:
             json.dump(req_data, f, ensure_ascii=False, indent=4)
-            
+        
         print(f"✅ 已將原始需求儲存至 {REQUEST_FILE}")
+
+        # call key AI to get 3 keys for google api
+        key_list = generate_keys()
+        print("Key AI complete !!!")
+
+        # call google api to create data.json aka shops in certain radius
+        create_data_json(key_list)
+        print("Google search complete !!!")
+        # call guide RAG AI to create options.json 
+        generate_options_json()
+        print("RAG AI complete")
+
 
         return jsonify({
             "status": "success", 
@@ -208,15 +216,15 @@ def generate_ai_prompt():
 @app.route('/api/regenerate_ai_prompt', methods=['POST'])
 def regenerate_ai_prompt():
     try:
-        # 1. 接收前端傳來的資料
         req_data = request.json
         
-        # 2. 直接將這包資料寫入 request.json
-        # 這裡會用到 REQUEST_FILE 變數
         with open(REQUEST_FILE, 'w', encoding='utf-8') as f:
             json.dump(req_data, f, ensure_ascii=False, indent=4)
             
         print(f"✅ 已將原始需求儲存至 {REQUEST_FILE}")
+
+        # regenerate
+        generate_options_json()
 
         return jsonify({
             "status": "success", 
@@ -231,16 +239,37 @@ def regenerate_ai_prompt():
 @app.route('/api/get_ai_options', methods=['GET'])
 def get_ai_options():
     try:
-        if not os.path.exits(RESPONSE_FILE):
+        if not os.path.exists(RESPONSE_FILE):
             return jsonify({"status": "waiting", "message": "AI genetating..."}), 404
         with open(RESPONSE_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
 
+        # delete options.json
+        # os.remove(RESPONSE_FILE)
+
         return jsonify({"status": "success", "options": data}), 200
     
     except Exception as e:
-        print(f"❌ Error reading option.json: {e}")
+        print(f"❌ Error reading options.json: {e}")
         return jsonify({"status": "error", "message": str(e)}), 500
+    
+@app.route('/api/map_image')
+def get_map_image():
+    try:
+        lat = request.args.get('lat')
+        lng = request.args.get('lng')
+
+        image_content = fetch_static_map_image(lat, lng)
+
+        if image_content:
+            return Response(image_content, mimetype='image/png')
+        else:
+            return "Image generation failed", 400
+    
+    except Exception as e:
+        print(f"Proxy Error: {e}")
+        return "Error fetching map", 500
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

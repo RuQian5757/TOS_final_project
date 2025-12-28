@@ -3,6 +3,7 @@
 Environment:
 execute on virtual environment
 
+python -m venv venv
 .\venv\Scripts\Activate.ps1
 
 if running scripts is disabled
@@ -14,11 +15,15 @@ Requirement:
 
 pip install flask, 
 
+sign up with HF , create access token, go to https://huggingface.co/google/embeddinggemma-300m and press Acknowlege license
+
 for vector dataset:
 
-pip install -r requirements.txt
+python -X utf8 -m pip install -r requirements.txt
+
 
 setx LLM_API_KEY "YOUR_API_KEY"
-pip install -r requirements.txtsetx HUGGING_FACE_TOKEN "YOUR_HF_TOKEN"
+setx GOOGLE_API_KEY "YOUR_API_KEY"
+setx HUGGING_FACE_TOKEN "YOUR_HF_TOKEN"
 
 
