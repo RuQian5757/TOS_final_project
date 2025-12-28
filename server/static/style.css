@@ -1,0 +1,51 @@
+/* 自定義樣式補充 */
+body {
+    background-color: #f3f4f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+    max-width: 480px; /* 模擬手機寬度 */
+    margin: 0 auto;
+    background: white;
+    min-height: 100vh;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    position: relative;
+    overflow-x: hidden;
+}
+
+.step-section {
+    display: none; /* 預設隱藏所有步驟 */
+    animation: fadeIn 0.4s ease-in-out;
+    padding-bottom: 80px;
+}
+
+.step-section.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 隱藏 Scrollbar 但保持捲動 */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.card-shadow {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.map-placeholder {
+    /* 這裡使用一個 placeholder 圖片作為示意 */
+    background-image: url('https://img.freepik.com/free-vector/city-map-background-blue-tone_1057-453.jpg?w=740&t=st=1700000000~exp=1700000600~hmac=xyz');
+    background-size: cover;
+    background-position: center;
+}

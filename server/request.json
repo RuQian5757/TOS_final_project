@@ -1,0 +1,11 @@
+{
+    "time_slot": "10:00 - 12:00",
+    "category_selection": [],
+    "max_travel_distance": "0.5 km",
+    "prompt": "000",
+    "companion": "情侶",
+    "coordinates": {
+        "lat": 25.033976,
+        "lng": 121.5645389
+    }
+}
