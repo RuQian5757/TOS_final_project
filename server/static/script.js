@@ -226,7 +226,7 @@ function generateAiPayload() {
 
     // 3. 移動距離限制
     const distanceInput = document.querySelector('input[type="range"]');
-    const radius = distanceInput ? distanceInput.value + " km" : "5 km";
+    const radius = distanceInput ? distanceInput.value + " km" : "0.5 km";
 
     // 4. 額外需求
     const requirementInput = document.querySelector('textarea');
@@ -252,40 +252,145 @@ async function startLoading() {
     const loadingText = document.getElementById('loading-text');
     
     loading.classList.remove('hidden'); loading.classList.add('flex');
-    if(loadingText) loadingText.innerText = "正在儲存您的需求...";
+    if(loadingText) loadingText.innerText = "正在儲存需求...";
 
-    // 產生 Payload
     const payload = generateAiPayload();
     
+    // 1. 傳送 request.json
     try {
-        const response = await fetch('/api/generate_ai_prompt', {
+        await fetch('/api/generate_ai_prompt', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
         });
+    } catch (e) { console.error("需求傳送失敗", e); }
 
-        const result = await response.json();
+    // 2. 等待並讀取 place.json
+    if(loadingText) loadingText.innerText = "等待 AI 分析資料...";
+    
+    setTimeout(async () => {
+        try {
+            const response = await fetch('/api/get_ai_options');
+            
+            if (response.ok) {
+                const data = await response.json();
+                console.log("✅ 原始 AI 資料:", data.options);
+                
+                // [關鍵修改] 資料欄位轉換 (Mapping)
+                // 將 place.json 的欄位名稱轉換成前端 renderOptions 看得懂的名稱
+                if (Array.isArray(data.options)) {
+                    aiGeneratedOptions = data.options.map((item, index) => ({
+                        // 1. 自動產生 ID (因為 json 裡沒有)
+                        id: Date.now() + index, 
+                        
+                        // 2. 欄位對應轉換
+                        name: item.place_name,       // place_name -> name
+                        type: item.category,         // category -> type
+                        rating: item.rating,         // rating (不變)
+                        tags: item.tags,             // tags (不變)
+                        reason: item.ai_reason,      // ai_reason -> reason
+                        distance: item.distance_info,// distance_info -> distance
+                        lat: item.lat,               // lat (不變)
+                        lng: item.lng,               // lng (不變)
+                        timeRange: item.time_range   // 保留備用
+                    }));
+                }
+                
+                if(loadingText) loadingText.innerText = "生成完畢！";
+                
+                setTimeout(() => {
+                    loading.classList.add('hidden'); loading.classList.remove('flex');
+                    goToStep(3); // 這裡會觸發 renderOptions
+                }, 500);
 
-        if (response.ok) {
-            console.log("✅ 需求已存成 request.json:", result.saved_data);
-            
-            if(loadingText) loadingText.innerText = "需求已送出！";
-            
-            setTimeout(() => {
+            } else {
+                console.warn("尚未取得 option.json，使用 Mock 資料");
                 loading.classList.add('hidden'); loading.classList.remove('flex');
-                goToStep(3); // 跳轉到下一步
-            }, 800); 
-
-        } else {
-            console.error("儲存失敗:", result.message);
-            alert("連線錯誤");
+                goToStep(3);
+            }
+        } catch (e) {
+            console.error("讀取選項失敗:", e);
             loading.classList.add('hidden'); loading.classList.remove('flex');
+            goToStep(3);
         }
+    }, 2000); 
+}
 
-    } catch (e) {
-        console.error("連線錯誤:", e);
-        loading.classList.add('hidden'); loading.classList.remove('flex');
+//Reload prompt
+async function ReLoading() {
+    const loading = document.getElementById('loading-screen');
+    const loadingText = document.getElementById('loading-text');
+    const inputElement = document.getElementById('new_prompt'); 
+
+    loading.classList.remove('hidden'); loading.classList.add('flex');
+    if(loadingText) loadingText.innerText = "正在儲存需求...";
+
+    const payload = generateAiPayload();
+    const new_prompt = inputElement.value;
+    if (new_prompt.length > 0) {
+        payload.prompt = new_prompt;
     }
+    else {
+        payload.prompt = "";
+    }
+    // 1. 傳送 request.json
+    try {
+        await fetch('/api/regenerate_ai_prompt', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+    } catch (e) { console.error("需求傳送失敗", e); }
+
+    // 2. 等待並讀取 place.json
+    if(loadingText) loadingText.innerText = "等待 AI 分析資料...";
+    
+    setTimeout(async () => {
+        try {
+            const response = await fetch('/api/get_ai_options');
+            
+            if (response.ok) {
+                const data = await response.json();
+                console.log("✅ 原始 AI 資料:", data.options);
+                
+                // [關鍵修改] 資料欄位轉換 (Mapping)
+                // 將 place.json 的欄位名稱轉換成前端 renderOptions 看得懂的名稱
+                if (Array.isArray(data.options)) {
+                    aiGeneratedOptions = data.options.map((item, index) => ({
+                        // 1. 自動產生 ID (因為 json 裡沒有)
+                        id: Date.now() + index, 
+                        
+                        // 2. 欄位對應轉換
+                        name: item.place_name,       // place_name -> name
+                        type: item.category,         // category -> type
+                        rating: item.rating,         // rating (不變)
+                        tags: item.tags,             // tags (不變)
+                        reason: item.ai_reason,      // ai_reason -> reason
+                        distance: item.distance_info,// distance_info -> distance
+                        lat: item.lat,               // lat (不變)
+                        lng: item.lng,               // lng (不變)
+                        timeRange: item.time_range   // 保留備用
+                    }));
+                }
+                
+                if(loadingText) loadingText.innerText = "生成完畢！";
+                
+                setTimeout(() => {
+                    loading.classList.add('hidden'); loading.classList.remove('flex');
+                    goToStep(3); // 這裡會觸發 renderOptions
+                }, 500);
+
+            } else {
+                console.warn("尚未取得 option.json，使用 Mock 資料");
+                loading.classList.add('hidden'); loading.classList.remove('flex');
+                goToStep(3);
+            }
+        } catch (e) {
+            console.error("讀取選項失敗:", e);
+            loading.classList.add('hidden'); loading.classList.remove('flex');
+            goToStep(3);
+        }
+    }, 2000); 
 }
 
 // --- Step 3: 顯示選項 ---
@@ -293,6 +398,19 @@ function renderOptions() {
     const container = document.getElementById('options-container');
     if(!container) return;
     container.innerHTML = ''; 
+
+    // let displayData = (aiGeneratedOptions.length > 0) ? aiGeneratedOptions : mockOptions;
+    // if (aiGeneratedOptions.length > 0) {
+    //     console.warn("ai");
+    // }
+    // else {
+    //     console.warn("mock");
+    // }
+
+    // if (displayData.length === 0) {
+    //     container.innerHTML = '<p class="text-center text-gray-400 py-10">目前沒有推薦選項</p>';
+    //     return;
+    // }
 
     mockOptions.forEach(opt => {
         const card = document.createElement('div');

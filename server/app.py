@@ -12,7 +12,8 @@ GOOGLE_API_KEY = "AIzaSyBBJ0jNpT6u-PzXGVkx3xNbcrX9kYC-fKw"
 
 # [修正] 這裡定義檔案名稱
 DATA_FILE = 'trips_data.json'
-REQUEST_FILE = 'request.json'  # <--- 就是少了這一行！
+REQUEST_FILE = 'request.json'  
+RESPONSE_FILE = 'options.json'
 
 # --- 資料讀寫輔助函式 ---
 def load_data():
@@ -202,6 +203,43 @@ def generate_ai_prompt():
 
     except Exception as e:
         print(f"❌ Error saving request json: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
+    
+@app.route('/api/regenerate_ai_prompt', methods=['POST'])
+def regenerate_ai_prompt():
+    try:
+        # 1. 接收前端傳來的資料
+        req_data = request.json
+        
+        # 2. 直接將這包資料寫入 request.json
+        # 這裡會用到 REQUEST_FILE 變數
+        with open(REQUEST_FILE, 'w', encoding='utf-8') as f:
+            json.dump(req_data, f, ensure_ascii=False, indent=4)
+            
+        print(f"✅ 已將原始需求儲存至 {REQUEST_FILE}")
+
+        return jsonify({
+            "status": "success", 
+            "message": "資料已儲存",
+            "saved_data": req_data 
+        }), 200
+
+    except Exception as e:
+        print(f"❌ Error saving request json: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
+    
+@app.route('/api/get_ai_options', methods=['GET'])
+def get_ai_options():
+    try:
+        if not os.path.exits(RESPONSE_FILE):
+            return jsonify({"status": "waiting", "message": "AI genetating..."}), 404
+        with open(RESPONSE_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        return jsonify({"status": "success", "options": data}), 200
+    
+    except Exception as e:
+        print(f"❌ Error reading option.json: {e}")
         return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == '__main__':

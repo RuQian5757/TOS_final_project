@@ -1,63 +1,35 @@
 [
     {
-        "id": "20f3e123-16cf-4503-b300-9528ddc7d3cd",
-        "created_at": "2025-12-27 23:50:12",
+        "id": "336ded62-b216-439e-8b62-a5909760e9f0",
+        "created_at": "2025-12-28 12:25:15",
         "meta": {
-            "trip_name": "西西",
-            "location": "台北車站",
-            "date": "2025-12-08",
+            "trip_name": "000",
+            "location": "成功大學",
+            "date": "2025/10/20",
             "companion": "情侶",
             "transport": "大眾運輸",
-            "lat": 25.0474428,
-            "lng": 121.5170955
-        },
-        "schedule": [
-            {
-                "place_name": "文章牛肉湯",
-                "category": "美食",
-                "time_range": "10:00 - 12:00",
-                "rating": 4.8,
-                "tags": [
-                    "排隊名店"
-                ],
-                "ai_reason": "經典台南早餐，距離近。",
-                "distance_info": "1.2 km",
-                "lat": 22.9985,
-                "lng": 120.213
-            },
-            {
-                "place_name": "安平古堡",
-                "category": "景點",
-                "time_range": "10:00 - 12:00",
-                "rating": 4.4,
-                "tags": [
-                    "歷史",
-                    "戶外"
-                ],
-                "ai_reason": "體驗荷蘭時期的歷史風情。",
-                "distance_info": "3.0 km",
-                "lat": 23.001,
-                "lng": 120.161
-            }
-        ]
-    },
-    {
-        "id": "1995a05e-7e90-4a4e-9e72-98e93540fd77",
-        "created_at": "2025-12-27 23:52:24",
-        "meta": {
-            "trip_name": "西西",
-            "location": "台北車站",
-            "date": "2025-12-08",
-            "companion": "情侶",
-            "transport": "大眾運輸",
-            "lat": 25.0474428,
-            "lng": 121.5170955
+            "lat": 22.998955,
+            "lng": 120.2171461
         },
         "schedule": []
     },
     {
-        "id": "fa9a5d7a-69d8-47b5-9b0d-4e19945d11a5",
-        "created_at": "2025-12-28 01:22:21",
+        "id": "86f299a7-8505-4acb-ba62-d8507d37ac1f",
+        "created_at": "2025-12-28 13:13:06",
+        "meta": {
+            "trip_name": "99999",
+            "location": "台中美術館",
+            "date": "2025-12-18",
+            "companion": "家庭",
+            "transport": "大眾運輸",
+            "lat": 24.1411864,
+            "lng": 120.6633131
+        },
+        "schedule": []
+    },
+    {
+        "id": "fd002247-8434-4d60-bf2d-dbceb10d57ab",
+        "created_at": "2025-12-28 13:17:57",
         "meta": {
             "trip_name": "台南之旅",
             "location": "台南",
@@ -67,21 +39,104 @@
             "lat": 22.9998999,
             "lng": 120.2268758
         },
-        "schedule": [
-            {
-                "place_name": "臺南市美術館 2 館",
-                "category": "景點",
-                "time_range": "10:00 - 12:00",
-                "rating": 4.6,
-                "tags": [
-                    "冷氣超強",
-                    "拍照"
-                ],
-                "ai_reason": "建築特色美，適合避暑。",
-                "distance_info": "1.5 km",
-                "lat": 22.99,
-                "lng": 120.2
-            }
-        ]
+        "schedule": []
+    },
+    {
+        "id": "b01f2555-d555-4a66-838a-2e96f49a209c",
+        "created_at": "2025-12-28 13:26:52",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "92a3f112-b139-456d-956a-49795dc0b5a2",
+        "created_at": "2025-12-28 13:28:35",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "04f5f95a-d134-4df0-81fa-33246fb5e0cf",
+        "created_at": "2025-12-28 13:35:04",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "63c9ed50-d824-490a-9842-23b5a34867e3",
+        "created_at": "2025-12-28 13:40:01",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "0d0baa0a-53bb-4007-b6a0-2ce6da069f17",
+        "created_at": "2025-12-28 13:41:17",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "70a6001b-b6f3-45fa-a9e8-49cba4074161",
+        "created_at": "2025-12-28 13:43:12",
+        "meta": {
+            "trip_name": "台南之旅",
+            "location": "台南",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 22.9998999,
+            "lng": 120.2268758
+        },
+        "schedule": []
+    },
+    {
+        "id": "b8166f40-f62c-4b20-85b5-1872b2d5582d",
+        "created_at": "2025-12-28 15:34:01",
+        "meta": {
+            "trip_name": "7777777777",
+            "location": "台北101",
+            "date": "2025/10/20",
+            "companion": "情侶",
+            "transport": "大眾運輸",
+            "lat": 25.033976,
+            "lng": 121.5645389
+        },
+        "schedule": []
     }
 ]
