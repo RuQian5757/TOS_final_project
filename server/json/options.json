@@ -1,77 +1,77 @@
 [
     {
-        "place_name": "Mizuho Space (Craft Beer啤酒)",
+        "place_name": "E7PLAY 三多館",
         "category": "美食",
-        "time_range": "10:00 - 12:00",
-        "rating": 5.0,
+        "time_range": "13:00 - 15:00",
+        "rating": 4.6,
         "tags": [
-            "精釀啤酒",
-            "情侶打卡",
-            "IG景點"
+            "互動遊戲",
+            "家庭友善",
+            "人氣高"
         ],
-        "ai_reason": "情侶共度夜晚，精釀啤酒香氣環繞，氛圍浪漫微醺悠閒時光共譜甜蜜",
-        "distance_info": "13076.12 km",
-        "lat": 0.0,
-        "lng": 0.0
+        "ai_reason": "多元遊戲區、互動體驗，孩子玩得盡興，家長也能安心。",
+        "distance_info": "3.21 km",
+        "lat": 22.621456,
+        "lng": 120.3282258
     },
     {
-        "place_name": "BeerHotel 精釀生啤專賣店",
+        "place_name": "星際樂園 Galaxy Paradise",
         "category": "美食",
-        "time_range": "10:00 - 12:00",
+        "time_range": "13:00 - 15:00",
         "rating": 4.8,
         "tags": [
-            "精釀啤酒",
-            "情侶約會",
-            "打卡熱點"
+            "主題闖關",
+            "親子同樂",
+            "夜間營業"
         ],
-        "ai_reason": "浪漫氛圍裡，手工精釀啤酒醇厚，讓你們的約會更添微醺情調",
-        "distance_info": "2.18 km",
-        "lat": 22.9933554,
-        "lng": 120.1939033
+        "ai_reason": "星光主題闖關，適合全家一起探索冒險。",
+        "distance_info": "2.41 km",
+        "lat": 22.6402108,
+        "lng": 120.3207479
     },
     {
-        "place_name": "沃隼釀造 WE Drink Beer Company",
+        "place_name": "小綿羊親子樂園自強旗艦店",
         "category": "美食",
-        "time_range": "10:00 - 12:00",
+        "time_range": "13:00 - 15:00",
         "rating": 4.8,
         "tags": [
-            "精釀啤酒",
-            "情侶聖地",
-            "隱藏版"
+            "安全設施",
+            "親子樂園",
+            "戶外遊戲"
         ],
-        "ai_reason": "神農街的隱藏酒窩，精釀啤酒濃郁，情侶共享微醺浪漫夜",
-        "distance_info": "1.89 km",
-        "lat": 22.9978599,
-        "lng": 120.19603
+        "ai_reason": "綿羊造型遊具安全設計，親子同樂好去處。",
+        "distance_info": "2.19 km",
+        "lat": 22.6123137,
+        "lng": 120.3004666
     },
     {
-        "place_name": "Bären Biergelden 貝倫啤酒館",
+        "place_name": "娃娃兵親子樂園",
         "category": "美食",
-        "time_range": "10:00 - 12:00",
-        "rating": 4.7,
+        "time_range": "13:00 - 15:00",
+        "rating": 4.8,
         "tags": [
-            "精釀啤酒",
-            "情侶聚會",
-            "復古氛圍"
+            "兵營主題",
+            "運動益智",
+            "家庭聚會"
         ],
-        "ai_reason": "古色街道裡的啤酒館，氛圍舒適，情侶品嚐多款精釀啤酒",
-        "distance_info": "1.23 km",
-        "lat": 22.9985383,
-        "lng": 120.202385
+        "ai_reason": "兵營主題闖關，結合運動與益智，孩子愛不釋手。",
+        "distance_info": "0.11 km",
+        "lat": 22.6316019,
+        "lng": 120.2979874
     },
     {
-        "place_name": "Bar Alter",
+        "place_name": "內惟埤文化園區",
         "category": "美食",
-        "time_range": "10:00 - 12:00",
-        "rating": 4.7,
+        "time_range": "13:00 - 15:00",
+        "rating": 4.3,
         "tags": [
-            "啤酒",
-            "情侶夜晚",
-            "打卡熱點"
+            "藝術文化",
+            "自然景觀",
+            "親子教育"
         ],
-        "ai_reason": "東門路上的小酒吧，啤酒選擇豐富，適合情侶輕鬆小酌",
-        "distance_info": "1.16 km",
-        "lat": 22.9884151,
-        "lng": 120.2122339
+        "ai_reason": "結合藝術與自然，家庭散步、學習的好地方。",
+        "distance_info": "3.26 km",
+        "lat": 22.6582126,
+        "lng": 120.2850347
     }
 ]

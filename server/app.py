@@ -35,7 +35,6 @@ def get_coordinates(address):
     if not address:
         print("❌ 錯誤：地址是空的")
         return None, None
-    # 簡單防呆，避免使用預設字串
     if "YOUR_GOOGLE_API_KEY" in GOOGLE_API_KEY:
         print("❌ 錯誤：請設定真實的 Google API Key")
         return None, None
@@ -192,14 +191,14 @@ def generate_ai_prompt():
         print(f"✅ 已將原始需求儲存至 {REQUEST_FILE}")
 
         # call key AI to get 3 keys for google api
-        # key_list = generate_keys()
+        key_list = generate_keys()
         print("Key AI complete !!!")
 
         # call google api to create data.json aka shops in certain radius
-        # create_data_json(key_list)
+        create_data_json(key_list)
         print("Google search complete !!!")
         # call guide RAG AI to create options.json 
-        # generate_options_json()
+        generate_options_json()
         print("RAG AI complete")
 
 

@@ -5,714 +5,25 @@
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9986466,
-                    "lng": 120.1995582
+                    "lat": 22.621456,
+                    "lng": 120.3282258
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 23.00000187989272,
-                        "lng": 120.2009188798927
+                        "lat": 22.62290367989272,
+                        "lng": 120.3295091798928
                     },
                     "southwest": {
-                        "lat": 22.99730222010728,
-                        "lng": 120.1982192201073
+                        "lat": 22.62020402010728,
+                        "lng": 120.3268095201073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 221 1430",
-            "name": "JODOBE",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114708538313105139562\">wenwen chang</a>"
-                    ],
-                    "photo_reference": "AZLasHprCUuLP1luMjib15mtrINvRWLIeD4346xDMhHd_ycfWg1KkjqMdQnYyevMJIlbyBCXkuql2DUU0_mQQqWxFouSZUmHbD-1amJ_SOSgc9vnEZQgjVy_OHiGYDPR_nSFsA3CLnTwZkAUFLxXsTjSuGFCTiB9L2fM0JStX3dqykG2qMIJmjIKfSaiR0B8muaTn6-7VjJzcCfXMFIRmXorzb1nixLkfIp5Dce-CnMA-uFNyeSB_MgfFWYr9EYUqAzgQAPM0Lt3DaSrwfdb0FDJKjWWvlP5m7DRIdvlNTJ-21u9LJHX7me7kmN6PhejaxA5gCohW8I8wIoygKSxxzvKRSKHQQJRqFtRuV34XGr1ENmX6P1FkmQG7aLFuiylz61NGAeak1jdEyNNlKR5UU-1Dfllb9s5hP_6ADcja2G0d5G0i8eGAEQL7svfIEpbUehS-DB46OlnpSeEn1ouSiPsQzHJa03OgYHtF0WMBG43I7fP4IVGOmfq7mURlhFHNxqKd05_esPiCTm8f3kJE42FrWjcldEy8Tfu10aNcWlgxz3646ZG_nhqz68y6_Ipf8_4k6EwuTNAnxjKPr_FZcyxhQoh8mYi0Q",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJd2O5mF13bjQRCkhxoCHZCrk",
-            "rating": 4.8,
-            "reference": "ChIJd2O5mF13bjQRCkhxoCHZCrk",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 261,
-            "vicinity": "慈聖街43號1樓"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.997397,
-                    "lng": 120.1988032
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99873472989272,
-                        "lng": 120.2001922298928
-                    },
-                    "southwest": {
-                        "lat": 22.99603507010728,
-                        "lng": 120.1974925701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "name": "尋琴記 Find Gin Bar",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113478915114003881202\">Yaochin Peng</a>"
-                    ],
-                    "photo_reference": "AZLasHqc_nol6sEqL4LhG4NaKXPukYC6hMccrJsbJeOlhLduiqoQwwNJSaLyY1ZrWLz__w-rYpHyPTg0r5uSq0koubRf3lRpGOrxdChS2qydayTBglJLYqup-07A_kjXtd9-WsZl1tS1atux0qrmnizUXjzaaF7uWmg4n7IDAPnKO4tPSEJhSCcN0b5Itt7z3BkcrIil7kop-RE1cqqI0uMoBpYqcona0ff7fjCdZpjKNRuj3NPsYZN-pm_QCOZ5WgZiDX-riOj9v2jpFO58pJXL13zSGFkuNhhL2SUMCRGR0dn7sO4QBzqgm3yqPY3RVDm-oaDR6XE73hPYgAJS_lyMfM2QX8dciYxa4P1R99fPKGEjyS5PyDp89_3WtJrfChAbIhZVHHvorBxbFTIMecHcaqmDqc7dzbood930qi_SWuWYbRaiuRtwRu_Ta7KLSueEYXTArueWWYZ0ew5Hw76X8scSTgb0VxFCfCOjPCVFe1IcTkV-MC6qiPUAbsDbznfRlLD3lmLqB7HStrhrr9DJi0WFaEA6hrBAIXgOZyeOmM22ztDhmyVViG7oDCyuQ5bzsTlVh_9Y",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJfYiyGsR3bjQRZKXanVv8Gbw",
-            "rating": 4.9,
-            "reference": "ChIJfYiyGsR3bjQRZKXanVv8Gbw",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 228,
-            "vicinity": "國華街三段123-225號永樂市場二樓"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9966892,
-                    "lng": 120.1965012
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99804522989272,
-                        "lng": 120.1978514798927
-                    },
-                    "southwest": {
-                        "lat": 22.99534557010728,
-                        "lng": 120.1951518201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 222 8022",
-            "name": "GOIN",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1335,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/109749457340087666994\">GOIN</a>"
-                    ],
-                    "photo_reference": "AZLasHp4-FV2kmOac7AlZXLrHSJf1jK5_X6jH4IAhycWCK8eu8vjN-0fuR7Lis7aIj5k4zNVbuuc84IKWIgAf-DWZUtU7pvhpj-J4OoBZcbUEF6jmLCgg70jnCnrQDzbaeYGZoXEuMnHBfX5mhsCMSdqyfki4BPRGv8NXdj8oLQSOVKntB4CadINuKNOm402myCUvoLftZCQO-UHPNGPUvaBULsao8hqRB8EFcGGYTiFj_f1gyyVhAAeclDpLQuXDgVxkq6t9ODIspByUaHjWpJYD5WTwHqvPwWeb-nmI2JH9aSOTo1eq3c",
-                    "width": 3946
-                }
-            ],
-            "place_id": "ChIJh4pDLWR2bjQRdJ3ZxAa0Yp8",
-            "rating": 4.9,
-            "reference": "ChIJh4pDLWR2bjQRdJ3ZxAa0Yp8",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "lodging",
-                "store",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 819,
-            "vicinity": "和平街70號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9911178,
-                    "lng": 120.1975553
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99242727989272,
-                        "lng": 120.1989602298927
-                    },
-                    "southwest": {
-                        "lat": 22.98972762010727,
-                        "lng": 120.1962605701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 905 840 465",
-            "name": "宅·J House Coffee Bar & Jazz 爵士酒吧",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2268,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118274097714148555127\">郭秉霖</a>"
-                    ],
-                    "photo_reference": "AZLasHq7oDFBPOZvj7HhbpE-6cGkad0TBi3ZGJOyQwWLR8m7CCN-dJLEGm_GJTcNUPzv6i2CffeUZiiz8vbfnhvFUqpV7LfBQfs8Isajs3Lpehb6w1drDj35oMv0BqqX-vM-gXYg0i51bpw-bV9TnMBMBjMduNNo9chgrmIUkWej5tIqOIJDmWXFDbFtZn0FjsrQtGjTolK15hx8_om8pd8hpGpn2lTL1ztuna6grk6vk7eiz_conqJ-toM0KcFdYzAzclg_nFG9meCiOOs79ypO-sl0cjhMl3kDhhohXvyGxaUluBI0M8_lmFoY9OnKYRvqKy7HwuExTRrs3Q-GE-TlThLzQ1BXzN7JM85UK8wSUZiZob_SCStp06WRTPawsqINTWfdT1JfKqY2I3wyuyT1qGlAOfgqAWAbwqYGt899pBpV3uYFp4N3rkkm3911armpq9i_GWge_jHAq7DBgWHc7NLbicg8ejhtmTnIUk2N1YrGqpqnklcH9gFE5C7cSAFn6OetMiScuWQL0-ua-huJjdb5rUJkAiZ0PaY3vF5m9N92X_wx0d31tT7XNDjzteOufdmIo1s4",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJJ8CgDox3bjQRJyv0cL8iET4",
-            "rating": 4.9,
-            "reference": "ChIJJ8CgDox3bjQRJyv0cL8iET4",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "store",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 432,
-            "vicinity": "西門路二段25巷1號3樓"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0002951,
-                    "lng": 120.2062361
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.00161037989272,
-                        "lng": 120.2076076798927
-                    },
-                    "southwest": {
-                        "lat": 22.99891072010728,
-                        "lng": 120.2049080201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 989 696 935",
-            "name": "Swallow 嚥·台南",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/100051666989264951271\">Swallow 嚥·台南</a>"
-                    ],
-                    "photo_reference": "AZLasHo_Ni1lpcKDeKkmF7krlcbBhUMKGweJA9FJ1aKwwZS6VBLgHwJh0GL3e7cn1p9mV3SWnmNTE1agLrnk720UWjp-JUISti9AofPiBJkMaxXB9nt2ZxopzL_tBHzFq1f7IxTsrYC8nOtyR_K_ys7ADMojFfRpPL66B_f0dhnOUyUh0EPrpxOvIbFHk8CSVzbm76S4h0sGdoIOd5VWlQCyCcIw6WZ-UrUIoDQcivpol0-AwqbPTR6M2qsCVDFVs1fKSZqzRJ3KyeSOsEp-iJmQiWyE69091YvJ87_8H9z1C8WJvmCN2vI",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJN6o-aOd3bjQRX2VxjfqpU6o",
-            "price_level": 2,
-            "rating": 4.7,
-            "reference": "ChIJN6o-aOd3bjQRX2VxjfqpU6o",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "cafe",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 834,
-            "vicinity": "崇安街27號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9983084,
-                    "lng": 120.2015649
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99965912989272,
-                        "lng": 120.2029095298927
-                    },
-                    "southwest": {
-                        "lat": 22.99695947010727,
-                        "lng": 120.2002098701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "name": "依舊室 Always / 公休請看粉專",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/104361506550406050655\">Peddy Su</a>"
-                    ],
-                    "photo_reference": "AZLasHq3LeH7FECNlmAmcRV6MqgM0A0uLJqZ6Pe5tW8eF9uN8wkKRMi0VSx7Ir95ZJZCaXAZE0ytgcZ3N9HPGTEGw1KqKP_JAMQKggXPj4GiwzASmubBqFEISjMRHHwfCkLO4u4FrpQF6d497h8qOjldyX5zD0ZsX9NP-7MghSBpOKIqipTLORNb6lin65EKsiYB1Mblezf2sixj6fA_sqUe--P6_2JpHarHaVR7XzwhBgH840TmKePGKGHKZ6RrQYv-vTscp06PxjTeIbxgHQJH4c6X4wXN-Y-YUXwtLv_OeBkYBM6lgGFyVGCviDsRWFcQkNqEYcoHUfC0AcoilVuZ_BWinyBqo3AyGzgRETiaAXwyG1kN08T9cfLjrRWYJU4JYXgHuGAsYC4u5824j5xDbM7CnmIG_RRY8lEvIa_VElSxNVrE_XF_QHxStWOHSaTSXnyA6AIa3A65HVoJLakbyhim8BLs0hOmVAPQcKtKij9R0n57HSA7eJnaquRy40QnHjIpI62d1mCWTs39L6fsMRL9EOEakNbAVsUFd2xek-WBYMPIAMapDmr0rVFbzx7thToFP_9w",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJuxTuD2F2bjQR73XXl6z-Bq8",
-            "price_level": 2,
-            "rating": 4.6,
-            "reference": "ChIJuxTuD2F2bjQR73XXl6z-Bq8",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 476,
-            "vicinity": "新美街185號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9957958,
-                    "lng": 120.2000807
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99723072989272,
-                        "lng": 120.2014788798927
-                    },
-                    "southwest": {
-                        "lat": 22.99453107010728,
-                        "lng": 120.1987792201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 222 7922",
-            "name": "Tunnel Bar",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4980,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102992652978981655408\">Sammi W&amp;V</a>"
-                    ],
-                    "photo_reference": "AZLasHoiJNdIEOhL2_yp68tcidTO_p8OkB-rExl_xDiphE4TrQlKk2GLU9Y2LQMPQrnMnOHLVUtUfLCndDKCdW2Eyz6Pe3IQP-7b6RqjYo2E22S6c2gEIr1eEd3AwYOLvaSZmW1iwKox5AovPsWUTucytefrwb_YLH8-oDnDjpk884Io5bwqzy36nfiYmsVFxG4MMCszWE3P02cMXqXQrRtFoP3-03Gcg-jGx8mA0SNEy5DOYmuGcNM3JO-nqgW9Y5A0UM6IDXwbkKbvbl6rghzabKOxP7moYoFMm2hnU7-l2AS7O-FezneWVzvNCLaQ0IrVzoCVUhol6C5VesDk04sSKmUEiP2y-0w5hJvwZqnvYz3XTEsZTh-_O9xOuJ9du8hMg4OSA35L8YFq8rrghB2f2qpNCnMDeKN5hvPH8YBvvGtyYX_3hyy7eRWlmdPIw6Pj2I6O7ssluBjzID9lXVYxGb_c6SFhuw6hEvrSDV43rSkiNz71uZCP26epT5s53VznIy3ZdguHm0oje6ORg9y7w2CYzdnHC-oRrIpbc9M8FpP5YbKc36zpFVKMb3xv8I5Q5ca5998E7hyJKg",
-                    "width": 6640
-                }
-            ],
-            "place_id": "ChIJQy_6RJp3bjQR9p06lyD3U38",
-            "price_level": 2,
-            "rating": 4.8,
-            "reference": "ChIJQy_6RJp3bjQR9p06lyD3U38",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "bar",
-                "store",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1551,
-            "vicinity": "民權路二段291號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.993235,
-                    "lng": 120.2038809
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99459097989272,
-                        "lng": 120.2051872298927
-                    },
-                    "southwest": {
-                        "lat": 22.99189132010728,
-                        "lng": 120.2024875701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "name": "擺渡人Bistro《I人E人主題餐酒吧》｜暢飲活動酒吧",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1045,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110013712765032870489\">擺渡人Bistro《I人E人主題餐酒吧》｜暢飲活動酒吧</a>"
-                    ],
-                    "photo_reference": "AZLasHrCXPhbrtPfAPrU-xu7tVPSkgaEhqhH3UnOKDz7fA6FSh2rZZqeGpM4KeeTE7Q0bMH5E6hjW5N8PWATkXsI8hOt8VaoCESU6EF8WUmt3oZQZGMi32OvL3_PVJ1T9BNiXuaxiu6BCP2YQbeTC00rughflvLp8iKEGtAR_nFd8u_gipbNW25dGhSNKymHzkefkwjUcUWNOhTvAQ81PnG5sLGOpnHTZLi7qcvegl1J7IG19LlWnB2mhNE9KWG_x8oilVhHNKFCU3CDO6BrF7q-v82mzyIjbUawH37TbWT5yvZc5x2pZGI",
-                    "width": 1567
-                }
-            ],
-            "place_id": "ChIJr729AAB3bjQR700Yz5FhDrw",
-            "rating": 5,
-            "reference": "ChIJr729AAB3bjQR700Yz5FhDrw",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 204,
-            "vicinity": "民生路一段34號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9911966,
-                    "lng": 120.2085503
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99246947989272,
-                        "lng": 120.2098835798927
-                    },
-                    "southwest": {
-                        "lat": 22.98976982010728,
-                        "lng": 120.2071839201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 222 7520",
-            "name": "1949 Bar",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1046,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114361171828277664756\">1949 Bar</a>"
-                    ],
-                    "photo_reference": "AZLasHp_v-uRkoeGb92rpuk9_tNjKn4kgdA-zNS5EYtqkKpC50317yWhfez7is1uoWN_nka75cOMVXe4jYwVeNEI-BniGYEmV8MxNqI5mCWprUYWrYgxbLRcQuXa7offKKi5WrIDTfNgvnk6Dn0KAU6ctx-_345AAgEfeYUf0_hwQKic9aGB8vWtmiIygcQGJPWj4gCmjGoRsPKo2KREry5B1LGG7XBWU86wEv9pgmluIMWrbUgOu2MNZCWhiqBfyAuZoZZSOYVXZT33gCOP441mU97PunLybNzgTgYhfIaSyjUZYseHFHo",
-                    "width": 1568
-                }
-            ],
-            "place_id": "ChIJEfcBJ9V3bjQR_336b1azOMM",
-            "price_level": 2,
-            "rating": 4.9,
-            "reference": "ChIJEfcBJ9V3bjQR_336b1azOMM",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 605,
-            "vicinity": "民權路一段148號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9884151,
-                    "lng": 120.2122339
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98985467989272,
-                        "lng": 120.2136153798928
-                    },
-                    "southwest": {
-                        "lat": 22.98715502010728,
-                        "lng": 120.2109157201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 215 0502",
-            "name": "Bar Alter",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1497,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/112202856579601326384\">張小琇</a>"
-                    ],
-                    "photo_reference": "AZLasHqjM6iQdp95RPmzwTqUlldsgwTEyJc8tc6FeyKkN9Lf-vK5t7_UsuOOwlHgzZ4X6Poa_ffeqO52bse4KqvrtUpQ4wTBvz1DV7NXaecU1bx1UdycxiQpgZnhVOq5K5vx6bpa4bKJGXpe46Ryk_U8-RZD72Mf1d9HYka3KuEVuGRMNwWfabQCfEM9NOAFPa_-bY8kO628UEAFTgTo4B1Tsnsn59zYPn9ghGLeWRgme4C-fzZv5famLBl1YkQ1GRRqsqrJqhwSQ-ncC4rsm0t1x-KUzsPWmAGivEQ-XQhLmflR_bzB0n5v9bA2g-O076XBwxaBXOohqkTufXKJHxojzk-1SWwNBtT3bSg07pMSC4932fsN2SsV9qtArQNDvBFgexui6-abAY-SaIVkk_M1JQZ-nQ_S3KHKuDEwhxAykL6fKa8uGcqnhYa1cgTwby8N6Ys5hbNBgt6gjgR1ZnXCX9Vc6_8XAuJTHiV85wR8r4I1o6R1-hkD4yXwLD27v997ToDeMMAyO0ewvuLNTjzFi5Keb7vB3-xoff5PUnsb5CYD9MTY-GcIN7cbrPsTeCxH4lhipXzh",
-                    "width": 1206
-                }
-            ],
-            "place_id": "ChIJzT7QOHl3bjQR37m596hxyI4",
-            "rating": 4.7,
-            "reference": "ChIJzT7QOHl3bjQR37m596hxyI4",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 202,
-            "vicinity": "東門路一段22號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0007539,
-                    "lng": 120.1621878
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.00210397989272,
-                        "lng": 120.1635388298927
-                    },
-                    "southwest": {
-                        "lat": 22.99940432010728,
-                        "lng": 120.1608391701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-            "international_phone_number": "+886 6 221 2816",
-            "name": "裁縫師深夜咖啡館bar｜裁縫師咖啡｜形象概念館",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1108,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/117928673392374024639\">郭純菲</a>"
-                    ],
-                    "photo_reference": "AZLasHp3ffylI_GIyGKC34K9ArDTxhe6fHkOAzet7Kk7Yg35RODwosetui0wp25HkcNeBhw1yf1rk0mxeenquzpGDWDHb6Gun6uZS_rTsTCyg9VjMVC_WlRrPquOd39BPWY0bScHSRTkfWhqJzVMlZXhoGCnInpLrQueawFR5fhU19cAK1nzxrINVDDKZTw18JdepXsgIRcNF95dBpYNXLvc3O40yqq3XzAiJZmbTU77EiF9U8OXawy0rOvsizjInY5hB2unm9WhcZuwIzyjmRKFt5NoQhJD_dv_KxwYH9eggiysBWkSe_OY9Ew6gnWw0kqQ2YrmUceSKkCDL45psY88beN9RSOOEV5g3HS4FOlSN9caWyeJi4vbt8MlC2yKHHxnIW3dlTxpUlOtv2AJCzRG6Df1LnmCYKyeY4TMf2dy0PNR6FDERohEK1bP8AZH0wOivXWBUs4coAuFEt_H1lYv_nEHDZK_p3m8OTd1I5NXkOn9MqMmTeD0YO9_BYp8Exkfu26_v77O2PRZPLt1v6TBjkgxm-ksFWdBLJQrA_lBsPM4mzs0-7rm_rjlkND5YeyLaTPZEImR",
-                    "width": 1478
-                }
-            ],
-            "place_id": "ChIJ5U3N4Bx2bjQRUykr8nSaYPc",
-            "rating": 4.9,
-            "reference": "ChIJ5U3N4Bx2bjQRUykr8nSaYPc",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "cafe",
-                "store",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1808,
-            "vicinity": "延平街122號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0006905,
-                    "lng": 120.1947246
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.00200062989272,
-                        "lng": 120.1961303798928
-                    },
-                    "southwest": {
-                        "lat": 22.99930097010728,
-                        "lng": 120.1934307201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 223 6551",
-            "name": "Bar C•L•C - 招待所",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1080,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/105645838265092574061\">小白</a>"
-                    ],
-                    "photo_reference": "AZLasHpE2ws-geHAw-r6RPAiclyXMq93RlBv89fjIkXpP0j6rneylnernSBTdhC8DHgXrMYBpjX7bNBdHFI09udIAdoobid-myw1FLf6ysyEqcQ12pwl6riAxY5kVCKBt-8Deg5NhUZiqdGb_pT-hpWCyJ6FsbgEkki8akWed-GHG262Z1GAo3YfLrg8gWLslCJt2wanr3gMoQHF_G3pNW77GwL6A_mb4-daBVv3gWd3b5q_SUv601agPZEtrNOz4g1fO9xifCi0Wt0JJ7ieBIPzIMjeWjP1nuWDGMK84GiCAGXo7mgWTUMPWbdz6K_lBOLnAbRJmbCqhoLIY8oQHylgDKXrZxFVWtNphCFfr9Flq4n-bsmCRnvFdGXZjWezAf1iQxIG3snYPxkIaLvSj1DTxli1Bs2bT_8cUTklFQa_5GqgvrjU6j7y32YUOq0bADKzf_XrGrYAp4k6iEPB6WWqM5mAmInMk-2jYhkfo9wUxjJY-5GoVzndQaOqM748MO5KJAKWHCt6kRGFdPs-l7Ehsfy2l5BJXYdpUftfc72r9EG5Q8HuxFSC3ahDNovOT7lj4AWZ_I-WZlnWfA",
-                    "width": 1616
-                }
-            ],
-            "place_id": "ChIJ-QuUzzh3bjQRB3l6yVI-VZ8",
-            "rating": 4.9,
-            "reference": "ChIJ-QuUzzh3bjQRB3l6yVI-VZ8",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 267,
-            "vicinity": "信義街108巷1號之一"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9823644,
-                    "lng": 120.1992038
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98371417989272,
-                        "lng": 120.2005654798927
-                    },
-                    "southwest": {
-                        "lat": 22.98101452010728,
-                        "lng": 120.1978658201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 214 4975",
-            "name": "墨閣 Moger",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2600,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114293334649780521431\">老油條</a>"
-                    ],
-                    "photo_reference": "AZLasHritvG23ehhWOf8TYu4u9PRzvF46Kre2WKX9JBnbYa4jGr8qBncqkDKWaGg19ZiEbHE_CiBLZFxDy1VXc49czO9GBwV84hGVX15Uo73HKTn_m9rKZgFYEu4ZoSkxN8kwudDsTpmGc5yZQmHO7jbWcSn2MfsN-KElavsu2AP2w1svTsuwGFdGcLKT_yvsurDqbF_SQvZcjBL8rHABDWeuuVxYIV-LZ3ZHDLlSV6ajyqROOTAUd0YMxLKClJpB71D2quo0ZidazBGaRzuXwqEI4pWBkcmGqXDrmcOBxKoghy5ySpirZe_CggfKOGJQ4k5Tkp7SQLV5GPcwBQs_A2Zt01htkpbASnx5gshFbbqgj-geQ0XWYWPaoHPouACIfMwXagfEH8FEaAqZ2fvZsStYooo170vAHRyVOUHjRyCrrn4SgDGoiGJEU7nmGStZwTI-o_2FL_EO0N2SDJi49UIYslyxDUi1Q_XUmwVRVgm1FPgl6_-OEkEDcaK0hHSP48IWyOs48NRxmC5rtHF-D6OyGHf521twxE9bChkyXXY3FfAe6-eteYtgxYuNBwi4rrlS2psIz2i",
-                    "width": 4624
-                }
-            ],
-            "place_id": "ChIJe4QzMNh3bjQRcoxC8R4mGgM",
-            "price_level": 2,
-            "rating": 4.7,
-            "reference": "ChIJe4QzMNh3bjQRcoxC8R4mGgM",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 128,
-            "vicinity": "五妃街309巷2號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9877817,
-                    "lng": 120.1958253
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98913077989272,
-                        "lng": 120.1971557298927
-                    },
-                    "southwest": {
-                        "lat": 22.98643112010728,
-                        "lng": 120.1944560701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 931 999 262",
-            "name": "BlueMonk",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102059696439057960044\">BlueMonk</a>"
-                    ],
-                    "photo_reference": "AZLasHogpox9IntXmcdxe3q27uNYL6fBnsxQ7UGSuosUjvw6vTM5fwFLkaodLCf9qHJxS7LL1-_1NchwuG4W8DBMfDQu2n9xYmnY3T51c85gZaK__xErbmtQmJorHeS-7yD5isK-jcTs4J4nQm2mvZQNgWfbg30PUfWw-ORH_mkiIR5pLpkHxBmetHqXGiNlUlLWVB04TNNLJyfWti8AzSWF17BtnJClsYXrUoCZUAF7cdFcvplm_GZ05L1nUhDye3uDw0IIA_DsiQlYWduBXBZh2WR0aoEwzdWlEOot5Uo1ontCe6hY37o",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJZZqY2N53bjQRr3E1DG9NLwA",
-            "rating": 4.9,
-            "reference": "ChIJZZqY2N53bjQRr3E1DG9NLwA",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 116,
-            "vicinity": "大德街103號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.99649,
-                    "lng": 120.19732
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99783997989272,
-                        "lng": 120.1986348798927
-                    },
-                    "southwest": {
-                        "lat": 22.99514032010728,
-                        "lng": 120.1959352201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 221 9228",
-            "name": "King&Queen Bar",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 7 727 0853",
+            "name": "E7PLAY 三多館",
             "opening_hours": {
                 "open_now": true
             },
@@ -720,341 +31,48 @@
                 {
                     "height": 3000,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/115212082920096326113\">Newman Shen</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/104920653764426494340\">E7PLAY 三多館</a>"
                     ],
-                    "photo_reference": "AZLasHqoDS3mn36HgCTfvaIFEBMLek_0dku7Lhx6e4aVOJEqkL-kWK3u-y7jb4HuVkClKJ03JslOiWHvKXFJ-2Udzy7XNbkPDtrBbCozYS3Rfvseu1UNihp_8iXqPnc_LsFkAC8TtFkS6Jx43uiOrTCDibBkPQVWvlyEK7eDKQm3DaHVcEHyvqzsYuVfFgRYTMCE3frGjHE4Zrzp3rGcPwhaaP3nYcrdndMmd0TYlSYehI0-95p_jLxVY6FVFk5X21tSwGp9-WDsbTjvrJ2Lh-zygyxoUbx9zic2JJqWnil4n0rX9-J3VElcVn8XmW9KnLhXy_5g236Dvv2cYrnqawx4UO5iqidKiTtdPHVk6k57O3d0D6is1sTqDigveys_QAsxPQHfsC20AqIRtph-M1uV79b8xqokO9eSN1aPPJhZHK05g3YvI1Tzbv3Xir49470q23ShH6MMK9-goMZr3QVTNMRaGAbKVckGsdJKWBdbEkujxzXNKEuobp3hs3FV45N66sFR7R16bwAmH8iMdwcSfHbdDKG79hVUSnwBL0wmV8fRhVjfwioHbflDgFVd8Bn5HSNBHjSkeD5Gpw",
-                    "width": 4000
+                    "photo_reference": "AZLasHocwIW5ysvMNfQCcGsuaKnd9xFf_HVVEEQu7ewZ4oMuWIyw8VTE-D8tHelMyj0-wNmLyTdUXcpaWzIib7kVkgyLUzdtircezL0UjlRn8H946M7CKhhOsUQqMShxYBQ1DBCbABg_yb-G6m9ifDLgdkkgVfmTuLrdiT_5m9iAhJG544s22E4r6WHaBKNkB4PLViciYG2soCFJqUT7muPvxBLfuKIY9mlIWg70iwBLUCdxCBXlSBPH_osu0vvPJdBFxqnUjpuLFkB9L9uAGmLyOHGqosYXttgaVRBAM6E0KRyMrrq62-I",
+                    "width": 4496
                 }
             ],
-            "place_id": "ChIJ-f81yol3bjQRZi-zvpMw1yw",
-            "price_level": 2,
-            "rating": 4.9,
-            "reference": "ChIJ-f81yol3bjQRZi-zvpMw1yw",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 492,
-            "vicinity": "和平街32-7號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9925058,
-                    "lng": 120.2097547
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99386022989272,
-                        "lng": 120.2110797798927
-                    },
-                    "southwest": {
-                        "lat": 22.99116057010728,
-                        "lng": 120.2083801201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 223 1035",
-            "name": "Corner Square 咫尺角落",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2666,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110210964171314617332\">Hank Chen</a>"
-                    ],
-                    "photo_reference": "AZLasHrEi1c38FJBcXDO8axdFxRvroEaReokos0CL8sDBNvgdr6x8uRM1A1Z0WcOpoqdoFkznx7FcvARb6bDkASrDOvNrZZcuWH0-oErRRoh1K_sY7eq1-5ULLbCc9paVJ5ZslCpamK2mV20KJZ2LRqnxH20kUKyj-2-T6hAtBF30TryQu4Kc_UpfrXkH1SjLYakEvxXnG55yntCbWbskfq3rDu9wgFKI01IvKMAF0h79lE97aJmIDxSVoWqVHsFP-ewQnixanH4TcTj3AJBX-yK06tLiUYr3Q9iOBiWr0JzY88gko72S8Pu_6FCk_ANrMVpOF-Y3nTPJWgcinUFXYy7VKH1ZcaDd-DAYi6JfRCMgnL59JGKxVG9IbsK2HIi7C7sDJIcYr9hby9yGUNk3NePpxuUwIdmIrGqMKMYxUugVHA4C3G5LlamCUDcEIaCk1atd1V9Rz2AVTRK0j69W7cY8QzJVmFnCOshLFikexARphSZCdGFG8jPSvnaSoBfR0YgUFQv-az4Y1Sc4R8zcJxJ4UYxOvK7om9THu0NTHDm32oVgTW6C-ec44VsT4VckBGE4ZJv7Oy9",
-                    "width": 3555
-                }
-            ],
-            "place_id": "ChIJz62B_FZ3bjQRkGXIzFTZTNQ",
-            "price_level": 2,
-            "rating": 4.5,
-            "reference": "ChIJz62B_FZ3bjQRkGXIzFTZTNQ",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 875,
-            "vicinity": "武德街22號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9937702,
-                    "lng": 120.1959711
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99514667989272,
-                        "lng": 120.1973809298928
-                    },
-                    "southwest": {
-                        "lat": 22.99244702010727,
-                        "lng": 120.1946812701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 222 2438",
-            "name": "Bark露天茶飲酒吧 台南海安店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1842,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/112675148230082864742\">Bark露天茶飲酒吧 台南海安店</a>"
-                    ],
-                    "photo_reference": "AZLasHpRa3A8eufrpVYiMKW51SjZwVdhSSNg56c-22m0yJ7HefdHvj47xIdJx5aPYhlWVygMJSq8BMasBD4Xxq9fiqqdFK7REyniNCXEDahgcYIHKKYvNM5zAQZrEBFogrYLHQlPXRxsPLIyvS4SQ_Z8u9WI_GiJgsSBVWc8TxdxS-w2c3dgrdHpOTNhRxcI_85pKGG9rsMLMr4GfV-WFAYPodMmsw-zXqN1fPtLlsm4LS-6_gk7GBQ89fsY-ROCQfLeDMWQ1Dt63HAR9z9zlcf7l-aiw1DIb8XhBgzsipsXFg5IMcOI5_E",
-                    "width": 2554
-                }
-            ],
-            "place_id": "ChIJjfqz12Z2bjQRPnpQFxy916g",
-            "rating": 4.8,
-            "reference": "ChIJjfqz12Z2bjQRPnpQFxy916g",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 2842,
-            "vicinity": "海安路二段19號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9918167,
-                    "lng": 120.2055321
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99319492989272,
-                        "lng": 120.2069351798927
-                    },
-                    "southwest": {
-                        "lat": 22.99049527010728,
-                        "lng": 120.2042355201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 901 388 654",
-            "name": "T_T_bar",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114004661693972752256\">陳Lawrence</a>"
-                    ],
-                    "photo_reference": "AZLasHqiLsmBA_ymYjYhctmxRwv145FUt7qbw5-cgSv6p02P5XB_HUUtPUurpVGWyRv3JyscpTR8nJbEx-4SylfOPpbI2k0ICYY5QxXG0K-Fa8guQhZEBSait6p9WpGoi2Y99t1rTz6w0scriXqcpCvjXvuP6HTvI_eRyk5XFwJ7BzQ-_Hov5KPu4kSenUNROo3jY-A4E9cD4LI8cKumKYCbUJicenPpVLW2T5pPChbaRdkpPIn4x7BV1iF188dNmSG2h4cUcXA7o_Of7WPuGhT-jQDUxjLU0-oZ9OencBcAZloPZbTGSNNYpW-Yn7vdvTMxHkX5wtzZkEKsKPoPzK0HeVcZkRFPkhD9BtXPeJRl_xpAqIA55QB3lj4Rq73WEbb8BenmR2nkCwE1qFE_i4k1HaYzwqVhKXpU_mgy9VOF_5gpdbGmn9Vg0DdvZuHLi-GSPKCl_SH-GeriDn9pj7W8WeKcDuepcJnfFerH_CZwAq8clmmkKq3HbNZmYWYVPDlW_LLLc5Ih6nQ6zwTY14zKm408DgiEKYuBQo26LcnRrt4-ByoXnQajZIAjxQjTbQVe2syHWuPG",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJt3EUgiJ3bjQR97PuWLiqjPE",
-            "rating": 5,
-            "reference": "ChIJt3EUgiJ3bjQR97PuWLiqjPE",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 128,
-            "vicinity": "開山路12號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9940424,
-                    "lng": 120.2105744
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99539407989272,
-                        "lng": 120.2118453798928
-                    },
-                    "southwest": {
-                        "lat": 22.99269442010728,
-                        "lng": 120.2091457201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 222 1455",
-            "name": "萬昌起義",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2268,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/111508492471801125144\">萬昌起義Wanchang-bar</a>"
-                    ],
-                    "photo_reference": "AZLasHqQvwiv_hJWmCsXnQ2Pw-PfZm3wqAMfRAHW_zCJScPWiAymgFeW0EFSrTxILAmQI7tM09WYv-SKKg2BV264EFflZeQZuTWb8PsyucmQlCo5_y2J09ypd8iDAw2KlqwNnwWIdPS5Er8s1F05Z0PGPFnKh4lnmvGuoZVAvr6lKoV-rt9bofApBf8LekxzosZIecWEF_jyiqYuiylLNAU3BpX--W_xIGQMLItsbxSVEM5XMZcyv3y-f87TPyx2COBkz4wQSaFSaJTAoFB6JJzipRd5zmwn7rqtlW5TOrdtGEtuB-yogDU",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJi2rbHIx2bjQRXM47eJ_XzWM",
-            "price_level": 2,
+            "place_id": "ChIJM2u4MbsEbjQRQr7Cwl7v4_g",
             "rating": 4.6,
-            "reference": "ChIJi2rbHIx2bjQRXM47eJ_XzWM",
+            "reference": "ChIJM2u4MbsEbjQRQr7Cwl7v4_g",
             "scope": "GOOGLE",
             "types": [
-                "bar",
+                "bowling_alley",
+                "tourist_attraction",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 1257,
-            "vicinity": "民族路二段57巷5號"
+            "user_ratings_total": 7371,
+            "vicinity": "三多一路335號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9999321,
-                    "lng": 120.2024378
+                    "lat": 22.6402108,
+                    "lng": 120.3207479
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 23.00129137989272,
-                        "lng": 120.2037723798928
+                        "lat": 22.64157012989272,
+                        "lng": 120.3221435798928
                     },
                     "southwest": {
-                        "lat": 22.99859172010728,
-                        "lng": 120.2010727201073
+                        "lat": 22.63887047010728,
+                        "lng": 120.3194439201073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 224 1118",
-            "name": "Bar often常酒",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110683326625327366550\">Tony Shih</a>"
-                    ],
-                    "photo_reference": "AZLasHpHsZpxCEza0OlzcEm6dDq1X6zJnS-HogYz63hXaKXjiBBlqwsEsdin87OFpGrrBF60PrlDxt_rW8iMIpFwK18fiQJwl3p6tHUf0zaQ9NXCVhHkNREip2Ctr-xe8e1Jcrva_YwfJQd1fmzwYjryrbWOIX0e_FJ5irNTupPcj2XXCHLtej2qjUYlHp2uLQLKKLtRjPh5sJg6mBmBTtr49a-Qqi2AvSd7tDqAXgbk4FdAreg3fZ03Jrynfs5KkB5Hu0wdYcxjymsmsgoCTf4TSvqgafMjqK2MUHhOYaoZKyo8N3PvwoOgLRZStiVGTentB3jqX0J-gfJeSH3gISOlKrv-hb6CRkAxfRbx-Pn3fFWqsuOUEgtlueIULtuK3x67myaXU2HWf1UM47ghK759dxhxzyRZJLmTJaQ5WQsFku21tN_HnwHiju0x6BnU-7rGhyyxCCk-l-JGAfwxKACIMgt2JBeqp331t5bcp-8FKb_JrmQN2q7zvEIKkeaCiAUo6orzrSZXKqGjaVaMFyJFrmX3sTYErwZoQ6gEGBIsOlGE2phg3fyyY8CTygfihaLS_qT1A6wE",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJr0Z9BQB3bjQREI7vkMFvW8U",
-            "rating": 4.8,
-            "reference": "ChIJr0Z9BQB3bjQREI7vkMFvW8U",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 193,
-            "vicinity": "自強街24號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9944226,
-                    "lng": 120.2076708
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99575767989272,
-                        "lng": 120.2090396798927
-                    },
-                    "southwest": {
-                        "lat": 22.99305802010728,
-                        "lng": 120.2063400201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 221 1314",
-            "name": "碳極一三一四居酒屋",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4284,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107556614356547655335\">柏柏邑</a>"
-                    ],
-                    "photo_reference": "AZLasHr1gU77o-2MBDB0KQrH-3e_c1QvfczfQiVcOgWnsCq-YywxS5On-F6RlPNaLisF2z0LiUNdtGoKF3Ns0GJualKoeu11dzjrG_7whIbL2SRv9oNQRJjE9NXodUml95vXOlAtK0MQdBVA1QD-3wwqtd-DOPKPEC5O361fBedUb3xlCzCscniRWznCcNO1nifu5v5r36ehHP_hpRSVmZln-F4XxPnqcav-qFmeU8AxA190mwCuODrEPHq122hLhliRahUVryfT9foJxKSs9juPbFdcxsZVtfLsL9ppAn_xkp4_bqI8d6M2PdtJAk9mESt7KwJOSCrfYQTJ46lwZb_XoLepEceehSziQuPT6felCwOB4695pE2Sn-ytoYY5_NUpZ00AcEST2zHZKW8JKai2CCPGTyJMm0tHtRosxUjhRQttv4Xk6fTvk65nnD7XX_f12ZN5ChfcM3yTm0P-OVysROQ49fFAgZMKcdoM3nsZXK4DNIFY7HwzocsBDtVu3GRMNVbXUDr8UWqJPNC3rYF1L_O3IysV3Mn6Rkvr1PxoLxAb6BDa5TNc8QBwiVOyjbvOEFnWUzgD",
-                    "width": 5712
-                }
-            ],
-            "place_id": "ChIJ_Q17MhN3bjQR9ccO7pJfYdU",
-            "rating": 4.8,
-            "reference": "ChIJ_Q17MhN3bjQR9ccO7pJfYdU",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 773,
-            "vicinity": "中山路101號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9955553,
-                    "lng": 120.2014954
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99691252989272,
-                        "lng": 120.2028483298927
-                    },
-                    "southwest": {
-                        "lat": 22.99421287010728,
-                        "lng": 120.2001486701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 221 3018",
-            "name": "好男人酒窩 食事酒場",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 973 277 231",
+            "name": "星際樂園 Galaxy Paradise",
             "opening_hours": {
                 "open_now": true
             },
@@ -1062,445 +80,47 @@
                 {
                     "height": 4032,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/104079959812896558387\">Angel Wan</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/112574028810081417478\">Ho Jin H</a>"
                     ],
-                    "photo_reference": "AZLasHofNK0V6pZf6ZnV9-S399b_UB036ZyQhD8c0qdek4oKrc-D9qkY5YNndklpQtB4ogNx9XJN4f-PyFZET-EcMSsQydj2VJWvsLsgf4Ps7yhofekTPMH9Rr_LGbq8x68thDQqOaShjTtAZ-xa2Cqiw4KxmWl1NwbFSgOKHGENB8Ou-oXdIa2iFYuS4pINDsXd0wTeLSUOVwfxLCZKyL0JaAeEba-HRUIqm-hZ1VwKaGokBLJmvN63iTQ51uYplfqAiO6nC7GOYg5YC_acXXNz053OkBRCzG5FFt7kndzXPXacTTR1hF7k3pkuuASBSxpN6An4jOymPpZ2ScaqYal220KmmQGkydmn8U0wMWfqyDNIxeiY54GJIMIkZ6lnAD_krZyqRziz0pdBG_zTOH9bevZ0Oy8f9rx23MUADl47GEKPvY8a7lxEofx1rMJI2Nj-8t3vNv7UASEtAW01YKgLTyGdvUs3UlzxP-R9w1bDbebZioHVkKIQPZLdUAEgpHqIwmWaj8qOhvH7wEWmxsyrKNaOc-i4tI2tZM1cdyqQC303om1b4P0Mno17cPoNJ8OVLu6XmQ",
+                    "photo_reference": "AZLasHq8rFhTpgwXrlqAWAcxaYG2iDnY17N3SKZhZSL11D_BjZmVnt9VbDZn7FtvMFOp9OxLogWXPhU-2BO0e0_Rf6IFuwLH5k1ii0k5rdS-O-r9q__CtFH0hZ9MEeAyJmzWVar-uOGJqDf2p7SVtP81qN6paVzGKR8W_WgkXJMNPl8-4IWClSFqkFLlzcQ00mWmVcVXk3sFYyH_U5QmO2moQxkTJqGE1mNStRMO9LdbDotxMw8mCt2DvNPhhJ137UvpI_mDDiUjDojs2sNOYo82QESb0ZZwe973ez63En3Fx0yPH0PWo-iySgFvTXlxRXAGgU6VFu2HjJjHZdgmb4cu9dET5GAzo2azmGijA5UKhRM52B1PP3Hh9jC4fFyfRlb0PYuME2q6ftpGRenG01kB8uqAOEHxehOncLsyEPHDz8yLYGCArMQHCgTiaaTxsLMZNNcmNmnpJ7A3NRnFKLpIFC3laPRNDvufm3NM3sZoFexAyg5gMbXjQqjk9XFKdLw4lxa6DKNnjyMmFTGyR9G84aHMh_fX2wnidbjeTNo5VHRcGyA_S7XsbYZC-S0YEYpJN83HzETx",
                     "width": 3024
                 }
             ],
-            "place_id": "ChIJy04UIkF9bjQRijrPTdkJKO8",
-            "rating": 4.9,
-            "reference": "ChIJy04UIkF9bjQRijrPTdkJKO8",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 269,
-            "vicinity": "民權路二段204號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9972108,
-                    "lng": 120.1970956
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99863607989272,
-                        "lng": 120.1984837798927
-                    },
-                    "southwest": {
-                        "lat": 22.99593642010728,
-                        "lng": 120.1957841201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 221 0066",
-            "name": "吳留手串燒居酒屋-台南店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2878,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110210964171314617332\">Hank Chen</a>"
-                    ],
-                    "photo_reference": "AZLasHrZX-ynb_mJo8wJbUhk1L6g-bB7qktYpfckn9FMC6zcDIGLFHl7SSfwiuYIyjWOdBxvhYnzSBDe0XY_H5jkmUPE9izTW1p0w28oBbIRSZGTklQgtL5AoS0wfQdYNsLnRiDWfxD1LddR-Q4hm4Ha5Kiy2yHr9Ef59omodrbIPc3OpsNg_qu6HUrRS2yhwTlfOwKNbE0f9WEnUgMtO5ZwJfdR6ROaCa8fnv3-2EK7ER4XwY_1pY5U9mObVhj8ebfKd34Npymawt3YctKDF44VTjWppfzfXbNAZQdc34zR8VQPR7b6HtPRi_MBpISc4monrAk5FG08YC_ziOxW1Ten6heVag3SLGDt-6HDmbVJH95x99FXZLKlyTwRQlNs-cDlxBFFt33ZjTFzTOwuv6mnZA29OiuH5HMVZ_e81LuhwLK0nrjr52r4gprbju_bt-1tn4HP6hbETBE7m0qzeu2-T0mvdFym7rXIDK_W-LM2OzIgVadZCtGUVB3UgMdx0mpZRquLEjTfABhaUBd3W4q-3t9GDbtHUJg99ndQ7HgUgI1NCsJ1ICUT5Pu9nOCZdTtVb3tN11ggc91y2Q",
-                    "width": 3840
-                }
-            ],
-            "place_id": "ChIJ16zUL-x3bjQRt1qecGlttyM",
-            "price_level": 3,
-            "rating": 4.9,
-            "reference": "ChIJ16zUL-x3bjQRt1qecGlttyM",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 4307,
-            "vicinity": "神農街49號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9879162,
-                    "lng": 120.2051679
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98923917989272,
-                        "lng": 120.2065160798927
-                    },
-                    "southwest": {
-                        "lat": 22.98653952010728,
-                        "lng": 120.2038164201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 215 2223",
-            "name": "春宮居酒屋",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113576270206814160142\">黃小明</a>"
-                    ],
-                    "photo_reference": "AZLasHrIaBe1SmTmdt3lTHZPvKcAy9QjD8ZxHbOzL9Dfk2ERG_pdywpTRjJOIh-UgAic383ZA7Wi5Mztf_piS4VgBs5qdsJtsFhLHj-McKQuncfp_ccf03pPJnv5k-QazsNNVWxqLXfl71t2OFWYdwYUqcrGHpHuUomoPKHAX7LQq-nvVSC0rYpq_gySmrq-0lYOKpeeqnSe6rxYPBpIHSX1BCksLKYo4qoL8Ut_A-YErFNJG6ardcIHvPDwOIZIJwZwR87dUJwxYkw10p9gbv1DKTwrO8gUnjq0_0lTHotbxynU5vX6W0NWXD5oJYJKhrlhlsTLx1W7beLw1rug50qWgL6L_A1R2ncCJkGmnqJQX9dN-rhLvYmzn5vbHPcFoybb6FFACQHyQgbml8y4YS9TVeF1meaX1cWDh0cOTmNmuheW3TJO6dyGhU21M3jsbDKKiipvfWb9-0tpCsns1KRLLDGeLTeW1jMJ0PmVj93E2ScT7hZTvtmRVocVa3ZfwY0qf4BwfMrVkffs96kmb_PZISvrwkSQqkIL05HQ0AVIMx038iDt_eLnPAuxR3npticJiDvmv4cF",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJlzfCEt13bjQRufek_RF2tC0",
+            "place_id": "ChIJ9_nhqK0FbjQRvG4l4yTNOCM",
             "rating": 4.8,
-            "reference": "ChIJlzfCEt13bjQRufek_RF2tC0",
+            "reference": "ChIJ9_nhqK0FbjQRvG4l4yTNOCM",
             "scope": "GOOGLE",
             "types": [
-                "restaurant",
-                "food",
+                "store",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 387,
-            "vicinity": "建業街72號"
+            "user_ratings_total": 4225,
+            "vicinity": "平等路81號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9989616,
-                    "lng": 120.1965325
+                    "lat": 22.6720339,
+                    "lng": 120.3025653
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 23.00027767989272,
-                        "lng": 120.1979169298928
+                        "lat": 22.67344687989272,
+                        "lng": 120.3038645298927
                     },
                     "southwest": {
-                        "lat": 22.99757802010728,
-                        "lng": 120.1952172701073
+                        "lat": 22.67074722010728,
+                        "lng": 120.3011648701072
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 223 9881",
-            "name": "根 カツ丼 串燒居酒屋（不定期店休 歡迎來電詢問）",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2775,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110153319522353812151\">JJ Hsu</a>"
-                    ],
-                    "photo_reference": "AZLasHpYfC5q5BvoVuf8nk-dQX5l1vzY-9AnXhYBiz1FS13CA2xpZHFiPFeAnGBcJG2mgssHQwBXSk9t5lh5lLxMb9qlrVyj8UXTZtCCSZ8yG99tC1MwLzb6cIDS6plYEUsqEfAk91YFSfxGeqPefVEgqafB32sQEcLEMsUsKQOLJzKnhI3wu0KnXxb4K7iNv49ub6nSe9i4HSbYiz_Hsh20eR24EBsUo-mXkLGjVk88jBnWZj4_ci5Pfa9BFJhZ3UzfamQ6PK463QgZUGMV6ThNmP-pqNsByoRGosgpra0opA2yi6Y8tN1b09a_LfcEEs41_GxeIdAwdOmQlSurFvHPlYLZj4hSELivgySahQi0l2dA17g_FtqyCY83h-JpqjjJfT2Wr81lPOEj-HvZ8KGvIFRIVXUg1NKn85HmfAHJ9V3b62q_HIFxjoYNwCQ42fFBiGgZwgjntJHEa6aEKzPV7SdhucrS84ViiLwCK3ho5M932sj7_XHjVspmvZ_cIfzqE7n-m-UOwJkwXTZHYEqsbLGxZ7_fgu03MYOg7CmWU9G3pIJDY6qwJgCMhNaRU2TrHSHe9JCZ",
-                    "width": 3700
-                }
-            ],
-            "place_id": "ChIJPyXDHCN3bjQRvCP5DVpKt6E",
-            "rating": 4.5,
-            "reference": "ChIJPyXDHCN3bjQRvCP5DVpKt6E",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 285,
-            "vicinity": "康樂街341號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9740707,
-                    "lng": 120.2236353
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.97537867989272,
-                        "lng": 120.2250264798927
-                    },
-                    "southwest": {
-                        "lat": 22.97267902010728,
-                        "lng": 120.2223268201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 289 5553",
-            "name": "酒河原居酒屋",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107788112234594627425\">陳鳳儀</a>"
-                    ],
-                    "photo_reference": "AZLasHphswfXlyrE7hkvjtEVj6zCzc8ukr4j2ibtx_9aFiIUujI9ukDl-1YVZadP86OqhkCDaWC11o5sTMaokh40qLGWpBZMmoQ6Ykpy6AQA3Ww8-O3lTkdRDHpoZzxRTKdXXZYSwCmLZlLhWk8mjfsysQVHbhzxVBqffRVi8vYJqXfI1u819RgjZF_1_uGWT_y3bFTnCYSvQu7ttuACot0sEmXp9bIHr7Gh_ffYxT9SRq68ZmFHiotqTfImn58hpbY8QxSDRR7sKD9khQPPYRl8-3SnIjDuh_dWTvmi_enwocaJzjf-8YXzUVh5CSCWHlTagn9D4rrAAriWmxUBAifMGLmy5fiptuEcgalMHlnXE5pCicUWn_ApGck0xaXgKchtTmwuuoQMm2qa01MfpsldWiJ2aY5smSU1IXpb0oCdfip0-S-kiaZvZmkgMq7ZGBwiefiVODat61lI_HHSwkA0Ox9rNw2JXvDQ5x6hhm-YCrhzbKI3Cki29P6L9VowhDbEcksccSAjttDUERgbfVno2D4B8ru5zPCtIo9Mzrw3C9iVadXULH5B6dPjvYaevFLItxslTi5B",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJlXoExCB0bjQRFB_ONX86_D4",
-            "price_level": 2,
-            "rating": 4.3,
-            "reference": "ChIJlXoExCB0bjQRFB_ONX86_D4",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1165,
-            "vicinity": "崇明路391-397號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9916867,
-                    "lng": 120.1949747
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99302607989272,
-                        "lng": 120.1963226298927
-                    },
-                    "southwest": {
-                        "lat": 22.99032642010728,
-                        "lng": 120.1936229701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 983 997 789",
-            "name": "弎梟-串燒酒場",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2233,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/116109852304157868444\">akaneping Tsai</a>"
-                    ],
-                    "photo_reference": "AZLasHpAKeqnuMIHcEtnJF2Ivxdo06ByZW1qKLzZy9kPXYXyqI8sHbayYRgcPPxDUw5LwgLmHG2-DgdH6hzQE7cF9xGJZVYI3B_H8TJXXo2yN3_WzKkPEHmETBLxivugL5_JJN6--5S0_QU2xm--BdOaFAi3zu0oU3IJppZwGmOAMXcSnnq91HhZwTyLpmJtVl9jckSgsybQVhpaTcO6aUmHfDsBKs39O8g6dYDj-6az8EuSxYF_JK-mMvFDE8mFe6F5KaH0bt1yWhbJ92g4YiHfxNA9b_EFq38fUod4rtWKEQB3-WuJM0wTlmRFaJcVl7nbW9eAEp7syJakAqtDmVfG6xmMYCt_7sVPMFweItd-qhOJr8OStJM1yvbUi6FIzxS5GNqrCSq-wYQC1Vi2tIp9p4dJxhRqB2b1AZNABzaP_PilbThzv4XcGFIu4Bq7Mzefhg7oGNyZhwwRXpsC3OVW2CivKnATQs-TCyl9bIfajr0CYcLKS13NzBr5VJ6LEyOGSC-C54bcO5yOvzDSflSV7fUZeSiyx8w9Z0BdSvpvQgzeBAKR5nVg1vFHZBc9ot4UqtEpPs31cC068InCjkKtNGV7YNNuaw",
-                    "width": 1774
-                }
-            ],
-            "place_id": "ChIJz1n_x3p2bjQRFqxSuAlRUA8",
-            "rating": 4.8,
-            "reference": "ChIJz1n_x3p2bjQRFqxSuAlRUA8",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 80,
-            "vicinity": "友愛街331巷18號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9969625,
-                    "lng": 120.2030951
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99830832989272,
-                        "lng": 120.2044551798927
-                    },
-                    "southwest": {
-                        "lat": 22.99560867010728,
-                        "lng": 120.2017555201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 223 4598",
-            "name": "岬角居酒屋",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1046,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/100528006807547791039\">岬角居酒屋</a>"
-                    ],
-                    "photo_reference": "AZLasHrJESeD1_Ip7EwQyXn_uknP_n6hnOJVG60iYuWxMHnyhR4nfRd2k147u10IXNJEa9kn66eX2bM80YPeTAunaObfeZtcH7gzl4An-TgSB0w0BheFE3tkKIfT8FMZvdRePCTwrYfEz3SXficdPZFXzRQNiayhAINtRQCvj-2I5akpRx5vflNTiGcyEDSQjpOp-K1No8vt_t58OEQpe45ATRopwFsIGgVtRrVPDyfbKOM9hfK0VlQSgTYhLTnKGM8YkhSa93P5Pb1z2hpk_AynoIPGAfh8WiYZwp4mVGquVaUn5YBhi2A",
-                    "width": 1566
-                }
-            ],
-            "place_id": "ChIJM6Ru3WN2bjQR_0UiWIIvw9Q",
-            "price_level": 2,
-            "rating": 4.4,
-            "reference": "ChIJM6Ru3WN2bjQR_0UiWIIvw9Q",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 351,
-            "vicinity": "民族路二段208巷6號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0709423,
-                    "lng": 120.289068
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.07232792989272,
-                        "lng": 120.2903654798927
-                    },
-                    "southwest": {
-                        "lat": 23.06962827010728,
-                        "lng": 120.2876658201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 589 6830",
-            "name": "旺角居酒屋 熱炒 啤酒屋",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102074228403761678689\">旺角居酒屋 熱炒 啤酒屋</a>"
-                    ],
-                    "photo_reference": "AZLasHrB8EUhnzGqqQulTwUriIv-GTVwBe6I33B7ttMol9CacCvlEbEImI6RZ2M6C8qOjaIkm34fc3UubecgkAZKumfcThZGovdaFciaUmEIQSzGJZ50M7seKRb7TE-Mut__Xuux8taJpLWiNLSxqwrxRqjJpiHgKnaMfeJyfCKY_fxkoN9rjym0ajbI4P4xsMnCyFfrrQH_IodwPjYbj-YHAamD4NfdUsqu9MYAH36ALRJq-f4ipmmutOJHSfQUj1ndPpxIZuLTrRDh1l7b2DrlIzF24WNNpWub_ddQAgz8Ef0pvQDmX_g",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJa8Z1MxF7bjQRD5WQFpfzQkQ",
-            "price_level": 2,
-            "rating": 4.3,
-            "reference": "ChIJa8Z1MxF7bjQRD5WQFpfzQkQ",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 173,
-            "vicinity": "富強路101號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9980822,
-                    "lng": 120.2023264
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99942277989272,
-                        "lng": 120.2037067798927
-                    },
-                    "southwest": {
-                        "lat": 22.99672312010728,
-                        "lng": 120.2010071201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 221 0271",
-            "name": "芙蓉鳥燒",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 752,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113323995402321122046\">進食的巨鼠</a>"
-                    ],
-                    "photo_reference": "AZLasHqeX9QqoFj2hyzZ6jYPl8v6JGbAe5CxoomIHsf0PMWqB63xQXWFYldbvqCXyfJLB2E9cPPl182sZeZ7827FMUUFLd0zrpfLTRahgiQKUCbQups82M1aIijC5Zy_96iyqEnyqCG0eP-4mJVEOtdJVnA-gtbm3IrmyXP-ZExuIvi6Re5cASmeeuGGx34o0QPghYmY2vVDxheVo44dHBs7v_hGssfEak9H-Ho1aANT24qNJgCZ5NICljuqaqCaJD18uJTOi6FEX54dmtMp0mCwaD1lomx2mwbxDzLR4z9oOrX6vr86G_-Y8i8rDpejZ_VNBNSh8Y42B9O7Hl97A5EcsCxvabDVWpI9wKqUcpAEYYnwsDXgoeBr-g309EAH4v4xmYAkUlJ3rZC8OWfOuteoaOdxkxbDO2YGVJt8IFKtEBIBAkFV3tubx99L2oxEwwqtkss3pkkT-1khCwHZ9kiqoPUJNbDCwcflfjAeEYW99voAjaMBe3mCDD3BlsBsBIGEJjsZUu3JrQwRStX90xpk_EtwMuN_IPMhbydPLQzw1RKyn2cP8oO572J8qtbkEKfsHry6tRs7",
-                    "width": 1000
-                }
-            ],
-            "place_id": "ChIJG5YLCGF2bjQRivBir60EzNI",
-            "price_level": 2,
-            "rating": 4.5,
-            "reference": "ChIJG5YLCGF2bjQRivBir60EzNI",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 747,
-            "vicinity": "赤嵌街31號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9909678,
-                    "lng": 120.1964934
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99231392989272,
-                        "lng": 120.1978664798927
-                    },
-                    "southwest": {
-                        "lat": 22.98961427010727,
-                        "lng": 120.1951668201072
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 223 3251",
-            "name": "蔵鵡酒場",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 976 844 715",
+            "name": "喵星球親子樂園 左營旗艦店 娃娃機主題樂園 高雄左營一日遊 親子景點 高雄巨蛋 半日遊",
             "opening_hours": {
                 "open_now": true
             },
@@ -1508,646 +128,221 @@
                 {
                     "height": 3072,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118299824666063510406\">Miki Chen</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/115071310919767320005\">喵星球親子樂園 左營旗艦店 娃娃機主題樂園 高雄左營一日遊 親子景點 高雄巨蛋 半日遊</a>"
                     ],
-                    "photo_reference": "AZLasHqA2ADu-RyapRBFEOVokAhsyDI0jOPgvEQZXJbdcAHP7Wa3iszeZm947x8dzTAzvmPfxYEjHpN_yzZ_i0IKrkyNsfktrC2nxccOHJCmdcmd95a4kpiVYGho_kYvKjns0aPdeX2bS05jfaZlgu4ONXgz4tSb92o4BIk71Bm0xqGBKx9Sm1LwyzZUc9RQ8S0fFcdoeb7XD-eDw3RUxjRenwSPitx24WQRX_aLaa2khvOCi7PtYfr6rGQ2eHft_4I2rPlhEOPRJyx2nqaEApfpMVwJwzDGC5FegJlQYhwpl_4T6jV5OEISsEDECcCvnPtbhtmRWo3YDQq_-ryAC3iU_eXy2WVxvcjSLtXP8U7ax0-miqa0EnWv6pVBtAypxK03LYFFDk9WVFKZafWn1_ne6cUT7IbAdTz8XEYQunMqPGIp1BC3TwHzEOwUKD3tsTDXTmu6j3x9Ufg6U9uT4sZltoj-4nvIJLe8pe5YA7cWl2x3tgG6icctB-3MgonQeBapfEHRdajVwlsGtvmaDN82w2SkUFCOwNWOY_oBYIZbGBhVWxt_nJoPgq73ikvHKWPg1N5llM7b",
-                    "width": 3072
+                    "photo_reference": "AZLasHoWgfnIMUAcEkmJgWVx0NWGHVVcRyKyhSHzGM_iN-kf0Ph_fLEfuwa3lLzl_xSGBHHlABg_SDpdPcddc6KAWuNf8tJBkSPtJBSjjLREAOPu4rjqUy9DKuLuqWFfONN2MTRGOS3AsdTLhyjAumOdpNWh1D4hohpF8VyWL7eAEIo4vkyQGfAVT_iE8oam_68XBovo7UqqQj1o8UMI4zR7sKhi-bCRlFJICs0wBEdHN5PdnZwRklANP7yuExt5ogWwpl1EGUVKJLQep-br3Ud0i3mDb7nXHiQbmIB-1YCUoUft2rlfnZY",
+                    "width": 4096
                 }
             ],
-            "place_id": "ChIJa1JR5TB3bjQRMUDfNfKqnMA",
+            "place_id": "ChIJ1zv1cRQFbjQRG053uTK-l9g",
             "rating": 4.7,
-            "reference": "ChIJa1JR5TB3bjQRMUDfNfKqnMA",
+            "reference": "ChIJ1zv1cRQFbjQRG053uTK-l9g",
             "scope": "GOOGLE",
             "types": [
-                "restaurant",
-                "food",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 553,
-            "vicinity": "府前路二段40巷1號"
+            "user_ratings_total": 1665,
+            "vicinity": "至真路230號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9993741,
-                    "lng": 120.2018547
+                    "lat": 22.6646516,
+                    "lng": 120.3194895
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 23.00072197989272,
-                        "lng": 120.2032035798927
+                        "lat": 22.66600557989272,
+                        "lng": 120.3207545298927
                     },
                     "southwest": {
-                        "lat": 22.99802232010727,
-                        "lng": 120.2005039201073
+                        "lat": 22.66330592010728,
+                        "lng": 120.3180548701073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 910 111 107",
-            "name": "藏富居酒屋",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "銀河派對 Galaxy Party",
             "opening_hours": {
                 "open_now": true
             },
             "photos": [
                 {
-                    "height": 576,
+                    "height": 3072,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/101791701781443653494\">艾小姐</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/106857693016134680054\">蔡小勲</a>"
                     ],
-                    "photo_reference": "AZLasHpvueTap1Dx5UrqIpxUlaYdatiLTuXLFU8wifmiIufDVpS3wGSMtlcVrqyycAsiMfajG94vi7GAgN6ZjupKHVH17ab-7VwgE7ePWeAS-Cc7VxPoIRuCIXBqCVhPZOC1yiWbKPCFPw-jGT9en6DKlEULaCnCa6UcZfsTa5fOO6xfH9RzPCvdx0UNoBbqyrLq0JSitSJpOJPbv6IdCBpKaEqwfBJRQ5A2EtZyC5m1951-_iOEDXAF9ggY3IvjbnZV7YmiTEPSTGSoWKdSq-OwTJRAmZu_iONz4TqAdHhLG0G2FoYsijU2tEC8Vzc2mQ3KUYK8Wl7VTE9y8CKFnxV-XMcXHU2eHIR2bCrm2cl0qDn1ljexublN_DSicpiOTnHJyj4J8wA-dWMnvYKGeaHv4OLJGQctODm4x3EjO4NvcENjV8gnZNW4otdGgTlZR2QnDhJwNSOHc-_POQ1dOS0P-nUEyLsgrx7NyUR_47SxNOFPGdMOBc8NktOHLGBRvckhIo1iYZSyhwxpMsnpFvz1CsIYcifqa4UqLRq8z4NJZeCjd4Lhvur-XE6qi3iT6VoMIVf_Ju1S",
-                    "width": 864
+                    "photo_reference": "AZLasHrtm4ajEHsjNh7JpX_vUUVwWZejqMZmu2oAmWHoOFhebIKTaPtpf8fl4iNEOwCO67ICO4M3VEl-1nVkrGf-zBtkgeo2VBfh793JRcnu2e1P4AFFjsdzfLxK2gqr5bCZ2hxTbFZ8agYCvwPnY7_jaR78AU2zMIyIehqjxjFruNy7JeppTIUPD2X0oX72ccYQQMy75YdHkrsg-kRW7ByVNdt9hppE5Jl57MT88hn2K-TtNZ6-iKoePkFLeYQwCFCMmF5F44Rv1HmjHSRQQWKCB4sLUS0VHSRR0LXpU-0hluoHS_I9jGUi5ThJEGG3fVAP5pwUOIqVwHINDqhS4hICpqRrQlL2SR7V2_yqH0jVHWkNcc6QusC7i5GksuJgqVzkhvo2Gtt_pGfONd3byrp7ViTtj0VCLbeqcl0lP87uf5GLHtL3yowFVnQlQirZfH2pjoHjlF887x1Jj_t6ARwM78ZCY8hjSczAIGZf5OYoU5OlenFXdF-YXxaE_ITNQRYjRAFiDCtZhP3c7kpBOwb50JznzvYbDa6co366XAISza9_brxr1LDU-pKQtjYTAh-DKdAfHduvD_LBC67j7CyUwd5kxWI",
+                    "width": 4096
                 }
             ],
-            "place_id": "ChIJS5YiJOp3bjQRG0H82MTtXNA",
+            "place_id": "ChIJHXdIa-AFbjQRBMOn9rplGYg",
             "rating": 4.7,
-            "reference": "ChIJS5YiJOp3bjQRG0H82MTtXNA",
+            "reference": "ChIJHXdIa-AFbjQRBMOn9rplGYg",
             "scope": "GOOGLE",
             "types": [
-                "restaurant",
-                "food",
+                "amusement_park",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 755,
-            "vicinity": "成功路273號"
+            "user_ratings_total": 1380,
+            "vicinity": "金鼎路339號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 23.002706,
-                    "lng": 120.2036426
+                    "lat": 22.599447,
+                    "lng": 120.3204987
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 23.00406247989272,
-                        "lng": 120.2049836798928
+                        "lat": 22.60088317989272,
+                        "lng": 120.3217514298927
                     },
                     "southwest": {
-                        "lat": 23.00136282010727,
-                        "lng": 120.2022840201073
+                        "lat": 22.59818352010727,
+                        "lng": 120.3190517701073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 222 0593",
-            "name": "烽鳥日式串燒酒場ハチドリ",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "布魯樂谷親水主題樂園遺址",
             "opening_hours": {
                 "open_now": true
             },
             "photos": [
                 {
-                    "height": 3024,
+                    "height": 532,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/103969844443941409007\">A vin</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/115089888350954094636\">蔡承秩</a>"
                     ],
-                    "photo_reference": "AZLasHrqriMS2VFchJMaQ6za8v1GvnHvUZfPhzqbjp-PlXFmWnmoG9vvAhlEv20QxSbdd7e_iPrhgOddjaraimajwHl3jYR6mL3K2ubFhzKt9rzN6sktovTreHXsHiK10ugnlRGHAEPxxbNhd9vBPbLbYlcRsFSqRia9iRPvF7JPojz0ER0L02W3xDDxEqOwBZScChybqfMnYaMYQOgD2wUqNxSwPLUlLwjBfS0FWlN9ejx_Z0Ndj43TQjDNOvWat806qUo5r7tNcZbqhRrMR_EPgfhBKIIXkryJlPLdI3riA5POej2hAXL2zp2wfhebLbxzk0b-8FKb6H6-FoWjBuc9rUEHaOVHTZEVBEaey0gyZko_oL8UWP0bwjYGzRG9fg-kOxjERIpYDEHcHa-WSHc7ryqcVGaAJZk3Gqr8nC5FA-uyHQioVsnn0izNs_5-QvzdNxTdr0ZQ3b6ALZPW756UOnLk0ebohqi_LTDMGvkgoc7ALMZ4bNIxop6MyLBG1M6GX84LN-TS--RGlEGb_zfzhJmDVIWaUetULTqwgW5skoR0ueirUh8Nv8kY1YnSEEHbmXEppA",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJWRExBhh3bjQRgHttr2JIyj0",
-            "rating": 4.8,
-            "reference": "ChIJWRExBhh3bjQRgHttr2JIyj0",
-            "scope": "GOOGLE",
-            "types": [
-                "store",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 444,
-            "vicinity": "西門路三段178號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9991967,
-                    "lng": 120.1878557
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.00056627989272,
-                        "lng": 120.1891623298928
-                    },
-                    "southwest": {
-                        "lat": 22.99786662010728,
-                        "lng": 120.1864626701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 358 5983",
-            "name": "壺川居酒屋",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/106384929557950057717\">Brent Chen</a>"
-                    ],
-                    "photo_reference": "AZLasHq3fSPU-9ujDhkyHV1x7K0kl-BKKXHGhuEBkueaUrE2IPTzmUcOqUxiL8Y6c-MsBJLNwEwNKLWGSPjYum3724nGaKLouYYW4jaoi3jiAiifHdwNlTIZjuqOETPFm75rVQ9FsncIVp7mBexfRp4-My_7VNay9GTGY0Fs_OkGncASCd_tU5Sl_36iX0g0IKmQqiojglzB2oPSxThoe2ZUGN0tXxo1yHGhjzITFg_z9Zr5ZXTgfvTPggII0hG9Nh6PV6wuuLwv2Qf9q8cBB2Ji7WviXaH6z_9fo35JeWqH-jTVFlFYuyQRLzGLK4CEB2ZlSQbdxvyM2zzJ2lNvN3tVzTqq_lVsPUUo9crP1ldpfe6vrkIf-RS776S-d6d3-Uhe_R692Vk0ydTulVmXcGmqrRwbzQqKOJlvAX5sLWeau--SMhn3JxFn_FmUe1CZHXQx-DeOLYOhE8RAJp9mY-PGlwTENKH3BkMwawQH-kWIMt3Z3j4MvReoLM3-gOynXnl_yee6alvJ-AsPv81MQcXM2ZBTvw2qZDnQ_C_4tQieCUJRpJYNTH4zQkDlqpSQbE63oRbnnVEN",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJu9B0qm52bjQR4-scU_7yduc",
-            "price_level": 2,
-            "rating": 4.2,
-            "reference": "ChIJu9B0qm52bjQR4-scU_7yduc",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 792,
-            "vicinity": "西和路26號 號 No"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.998096,
-                    "lng": 120.2021169
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99942217989272,
-                        "lng": 120.2034418798927
-                    },
-                    "southwest": {
-                        "lat": 22.99672252010728,
-                        "lng": 120.2007422201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 229 3338",
-            "name": "Nest居酒屋 de 三十八番",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/112137577721256360147\">Nest居酒屋 de 三十八番</a>"
-                    ],
-                    "photo_reference": "AZLasHqXbjgnM5A-TafrDCyVwp4DaN64C33XFxUFthFsK6znL1x0RnElULgKfGgGWihE87kUd2boytrtwomCvAXiaKcB2bceiYskpslzXQcMsfDenTIjuusv8TDq1BRppaVU_ugH7PjNiSKtbNSIEVrJMNTg0PLICPxzzh3t5dADWGJEI82ICwFGNRaVRYhU-ZaS1QjmSNiRV7vMNjDgpsiEdh3zrqzvITKLcPjCDgXH2yliGDVXkJrAOqBdAKggUgrhLFjuMR6hvBfRcc3kyAbK1m6l9vRfWlLTC0BL4cCSadAgt4TNNss",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJAQAAAGV2bjQRVBoSgVOQ8zo",
-            "price_level": 2,
-            "rating": 4.4,
-            "reference": "ChIJAQAAAGV2bjQRVBoSgVOQ8zo",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 1617,
-            "vicinity": "郡緯街6號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9884502,
-                    "lng": 120.1951326
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98980532989272,
-                        "lng": 120.1964088298927
-                    },
-                    "southwest": {
-                        "lat": 22.98710567010728,
-                        "lng": 120.1937091701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 983 760 757",
-            "name": "碳吉居酒屋",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114116498100967136526\">碳吉居酒屋</a>"
-                    ],
-                    "photo_reference": "AZLasHrFDBV0s8nnIAziKGHZe-EkKcODfNW1qQB3hR2ajuqoVDCuFeWI9cr_bxU6eiWqZmG4eMs8oUMmB24g6UP1pSqxf4tXRBG9DTfmB4NnaAUCM4kVDqma_wTKuOza3GOkELbmSqZDPVu8pONtimkAMykeO5kTKRGta6hB2C2O0_UCQHFdIYCRBHN4C6M3MTRazfrgsGqLwak2wQg-cP6Mtsyv9IXSPdhYRNr6o2mkTSjqGmQV7cVeiymcR5kqV7KG1JmGjBABRBvMVIVYxIA1TSRwpt5yTTwDTUAx0JkNRa80Uu90vZ4",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJbUu_Zgt3bjQRhvVG-DfwN50",
-            "rating": 4.9,
-            "reference": "ChIJbUu_Zgt3bjQRhvVG-DfwN50",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 46,
-            "vicinity": "海安路一段42號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9921264,
-                    "lng": 120.2067729
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99354232989272,
-                        "lng": 120.2081276298927
-                    },
-                    "southwest": {
-                        "lat": 22.99084267010727,
-                        "lng": 120.2054279701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 970 688 336",
-            "name": "灷．日式串燒酒場",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3064,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/111327039232177471193\">灷．日式串燒酒場</a>"
-                    ],
-                    "photo_reference": "AZLasHpFHV1-rpU75BDtw9a8Dghpbsrfo_BHFk1JU0vtp1grjY36_zbjzkzqn1wB7nKLUhQHxWEwdlhWLzh3ZQ4eCBdnEGClrT1bLR9bL1IiqBpb722IPKQN2Xp0jg-rY2uBx4D2IQbdNrfIu7rsr4W15YCe8daCRw0pfj_ZaFHZ65BxEnks3KGExmkctr_yrY0uc_aGc1FhRI131UdLlN0bxQuT_Io66XYphS5gzGOxYW2H0_MwFqsSQej3tAGzNGZhnVEOLUXEQM6hcVDAtFeeMaSO6Kw4ke5uAQXXR6ACnoueLfrkms0",
-                    "width": 4592
-                }
-            ],
-            "place_id": "ChIJnZapCYNxbjQRrJw_9jbqKGo",
-            "price_level": 2,
-            "rating": 4.8,
-            "reference": "ChIJnZapCYNxbjQRrJw_9jbqKGo",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "bar",
-                "store",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 305,
-            "vicinity": "青年路44號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9886386,
-                    "lng": 120.1824195
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98999177989272,
-                        "lng": 120.1837463298927
-                    },
-                    "southwest": {
-                        "lat": 22.98729212010728,
-                        "lng": 120.1810466701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 70 1018 6186",
-            "name": "家根創意酒肴-安平旗艦店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2925,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107953588860492441168\">家根創意酒肴-安平旗艦店</a>"
-                    ],
-                    "photo_reference": "AZLasHqREjFCGhjoEX_sooAeLQy1M6_CgtTHq36HzNnGFa1uU8KzMpljk8B645AMexd6MBMzR6hcI_DHFQMnwTrE6tsgttOyWqzf1CFZDztrpiT_ndKITgQWeAB0d-oXsuYIm7j8idksDP6oqqQT5yFr6CU_qwc0nfr2tzLOihnPW3BX6mF1rZZsjfSYDF9FceXrvAfc3YsqQ6HJSaVVLQz9mKvv1MrzbDSaVse1vQyjLRacgdOTrYiIJ1wS2NzYoWnQVFVmN4vLRaJs7rpgSV-OxGSUiS_q6sGosOpUfsg4QekDnNc-xc8",
-                    "width": 4000
-                }
-            ],
-            "place_id": "ChIJldJkAkF3bjQRfEWv8O_A7Q4",
-            "rating": 5,
-            "reference": "ChIJldJkAkF3bjQRfEWv8O_A7Q4",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 2785,
-            "vicinity": "建平路258號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9750429,
-                    "lng": 120.2143136
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.97638592989272,
-                        "lng": 120.2156210298927
-                    },
-                    "southwest": {
-                        "lat": 22.97368627010728,
-                        "lng": 120.2129213701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 70 1018 6186",
-            "name": "家根創意酒肴- 大同創始店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/113682470543915284335\">chagi CHEN</a>"
-                    ],
-                    "photo_reference": "AZLasHpzmnZthYO_90ZDY4R4qqeyoJajLZNRzSwJjPWQJAXX73yTs_wAHpRi4hIeLheGNgQ_GwQGlrxWGajOVUEbzDh6KCwvXE1eeda5gnePJXrMGueDWpmrvAPAHTKvjQxVSxIFGNKe1TVMoBY7CX1dfgVz_mnkWRBO34lT6Ep4thVbOghHras5H7DLDTz4TcQxjoW_yiMwyYXkewO-x8SGIRb8tu4GNpVOl6JNTchma4s3mlamBbd33_d_05J5A--ZB-SKsXl9QC-Ungo79d-ZDDO8EnpVxCSxpJdcOxhV-q88iQeoVD4H0ideJQ3FjAE3ZtJ7yeNa_XcqTzJwjbR3_7Z5QRBJAejmq3hUv5NDCq2_2Ckkg0ovppZAeVeqiUBno7hX29jr3EsBYsjNT0Qxfiu_M0wX77aK1Qkww2sfzAylsY4XoFjk1FqPQanq5SqA3EPJHmMEf6mc1P4cGaDUr7KNP2p8z6Bpm27_NSKDzJC9QSklCEa29Eqq4p3pCtZzErAMoPvQNWT7xQeGZSnmUmb3046C8oFzQBgtrqiGYu_L_H6Q_phmhrCQbFEU9gdCshWXK8n15HM9iQ",
-                    "width": 4032
-                }
-            ],
-            "place_id": "ChIJGznFd2V1bjQRhqYoZ2I8zDY",
-            "price_level": 2,
-            "rating": 4.9,
-            "reference": "ChIJGznFd2V1bjQRhqYoZ2I8zDY",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 3391,
-            "vicinity": "大同路二段257號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9927358,
-                    "lng": 120.1823591
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99410517989272,
-                        "lng": 120.1837057298927
-                    },
-                    "southwest": {
-                        "lat": 22.99140552010728,
-                        "lng": 120.1810060701072
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-            "international_phone_number": "+886 6 297 9977",
-            "name": "衫樽串燒居酒屋（台南怡平店）",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/108386626638027081969\">衫樽串燒居酒屋（台南怡平店）/台南美食推薦/安平美食/台南居酒屋/台南燒烤/日式關東煮/日式餐廳/台南串燒</a>"
-                    ],
-                    "photo_reference": "AZLasHououGUNUHSy-eQN3lhknGLy_V4LRv10BU9bZDit2o8prz_hIp1YygV_I1GCDMmWo7AAt6cAlyK9qXyhPY7T6emFcJPECnTRwqzevIYq23ESwGFIOF_LgirXIK_0eMXaUCIfRTkEj8xJhIxn5N9WlWpOZOglXBtTm9KAoC7fZvaWEXlFqv2DdFa4fItpYw0HiPDXs_XCgGYOTIm_npus9sxPsPW_JTCNcrBPFsfrRPsn5GpoZwSRl3AYeN3wBbBub0_aks5W3GHwUHSbQbwaSxwMIlMMk0OnEUk5R4g9BCh9qUllEw",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJJc0xKgB3bjQRwhb3C8WmhA0",
-            "rating": 4.9,
-            "reference": "ChIJJc0xKgB3bjQRwhb3C8WmhA0",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 569,
-            "vicinity": "怡平路25號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9993952,
-                    "lng": 120.2013631
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.00078277989272,
-                        "lng": 120.2026483798928
-                    },
-                    "southwest": {
-                        "lat": 22.99808312010728,
-                        "lng": 120.1999487201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 225 0265",
-            "name": "啤酒超市",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3472,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/115828551596998077387\">Lorraine Lee</a>"
-                    ],
-                    "photo_reference": "AZLasHp8e5MeSrkeglbKR_B6BfOH4eH1pVAdB80tKpsZbqZd7QAEHs75opvn_kcR-UdMrNfDnqva4AcJ4mSa0Jw7pCdbafhYaLcZzmJsVrZreCagCX1k1GRUURxTLqGN2aa9jpD6SIBSKN-M7fP0XWLhXpWUBwoAgxqZiPidxi3d_MhQ1DB2KjESXcnzPM9zxWJHbfB6SUKbQR3GIm8USaiHrEc6qCB5oPK1ynIROmvMOHLA2AQFc0FmT75wTl5XnScLT4UQtakABXYudY-OvapTZDQT1HRVttBurOQnN3a9CekFllgyA7TBTWlBstNLyX2YxsFVNM7uJzRrqz_yy7U5Kzbpcu1oJJ4dJJ5lrqGUiJcL26MdRVAevhr8DZEpg1GbO7cR7Dfsah1HXQxy2cWNIi8eujif8mnz1kLfUerxXTYXPfKPV1M0OldONuaJafNnXCWm9E8PS4Zp7TA-mCrdGU7ylXT09lBJSvS1vsP5jmhq-YaY5DF_FOROt3zPATRPsCgAEHce4AKV7-nkuuF-VI-RMWvMd-MPkPdyc6PMRzBDRtSR2ESjs0iAP_NVkGxOd91LSXH0",
-                    "width": 3472
-                }
-            ],
-            "place_id": "ChIJBbiP42B2bjQRUvrPPSzWA8g",
-            "rating": 4.5,
-            "reference": "ChIJBbiP42B2bjQRUvrPPSzWA8g",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 204,
-            "vicinity": "西門路二段428號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0115339,
-                    "lng": 120.206451
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.01288727989272,
-                        "lng": 120.2078019798927
-                    },
-                    "southwest": {
-                        "lat": 23.01018762010727,
-                        "lng": 120.2051023201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 282 4085",
-            "name": "舜德菸酒",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 540,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/112106088852769033533\">KY Huang</a>"
-                    ],
-                    "photo_reference": "AZLasHo5oHC8JVF84fSULIjGpWGn20kPtqVUzgT_HWw6fcYViX31GZ9SzmhYUmjhVVhrPhDWWZqw-o5TeaZhGAsC6AjpwBREqoONQcdQfEVrVIoeY5P1Pjy_4vYCOgNieRJOMDcK2jQ9rsAg6kAH96nB-ovZDl-SebZntsdKRXzihKJlCu0VPMELwZj41Cp2MmLBi39g50-vWbh18p6XyMKwfC42QoAoeBtgymnmOURz0c4VhwMG_pSj5ZvcM13UcZ6reJTSEx14jLegZRXLXHWWxPKI7UBiX9dyJX42PVGvV3qVvrEIk8ZChRRTZc42rK22jtcnEYyDZ_rjWFnfX-wgj3b5cdQdijP-GCFP2C8Qo1YVmeoqVg0daSp72fBBOca-95orVstho5TjTKaQYyoPPo8_HVsXXVRD_dHUE2ry7OP0gs3hIYHxGiDVvkT_K8hnJi-EEJ6p-TEXvkdAw4tYPxZGSzso20feZChRt3oVIdrrarTHbf8YVj-m05zagyPOAagAWTKRttcFu-iG2ryy8JZqjv7-De0NKExm2ZSywzjoy-r1Jrg78LZMR8BnOleprc5THp3R",
+                    "photo_reference": "AZLasHqZqsrKLY4KIRyzSGoAw3Igc1ghIWqLe3yi2dSM_OsPUduRCeaw0oD1IIzRTY3r0gS8PSk4jRPHHUMdsf9GBNugX5wqNpPw9MmyEjh2e7iE2CKbd39NGZniEV7iuC010gsHd-dAr3ITfynL8Rs6-AXFw8AGScqItHABJhNM-FzoZsJInk71S-lfSgMgTWWRYBmFtHxopjqmryID8tgoY-3fqypiZESVA8GkDl_6ygX8G4tPpNGj1HM9wRbBip-Vpt0KkeMZlH2jKv3M40PYCDkCUhorXe8l3E8-u_fIXMhjuWJgVZbimS_v8k0MMH80YdJYUIpIuoIaYakVwTX1WQHdDCcTOTqEN2py6PuyrRzIi6YqBjVfLFItiNzhWKf3hmMpNUtK_CVq-kuxgknlDY2bMYdlOdecXrHM0mT1ovGzKTPkRwW04AVb_afL1QlHBgyK0-f4N4A12OM4HQDVVxYF0pWusxrDpR_1GC8AYf63VOdtoFMXfjzsR06uRXwMQMMX1FCPIG1tc4o0ZFs2PnL9A0LoIDwJPQfhUGUL0qX0yQ-aLswULyB3H4RavAg3SBKPq-ip",
                     "width": 720
                 }
             ],
-            "place_id": "ChIJO-xw9fd2bjQRgs0hc_u4g-E",
+            "place_id": "ChIJg0zjm_0DbjQRvbvXfDafWLw",
             "rating": 4.9,
-            "reference": "ChIJO-xw9fd2bjQRgs0hc_u4g-E",
+            "reference": "ChIJg0zjm_0DbjQRvbvXfDafWLw",
             "scope": "GOOGLE",
             "types": [
-                "liquor_store",
-                "store",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 26,
-            "vicinity": "西門路四段171巷20弄17號之18"
+            "user_ratings_total": 16,
+            "vicinity": "凱旋四路700號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9985383,
-                    "lng": 120.202385
+                    "lat": 22.611971,
+                    "lng": 120.2989575
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 22.99985752989272,
-                        "lng": 120.2038205298927
+                        "lat": 22.61334487989273,
+                        "lng": 120.3002977298927
                     },
                     "southwest": {
-                        "lat": 22.99715787010728,
-                        "lng": 120.2011208701073
+                        "lat": 22.61064522010728,
+                        "lng": 120.2975980701073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 221 1011",
-            "name": "Bären Biergelden 貝倫啤酒館",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 912 317 325",
+            "name": "Robar遊樂園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ86h-mioDbjQRL-r4yLQb5tc",
+            "reference": "ChIJ86h-mioDbjQRL-r4yLQb5tc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "三多四路127號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.6720339,
+                    "lng": 120.3025653
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.67344687989272,
+                        "lng": 120.3038645298927
+                    },
+                    "southwest": {
+                        "lat": 22.67074722010728,
+                        "lng": 120.3011648701072
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 976 844 715",
+            "name": "喵星球親子樂園 左營旗艦店 娃娃機主題樂園 高雄左營一日遊 親子景點 高雄巨蛋 半日遊",
             "opening_hours": {
                 "open_now": true
             },
             "photos": [
                 {
-                    "height": 4032,
+                    "height": 5712,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102135023065366622260\">loretta hsu</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/106571761972664517366\">何承澤（Mikyuji）</a>"
                     ],
-                    "photo_reference": "AZLasHpmv0dwje92oDVxWxIeqaBoySpzkCNQzo5XEQ42jVXBIa0_VYgi4ElXd8W5ADzfhorSbrNsnyCrqhnlVzLvOmgQKFc6fC5494oZl6S7cuwoZONZSjgFmopTHpd-vzUVFlnN-o0gdRVaZOGAmIzrqC8OJEKSE3vXlKF-3oC0QpnttmURPBvPn8ac0ut7RQ0bPad4lTjE9UyRe5TiVSTngeQTqDWdvmIsvcSZIajZ3THsXPBO9tNoYAona4rbxw9kBBazgiCxe6jMplFj28Qu5gpIivGWxLoa8v1GSfgRSa6RETDAfNgwJQEUPICUSQaIyC3kWPV8mUapdn6dkO-y7WxOL82-rUElwwSjZM-KDTVJp3ccKGIxvxM8RrsCPbM6EL0MW-9dViF3Pkz0tjkyHNUdO_moZGSSkP-_ma8fjsQHMcrLIWlSzBr5vmgwErohLvMXVYwxoHCFGzYdQcH3q7aJWXmTrhE90pBgl68OzzMJ7W6upIHKgjrm36wajikKGzL_1qLgLku2AdwvcEIHHCIbmZuVVZ1z7zZC9rrRXQezYQrf46-C-21Qf8-DjDop09LiVrMfG3wuIg",
-                    "width": 3024
+                    "photo_reference": "AZLasHpUfrPDhQkDBNq449TDYHK06sIOrxMVkn0C9VrfOivOy1xP39MQc_GvHdSSXsR3n_QaTP2omdiQgafp7g7Eho5xL20M06G8caVp5BHGyfFDIynRMZME5xYWiMqf25Aom3yAkqBz489MFBS0Q4XypPuyWli-TSiEjkYN3_FlRXwxBKXe3qsSY2lW-UXnq7TSFXey9Ty9RZ-pDnEA747lghk5z5MeygIQJ88JQvQURfSQpD3-ifxrHmTP3TM6JWVDPa4BdK2FaOrPRnzor3592l67Ix6VyiX1C2__ZIjVXKAaYGtWRo54ijKItzVi4dSLKMYq3S3Po0VLtjdJwxidC0zzm5CAtJO_ZVNeZxAtX_529EwH_-p1Z5IJN--vCT_J4tkSK1UFeyq14okC5hUj7L2yMv4GXafIHoQl8kkyH53Ysm_vVDLAsgeV4lUOkB3MsYzwhCgBPGrBL1EKwYeMVhOl1zFGbJzzbyGLX12UJgQ_2EPbtidD-bxLLg97YzIKCi1Y8owinTadxpp_LUGjNwhgAeAVWPROtMfbpQXh_jrxXbhqihUOD5pjMq-wXAhBF7CsMuaGIlpLrXE0zC7zkz3n7dKo-Q",
+                    "width": 4284
                 }
             ],
-            "place_id": "ChIJ2e2-DGF2bjQRq9LuN-eJY9Y",
-            "price_level": 2,
+            "place_id": "ChIJ1zv1cRQFbjQRG053uTK-l9g",
             "rating": 4.7,
-            "reference": "ChIJ2e2-DGF2bjQRq9LuN-eJY9Y",
+            "reference": "ChIJ1zv1cRQFbjQRG053uTK-l9g",
             "scope": "GOOGLE",
             "types": [
-                "liquor_store",
-                "store",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 251,
-            "vicinity": "赤嵌街45巷1號"
+            "user_ratings_total": 1665,
+            "vicinity": "至真路230號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9941357,
-                    "lng": 120.1994791
+                    "lat": 22.6402108,
+                    "lng": 120.3207479
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 22.99547432989272,
-                        "lng": 120.2008628798927
+                        "lat": 22.64157012989272,
+                        "lng": 120.3221435798928
                     },
                     "southwest": {
-                        "lat": 22.99277467010727,
-                        "lng": 120.1981632201073
+                        "lat": 22.63887047010728,
+                        "lng": 120.3194439201073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 908 088 603",
-            "name": "Mizuho Space(Craft Beer啤酒)",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 973 277 231",
+            "name": "星際樂園 Galaxy Paradise",
             "opening_hours": {
                 "open_now": true
             },
@@ -2155,491 +350,188 @@
                 {
                     "height": 4032,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/111281387104925607882\">hsiang chen</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/112574028810081417478\">Ho Jin H</a>"
                     ],
-                    "photo_reference": "AZLasHqa-bu__-nmqJ-QK67XaTpGW2rPiGSjQhnQRRp0XBKm7sc1bKv8WcYdy5GpTMQQWsmkDTavF1NJ0zYvaWUvVu9oe4zgcygnNiqjchLKlGZKQU_tqW07NzfRDKp-UiA5708NP7nG8XQoChy6ViT4WcbkqUeBiuL4yzxBpVAjWA13CsEBHRFlidE-i3ceMY9GRZBKWJBKDUe-mGZDb7lgexBGpVjkJwmvRtH630qoOAKlMorbtf4ahctrtiiD4tPUbA9ifkh5P6di9ei9HYp4b4jaKM2ZqTrR646rAyyDgRVo6mQCE_tjf7PfjtSL7fQqSG_su034DapRUzXk5HnUD3_EZesvljiqqyCc_tixNkMoVUtWD0zwrjcuROBtutiLW6FQYQS_2nxLF3hIF83rT442wv5Ww8M5E2zV6fhiOnwpIa5uyhQYePPaVdSMK6hWSMsVVsaaUr-M9pp5D_FANVezMhjwgPd1vDNf2BRWFaMZwDUMDo5rVbsLfpxj2egxlfORI1fJZKSb9MRsoELkRz9G1E0yLItkVkkC0KB96qWs4V0f127TT5fGut-au_3uk5S9Og",
+                    "photo_reference": "AZLasHpaX6DbQBdqtiYzLNKTmL9A8SEvaGanSZWLv5F46N0ypAMxy-LKlsaTM1qV-NBgAhXUpvfIYI-wfWYRzowh_sxF8FfmtHWaglNuSNaLJrxyv0cvYnEAkym7UWwukRjDgkdPdbbQuZBVcM49G-iailTISWmTb_oOrOlN0cW0EUEFBswWuN_J86L70Nw-ytrDUykRcu0tgo23epigvbHh4RYfHOCKfR8c6P_pzH6HIv7OpTXDOIYaPNBpq44tw-G8KprW3hEGnlfnQxoFr3uQSKf_1_QXkUkCg43vHaQILRffr2Bkwo2n9QhE5HyqW8sZ1BQIcrg0RROGi7hK0es1vGRrQ2bVa2KHVa4Wuaehe_EdiG4z9xysOYnC1fCctnrG15vx8vcS8lgRCd4hv9GfOq0d-t2atvV_gZ-yLQq3XB1EuoCrIVVY47pfE2DzNI87NRlogPLuaVolmI8aFfkMNX7gyQJDw5Ztw6jnpBF2vMdNdHvTVe3Xki5boAfda2qIqmM4UqU3r5uNTSh5YmOnfmVC5LfWSSu9evXjdGNpNzzKAGumnB4Exldp1E4MszHXb324zgV8",
                     "width": 3024
                 }
             ],
-            "place_id": "ChIJ6faoX2R3bjQR57Dyuh7Lt7M",
-            "rating": 5,
-            "reference": "ChIJ6faoX2R3bjQR57Dyuh7Lt7M",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 36,
-            "vicinity": "民生路一段205巷8號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9933554,
-                    "lng": 120.1939033
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99475892989272,
-                        "lng": 120.1952651798927
-                    },
-                    "southwest": {
-                        "lat": 22.99205927010727,
-                        "lng": 120.1925655201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 222 9888",
-            "name": "BeerHotel 精釀生啤專賣店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1366,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/103187962873205222320\">BeerHotel 精釀生啤專賣店</a>"
-                    ],
-                    "photo_reference": "AZLasHrjKQ_jQy4VUwCLKzMgr_FcjtJRThLmksVWEe0n2VKHg-1kM9-o16yH2oS9wKrC2HlXVoWH0E2yqgF_e_NHoGq60fLjWkJfQiqe0UJ13vW1Dho9_d4fmKhOqW6ivujiipnvWaN5jrHHWdLVqOu-aFiMow7pDXtnYq2QcAyukhAsCiEhU6Ojz33deM3bBXy66L_8qRzdCPMVzAe8o_SebJy_RlSa64CowESBjn2Iglu94MemhN0lxNWkMIhOziTY5EAwHOcIzKM2lqsTSZC4vbqWrDDcW2_UjbzzCVwMRHGyN15Sd-A",
-                    "width": 2048
-                }
-            ],
-            "place_id": "ChIJ4_VXCMB3bjQRiRjQkmK8aSk",
+            "place_id": "ChIJ9_nhqK0FbjQRvG4l4yTNOCM",
             "rating": 4.8,
-            "reference": "ChIJ4_VXCMB3bjQRiRjQkmK8aSk",
+            "reference": "ChIJ9_nhqK0FbjQRvG4l4yTNOCM",
             "scope": "GOOGLE",
             "types": [
-                "bar",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 116,
-            "vicinity": "中正路349號1F"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0175592,
-                    "lng": 120.2343918
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.01896142989272,
-                        "lng": 120.2358199298927
-                    },
-                    "southwest": {
-                        "lat": 23.01626177010728,
-                        "lng": 120.2331202701072
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 302 0329",
-            "name": "龍亨菸酒專賣店｜外送服務｜威士忌｜高粱｜紅酒｜啤酒",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118387839104915189493\">公休5/26-5/29 龍亨菸酒專賣店｜外送服務｜威士忌｜高粱｜紅酒｜啤酒</a>"
-                    ],
-                    "photo_reference": "AZLasHoTSF2D4Bn7WBiOUH5q5zGU35uzAPSe-yWVoJfCyI6v-ESJgWCsHyk4c7BFBt8v1qETzT9M9hxaAVg7LVqNjMwlAmC-g6cYjhBVDe-k1gyHCxPxR8W7HuL_r54hfA2woghrjx4gth2QoJ-128eyY3n2lXNbw_wryYoRhCcnlKzKkww9OioDlepwnDe_DVUiNyPeWpoIHmh4Uza1CqQavaMmSHrQNhkKCwEfLC-acB05C3NyCtf7LQ0TrjkHxbRBLAv7AiH_EHqqlW-BIHSInNiuGs_97_jrCw3W7zlLV4ugXwnVZfk",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJ-UjftgJ3bjQR_BbLwhvzOJ8",
-            "rating": 4.8,
-            "reference": "ChIJ-UjftgJ3bjQR_BbLwhvzOJ8",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
                 "store",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 27,
-            "vicinity": "東橋一路93號"
+            "user_ratings_total": 4225,
+            "vicinity": "平等路81號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9978599,
-                    "lng": 120.19603
+                    "lat": 22.599447,
+                    "lng": 120.3204987
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 22.99919672989272,
-                        "lng": 120.1973617298927
+                        "lat": 22.60088317989272,
+                        "lng": 120.3217514298927
                     },
                     "southwest": {
-                        "lat": 22.99649707010727,
-                        "lng": 120.1946620701073
+                        "lat": 22.59818352010727,
+                        "lng": 120.3190517701073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 358 3994",
-            "name": "沃隼釀造 WE Drink Beer Company",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#13B5C7",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "布魯樂谷親水主題樂園遺址",
             "opening_hours": {
                 "open_now": true
             },
             "photos": [
                 {
-                    "height": 1080,
+                    "height": 532,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/112781541903023413114\">沃隼釀造 WE Drink Beer Company</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/115089888350954094636\">蔡承秩</a>"
                     ],
-                    "photo_reference": "AZLasHplUSoGyhL569ikUUBixOKSIgNzvf7ezK7jxl_3fm-FHJbcD2vyoCp2lwELncLnkFVE7qKecyVC_0Lw8GvV5UPQcRsccAuNJGJtBui4QWvQgUPioRK4Cto2JaepHmEKAYlg4bnU_fkCqeBqRYmeWQHov1cnllIN4OYozL6uzOqaniKfcKOyuOFTd0pbnQ7Gb8mZi_lkBM7sCMViQYITjGUpRJQd5kpHH7day9C0LpPNWoZtMZFJ-Py9ppFI4TYvoilZyM-8DoPWzeaXi6lQtGr9DhC5aAN0QW0YERaQ1HggI0iTotY",
-                    "width": 1497
+                    "photo_reference": "AZLasHp6yNNz4pz4hBMYDV9oeJqIeRErpcZzYOAUrQCgEbxa0xZuJTtzsHKgPObsHguU96f5DdUJfVzCzlnN3AYoQj7rPSvGMoO4e1D33J6TlvklASqR469iGqFTzkNnJCNlF4RogfM3qPH2Df6SHJEPhEp_5Fmd_D2-UY-VcwWti75uv9t5g4ojajVat2qzenStbkkfysYbi5VtdQ8AoK5rgo08-sfUXeezYNHNqM9_IstbC9ColzfZ4IlEWaU6g7TLN9JDu-Z056dvqvNNDo88Mel67jntKHg8HdSrvslCC9nhMZtiDEiZE4qeu8roYnSdQLO777Jpv-zZ3OnKzFbscdEUIwmfq8Aoah4whGt-cEJph0HHYPFM_nSCEOd1aFbKLhrmDmG0fRfomXrvSDdaDSt97ccv_dmgUhE0qDIsZAGkNa9rrhlMVzgKZpZBlMdZ7jOdoHv2-vjeB9NP2Ld3M0FEEsOxxptM9QeOb9kln8pjjtfnIv42uJ9YM-SazAUlSGw4ckZoGrXcUOdx31kREweOfxsXCJUp60aSr49ledINwnDuesU2mCIokQNmX_pmrvVdfjpp",
+                    "width": 720
                 }
             ],
-            "place_id": "ChIJTWnqxG93bjQR24YEMvMwu84",
-            "rating": 4.8,
-            "reference": "ChIJTWnqxG93bjQR24YEMvMwu84",
+            "place_id": "ChIJg0zjm_0DbjQRvbvXfDafWLw",
+            "rating": 4.9,
+            "reference": "ChIJg0zjm_0DbjQRvbvXfDafWLw",
             "scope": "GOOGLE",
             "types": [
-                "bar",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 654,
-            "vicinity": "神農街108號"
+            "user_ratings_total": 16,
+            "vicinity": "凱旋四路700號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.979916,
-                    "lng": 120.1888821
+                    "lat": 22.621456,
+                    "lng": 120.3282258
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 22.98126167989272,
-                        "lng": 120.1902873298928
+                        "lat": 22.62290367989272,
+                        "lng": 120.3295091798928
                     },
                     "southwest": {
-                        "lat": 22.97856202010728,
-                        "lng": 120.1875876701073
+                        "lat": 22.62020402010728,
+                        "lng": 120.3268095201073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 261 1046",
-            "name": "源宥達酒飲門市x龍崎放牧飼好蛋販売所",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 7 727 0853",
+            "name": "E7PLAY 三多館",
             "opening_hours": {
                 "open_now": true
             },
             "photos": [
                 {
-                    "height": 4032,
+                    "height": 790,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/109608842809383810708\">源宥達酒飲門市x龍崎放牧飼好蛋販売所</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/105133956130028518553\">庭瑜</a>"
                     ],
-                    "photo_reference": "AZLasHqls6GAFquhCPexVRNQHqckvEbykpJSuTyDTbJFXqhRnYhXEI_1M6ujk9pgtF3B4RS0J2Cc_t3YSN6h2Cuf7O8zphN-yyuSCi7QWxdDiL2BShSOjq6g2Sh-vs7oc9fcqGpUX9nYBTcCK92q-j0i8zH7wBgE1s2EuZ-dSrXv-tYgs7JjhwCbbTOJHTpVHCMz2KdBjEL673cd6TTByZ_fUayZV0nnuqIp8LzhSP2tAQHe8xbzGRLk6DNVcP1VEYicXNzoVBFPgvYJw_av0iRrekKm4-CNiaoXQ6jj27TqhAiwYKb1I8A",
-                    "width": 3024
+                    "photo_reference": "AZLasHr1nnqQacH63uUkiAutWJm2L5PVqRm8rF70rMNEECvrdqctHzCSSSQ0qy153yY-sj5nekuNLkXhm7rUz-1wLcYqigsphO3Bq-X2_d5WE48N8G8By7582NJprcqZJmVgqsvlNzvh2qFLvtF-f0FMjKsw-vjaTSbwKSVAp0K8glszBht2AD-Hbg79qoia_bdy38Edn_NRB70jRP8O8QdNGsN0h8RKTj4l5r82npBn-d8uY6-7fj3WW9g7t-KWVYCaNT9iv1Y7uVktj2CapjKGjNFhMxbHi4c0bWmFUmQ7IH42vkE1vjlCthDcxO9giXG1NM0NLWPHGpQ6o-KsjhMnzuhBy5OBgN4Vi63MW8tYZospPu-19nzTrlA5ul2KifH1Qlzm9oYCn1SXCL44LyGuppehL6uAB31cd_1ltcXV6OfIGvV0DOPifyHQF20QpYJIydwO-o9TVpRkSWLfEOHdhfxnc5DGhim0LhCEgNY4VefUDCwANUo2hoJvLRUT-NhfEApP3yFEcy23cwrk0NK8MTiNeQ5xHw-bjWOCGbWH1SzIYBrVtl7FmEZ9XZrT14ODMn5MPC-r",
+                    "width": 1369
                 }
             ],
-            "place_id": "ChIJu-7PI9l1bjQRA8TL3ttbtbI",
-            "rating": 4.3,
-            "reference": "ChIJu-7PI9l1bjQRA8TL3ttbtbI",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 6,
-            "vicinity": "尊南街225號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.044228,
-                    "lng": 120.1931419
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.04565842989272,
-                        "lng": 120.1945415298927
-                    },
-                    "southwest": {
-                        "lat": 23.04295877010728,
-                        "lng": 120.1918418701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 255 0004",
-            "name": "萬點菸酒專賣店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 960,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/104082002267631617245\">萬點菸酒專賣店</a>"
-                    ],
-                    "photo_reference": "AZLasHp8ZiM0x2KX3hmS-vYNv8JYu0X1wpl-yI-cF1HmCBKbmRo_e_NeHM4myUupFPlfMAB7bu588UtNNhUGkh7sw8d8Y9OD7TZZjyxkJnZSQRG1kibTSvMrBQKElmpbJZAOy5EcID5eoNfUKDxH7qk77bDsBQpj5YrIq9miiUfXyCZy0Upek5rltunYkSUSoEaaD2elOjy-5ZUcWtbfuhL-A9zGbBbppH61UbEtkW4Y0wIycvqAONoCKNLEQt6INnu-ILkjwfd5bQ0mzyAG2-i2Mp95sRVqc75B3ahLlz1KMyqwu7YS4xo",
-                    "width": 960
-                }
-            ],
-            "place_id": "ChIJ3UBfdv13bjQRIPvf7jg8_sA",
-            "rating": 4.7,
-            "reference": "ChIJ3UBfdv13bjQRIPvf7jg8_sA",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 22,
-            "vicinity": "安中路一段803號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9992044,
-                    "lng": 120.1865791
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.00055862989272,
-                        "lng": 120.1879848298927
-                    },
-                    "southwest": {
-                        "lat": 22.99785897010728,
-                        "lng": 120.1852851701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 280 3078",
-            "name": "大大酒莊",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3310,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/109824597961480685863\">Eric Liu</a>"
-                    ],
-                    "photo_reference": "AZLasHqzuASoKwdvXcZE4brQk7e3VzQAi9DGnQ8RJpHLzwNlwA_E7s7Ipg0JNFQUJkhHPDd6T6OWn-dfh1pQ8YYR2d_P1hzwZPRBjB7V2UroqRJhpKtm3RnV6aNKF074xjn10nCXa5O0Feq40_CiPCMvCXmYRsukWT5AuyUGP6WnB4RYyOTzQxrN6LUZvuVPgSl395vojyaHt-RMKQfEyFqxdJC1yxoyMUqKWV_NQH5YxZSwWZXKmy0KBXoR8BMl2LLkywPwn0bLe-q8FCZyw81Y_IeKQBNLSjWpERNuNluYmJtBezaXpbtD56ESMgBdQUMq1K1uMoeDp8z-eyW38_zyrnZUYDplRyD44ih1KIB_Na0NmB4SNqFn7x4AahYummZI6NLh8wQegAoi09AgxlVpEY74EDow5nVCcImphQkYK8_z-EA6bo4gOmkaM5_6n5gUrtftuC_UIw7Arwaj6VGukfUejAGKJd2bHMzVaiyO9vNLyFcXWb6ej-EWaZWiYOhfigURriRSE491Oc-64XYchwHe7bi1BA58KIO_8E4J5P-HsfPRdFh-COfMh2fybXRadbe5Zr-2LJtFZA",
-                    "width": 3023
-                }
-            ],
-            "place_id": "ChIJ6XxwDGx2bjQRMNAKju13f4Q",
+            "place_id": "ChIJM2u4MbsEbjQRQr7Cwl7v4_g",
             "rating": 4.6,
-            "reference": "ChIJ6XxwDGx2bjQRMNAKju13f4Q",
+            "reference": "ChIJM2u4MbsEbjQRQr7Cwl7v4_g",
             "scope": "GOOGLE",
             "types": [
-                "liquor_store",
-                "store",
-                "food",
+                "bowling_alley",
+                "tourist_attraction",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 19,
-            "vicinity": "中華西路二段573號"
+            "user_ratings_total": 7371,
+            "vicinity": "三多一路335號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9957298,
-                    "lng": 120.1980635
+                    "lat": 22.6123137,
+                    "lng": 120.3004666
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 22.99704587989272,
-                        "lng": 120.1994728798928
+                        "lat": 22.61354027989272,
+                        "lng": 120.3017657298928
                     },
                     "southwest": {
-                        "lat": 22.99434622010728,
-                        "lng": 120.1967732201073
+                        "lat": 22.61084062010727,
+                        "lng": 120.2990660701073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
-            "international_phone_number": "+886 6 222 5885",
-            "name": "拾捌樓的小酒場",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 938 739 309",
+            "name": "小綿羊親子樂園自強旗艦店",
             "opening_hours": {
                 "open_now": true
             },
             "photos": [
                 {
-                    "height": 750,
+                    "height": 4284,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/107778510034332512422\">拾捌樓的小酒場</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/110035743700931611801\">Amillet</a>"
                     ],
-                    "photo_reference": "AZLasHqwim1VqY1QZNCYTHvhoJtmDnBFkmuJKuLp8WpKEXUdNpowqCsSul0xCjG67z35C1ZLOjkDUki9qSag33dQTiCBzp5zub8tkIfQo3u11uyngprGhe2cW5pSiE5IzQxFIILpILQOa7Sio_FoECAU1X-6cUxBu_QMtqbKWE_afXG73zI6XkV6UWrDPk3zaNVGzHZIXdqZipS7f6k49RUj5UKf_EFqjNDMr3qTxSKt1CZ0a75LN3TupF8GIN4N2pOWr1R33REUmb-7uuCsydV4ukXbiX1oSGJKKeIiHkgpEu7gNqzYpH4",
-                    "width": 1000
+                    "photo_reference": "AZLasHo88ozGzfCLX-Y_P_ItmU0CRRv9pz1pW16sbBFLvdUPhTX75nVBHxg-5qXXX6X3hmT9bnZxwyLEL4yFp3vCDXXb1uj2GdMkKVfJjSbPWV8vTnkLM2FGBIQIZiDBvUIyI2yX6Mu7UoUesqeHoVO6-vXm379WZln2GfWb8iA0uOnVQ851WEEwTS1u6TXedO4A2ITLqWnTTYqLRt9NVMA0Sh_Ke-OF74bFpD8ccXcL4veb2NETOlOuSLHtykA3VP9iq7dvdQQjreKEPOmvd-CHdd1iaNKI-JM4HPIDc7pFl8oGaCEnuCXboYDy5KWg6yulxfGRsHZ3Y0t8Cblr9uOM94WHD2YATPxbBwvGVekb830zoa_aaHBBJVIZwtdJkg-X3JWyhRRYpdqQIkMY99duNnqDVILBtod8zeovGpQQv6zf_HVqkM1NFblHQ4ZMnR24a6w2LlgaxwcxvphpkP3ypy-EXI3c8iqS_fR8SVk7Y47wCsqCeTh_97KwIi3hd9-YQ0b-76x5MAWrgVnNHw12QL7MHja5GY1cJ8zEms8NyMyAVhEgs5hGbeEO-eyr6uSTljJNgevl",
+                    "width": 5712
                 }
             ],
-            "place_id": "ChIJXywLma13bjQRG0dpQ9bJaIk",
-            "rating": 4.5,
-            "reference": "ChIJXywLma13bjQRG0dpQ9bJaIk",
+            "place_id": "ChIJ03NplfIDbjQRdnT-Ue1oDrk",
+            "rating": 4.8,
+            "reference": "ChIJ03NplfIDbjQRdnT-Ue1oDrk",
             "scope": "GOOGLE",
             "types": [
-                "bar",
-                "restaurant",
-                "food",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 381,
-            "vicinity": "國華街三段93號"
+            "user_ratings_total": 1684,
+            "vicinity": "自強三路38號"
         },
         {
             "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 22.9809827,
-                    "lng": 120.1947769
+                    "lat": 22.593397,
+                    "lng": 120.3462908
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 22.98233657989272,
-                        "lng": 120.1962484798927
+                        "lat": 22.59493142989272,
+                        "lng": 120.3473562798928
                     },
                     "southwest": {
-                        "lat": 22.97963692010728,
-                        "lng": 120.1935488201073
+                        "lat": 22.59223177010728,
+                        "lng": 120.3446566201073
                     }
                 }
             },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 264 4252",
-            "name": "合歡菸酒量販(總店直營-夏林門市)",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/101038651735695220081\">Neo Kung</a>"
-                    ],
-                    "photo_reference": "AZLasHoIraCFuG-JV1BI8S_dNVuZcO94poXYK7e5sujWBINqBwOifms24ixXktjqVjS5y6jQtEdZ5nVBJXDcdxvRvq2BYGHqDtafervNfulRmI1mb6tY_PnwykYGsFJlDSlkclt26sqP_zZe4PMi25KnwoFywGGQtuV5zr5mdUJx2Qi1vhn-TNY3FwiQyiCHAJO4bhXoH093WfhqSEaGrRZYguZ0ISJtHWfpvC0obdFBAGyjnnmExyFBOGcWa1-ziYTTP3v1tZFrnGEIJSazB3VlJfx_z_3x22u1ieXc9TYFBbg0HwW86JbSc-tf6e5Z4hIFPaHPYzeI0QBSpQg8-epnIYU_saiCyDRID2TMC3rdFPt5A2jbNOCaDBOFKYbgLaJxjAVIFv6e7ABO5Gq6aq_xES6UY0JbZefQyBOu1VWlZVcvA33b3mQvmAzsO9TttWuuPHGVLqj9i7V5d7wYkbG-J3ckb1AZXq6qIFvfVLVCcuDRliGdjud5_xvt2QamBmjv9UuWx3323z0TqWeAMaL-478vAHU2r2eYVktobywK-UkTnXgc8YyljbYOdZJgfGsXm89FuAio",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJLdJv6Nd1bjQR39LhqLMC39M",
-            "rating": 4.6,
-            "reference": "ChIJLdJv6Nd1bjQR39LhqLMC39M",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 97,
-            "vicinity": "夏林路148號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9885505,
-                    "lng": 120.1906908
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98984082989272,
-                        "lng": 120.1920275298928
-                    },
-                    "southwest": {
-                        "lat": 22.98714117010728,
-                        "lng": 120.1893278701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 222 2219",
-            "name": "富詮煙酒",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 8064,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110467749533706914564\">富詮煙酒</a>"
-                    ],
-                    "photo_reference": "AZLasHp8djNfjlv6JIp3TWIAKtyYCSy8uJ4tzmrquI7T_0x3FaVpK_8xICti_v8dY5e7NHLioAV7xMQJ2smtJc_i6xTiNscYU3jt5q_b3N4YOddMKtH0jCM7pKVIHbJfK7HMuwoDT6hvqLmP4gOnF1eZNTFVqBeNdseePhRmGSF47s6SAXm_Bl9ST8nrWtMSLpz5qxrvhwP7UENHIqPx4Z0d8qLnuwUVcIyzBjM9QQ-WSa6DWblsytRyNjGl__IGo0xDfZXkPnGPI_YmSNoHSGuFSZtOT2EfEwdET3wBpQOXo5JDayhTj0Y",
-                    "width": 6048
-                }
-            ],
-            "place_id": "ChIJERs9xrN3bjQRi5Nnfvq72FI",
-            "rating": 5,
-            "reference": "ChIJERs9xrN3bjQRi5Nnfvq72FI",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 23,
-            "vicinity": "永華路一段246號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9943916,
-                    "lng": 120.1933749
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99574887989272,
-                        "lng": 120.1947787298927
-                    },
-                    "southwest": {
-                        "lat": 22.99304922010728,
-                        "lng": 120.1920790701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 226 2333",
-            "name": "全球煙酒專賣店",
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "機器人主題公園",
             "opening_hours": {
                 "open_now": true
             },
@@ -2647,320 +539,387 @@
                 {
                     "height": 3024,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/104465941906708895044\">童童童</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/110262103127855639256\">謝哲擎</a>"
                     ],
-                    "photo_reference": "AZLasHoYAKDyCY-7gXI91GEZmxNmKw67bm3m1Z_qjOQJDMfQfn0J86eDx_yrvOa9hUcBkwxnmJD14cUfwGAhPwrknNo4TBunCUdhu6LzB_tJOm1fCjGjxO0_29fQm8ArnfiTSOICYQ0m8-7umm5dE0iivT8Yv1xMfhQIzfY92HM9iLD0lfZXNpaq0aGtffyTt4FL9x-J8KwzGco4GTDHbZu5aw6QNR2EuSolDKU1IFzbNeu4KozvP633uVQ8MYEyFnknTaSRNPfNYivkufc-X-04xV6EFooeBKxqKgaofP5Zb9DLQDX_68ljc7pI0R4_wHwcLnqe_Ps6DN4vUaOzctl2nJB55FRxmv94ikgT8zkq7XHmbLBnyaILVHoqPVbMvxzFQzFVQSDRzUJNrkCx2XjkxeI198DUagBtuAZCzTxXZzvXDDtfq_k1J_KvfSKUdQYGeASmS1Rjb2_BprnR7fCtuOZO0Xlpf4LkH81nRvQl6uYya45BXv0Qau9JZJH6_wr28tpi0nnA5DSZFt7zuUF6QcO-xlgRQ1e-0sr2Dw5NvU0mWjluLw0umn3cskOA4OBoVUbj1Ttg",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJw-r5i292bjQRqDdEInvAS0g",
-            "rating": 3.3,
-            "reference": "ChIJw-r5i292bjQRqDdEInvAS0g",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 38,
-            "vicinity": "金華路三段205號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9869821,
-                    "lng": 120.2091329
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.98827062989272,
-                        "lng": 120.2105205798927
-                    },
-                    "southwest": {
-                        "lat": 22.98557097010728,
-                        "lng": 120.2078209201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 213 8325",
-            "name": "良盛行(台啤各種酒批發)",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2252,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/114701056806859773184\">張小均（張小均）</a>"
-                    ],
-                    "photo_reference": "AZLasHqReSWv1GM-GH9EMfnaNsTFdunMqcUOpRpYoBAz387crjZmiV0w0CXQxR1K5zWSwpPbQY9H8UNTDyxqIzgYNbnqfuIUcVX10BcJYpWmfEo8J8mZsOlDyODc2baipZfks3qd1cH0suKcvTFpwu-QX4mT55zpx4uSAL6D-4ea7Hty_JvfqA_gg78iJeAYJ_ndQuNyrHzFLI8YEHseufBGEhw4HPGdbVpojDBglqpGpGIXFMBGH_M5MwIOACxBh8Edhw5yc7tkZ-1Z_-iAo9pNs8VeJJLyQnPquWu6WlJoUaWxwU3EYECVl4szTReUYgX4ErYD75Coh7EGXcLU61WWVN9APJOnbGNirFHSOqUs8oWZyYvC7vMKJSjNMEQc4NyFWTZg1WYgN5kwkJ7Y7Q57peRe0GowFqT5ssw7U_yfp3cFK3izMtKHEYQqW2JEsIpUtR8HgxoUXo5mQre6B1zD8arIGOjwj-yWDQLS0gVyDVIS2OpfnVSpx0KF8H7QpHvdn1E-xACk2PMVoaF9F9v5tZ37iXggn6H34N2SuyLi5Bp9jmiSe6SPWD--qeJnogD5xNMEC2HY",
-                    "width": 4000
-                }
-            ],
-            "place_id": "ChIJRXJBX4Z2bjQRNSwVpdQtU0E",
-            "rating": 5,
-            "reference": "ChIJRXJBX4Z2bjQRNSwVpdQtU0E",
-            "scope": "GOOGLE",
-            "types": [
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 3,
-            "vicinity": "開山路170號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9911398,
-                    "lng": 120.1731141
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99235877989272,
-                        "lng": 120.1744435798927
-                    },
-                    "southwest": {
-                        "lat": 22.98965912010728,
-                        "lng": 120.1717439201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 299 9123",
-            "name": "順飲煙酒有限公司",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 960,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/102123640015511290481\">順飲煙酒有限公司</a>"
-                    ],
-                    "photo_reference": "AZLasHp9zVjB8soHcKwwfxyeps_QYpV3gB1GzlV5M73u_mmN_gnCe6PNyGL0VmQryPpCY6N5muW1OXcG1_mdFIzbIfeH7hDtmy5ymcsoKgUKvaeAjq7IQRR-yPpHiMH7LKlBZpWd2rLGAFICr48e87b_Cc-y1uX6-_-qAAtv4--OMuvYYqw3H2mXcS7fFq--wdWWwUQS8141OrysNmS6m3GX4D28CRPNi_vA1oafuyZ2yWuj6RBk4NLdSDMHmyFTEKKNxChCqZOPLIoWbkoWSp8lgydNSqxgpVxe84BPHW9TKxcqtvUXoTg",
-                    "width": 1280
-                }
-            ],
-            "place_id": "ChIJnxwX1wh2bjQRnkf77ERPW_Q",
-            "rating": 4.3,
-            "reference": "ChIJnxwX1wh2bjQRnkf77ERPW_Q",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 20,
-            "vicinity": "永華路二段678號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0369874,
-                    "lng": 120.2630552
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.03825527989272,
-                        "lng": 120.2644873298927
-                    },
-                    "southwest": {
-                        "lat": 23.03555562010728,
-                        "lng": 120.2617876701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 231 1258",
-            "name": "維新菸酒專賣店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110412094252437203378\">維新菸酒專賣店</a>"
-                    ],
-                    "photo_reference": "AZLasHpzXQ3cge2_XNFwdWX5-Tr7glCGRR-4YyLxgnDHW8rTQdH1auJRzQpqMK7TuzFvi75y6Cc1lDKL9fy6yVURyQ9rT-hJal0EIxFAWGDP7fpthY8-wwb7Xjtxkx4JnSKD6_5CCLEp-kXPzxbKyKgBNWz1CTuH7cWo5KP0k2yAxkMVYotaXoNJFvmmsYGSB_ghu2Qu3qCHQZC_lN1bXCAXKRDmvmbhLDZ6t1ThiNPT1BRzD-QdGefmRBFnKqzanpfWT2GzsyAnozp9iat_lPFBG3dWtZKfh2GZMi5NpfwQUiTInvx6",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJ3wAaXrBxbjQRry1qBPCS0BI",
-            "rating": 4.9,
-            "reference": "ChIJ3wAaXrBxbjQRry1qBPCS0BI",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 14,
-            "vicinity": "自強路771號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9950511,
-                    "lng": 120.2099832
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99634787989272,
-                        "lng": 120.2114298298927
-                    },
-                    "southwest": {
-                        "lat": 22.99364822010727,
-                        "lng": 120.2087301701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 922 922 330",
-            "name": "源酒屋-日本酒專賣",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3456,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/116500609926027523969\">源酒屋-日本酒專賣</a>"
-                    ],
-                    "photo_reference": "AZLasHrppYXrd-NKHVUrwXLywswrvpCN1IM7ca2ohRTuCwOxf4SsmE4rGYohoPDuggaXx1AHVl9q_riiVY7WnfWvwODGqN-HNHmExyLznUB5w4fNfjyXQeo7RPwbVAzsdFt6Zx3mxe-beLVyQMDKNToDSr1X4HYs13bwVuyv74UD3zJVUnxjtA-9DugWpaWhwiUAjWkcxkMFzQOSLU6JxnV9zaMl6VrDFHfNXcr5Ti7yLw2ON75XVvB6StBu-82gDKwumfVDHeSuqy51V7RC_HTzYncTYNTz0mrAUE6mVfrBBffAdME3dFA",
-                    "width": 4608
-                }
-            ],
-            "place_id": "ChIJwUdklGF5bjQR7jwuD3vTFpY",
-            "rating": 5,
-            "reference": "ChIJwUdklGF5bjQR7jwuD3vTFpY",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 11,
-            "vicinity": "中山路162號B2樓"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 22.9944152,
-                    "lng": 120.1702293
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 22.99571247989272,
-                        "lng": 120.1715709798927
-                    },
-                    "southwest": {
-                        "lat": 22.99301282010728,
-                        "lng": 120.1688713201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 298 2314",
-            "name": "超楓酒業-台南總部",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 4032,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/103356489801559214761\">Rido Chen (綠豆)</a>"
-                    ],
-                    "photo_reference": "AZLasHrEicGS6WzhPrGL8sS19VroaX8ZMJsfhPCQHnmQMm0yS5u1Vz_HSwvDXLyuLDkO67oDRZ5ggweftsHxuMjkn3zHbqtnW-UxA_aSjDjLw7WJpJsqcYfz-QfTtMCZpPVN1yhADGm9cQcWjP4crzHO3LOr2bh8sM8-drY8pYq1fE991lCrWrLTCVK1xjyJnPXqj1fBAwlkUqFPXFcCbDvr7mfB_uWPdkyG6AiCi2qVHmk6BWECdLuiUxn96kOLuK9gJOR1Ci-u1ZpI94FGD9aQqBxkXaa_q2nOwfTp_mrzWHID_VWIImwVWklrp4tkAveySc__kbr0MWxQdEMXM-GhkwVM_M0H32Q536hIamJVk1e7098uH35_vtMpGyf1ak5ZBOKZ4x78_P9ii3NksFu7zi5hu3_S4Wq0UIVR-2aky6lfzyoYWlWCAV0qi-JylSkGTYdoyWjceJPdi97dZUH37It1uEyb02eXLrHE6b7hqleJeqC7Huqrk6wYkKpzEmBhxO5WMAyEHRWqdIGKy7qxRhoEhGFC_AEsOuNm0qrrceSFMQdPFJUiF_CSzQJ1Qb-4SnLsjA",
-                    "width": 3024
-                }
-            ],
-            "place_id": "ChIJJcRAaqp3bjQR0dZRLSCrVfc",
-            "rating": 4.8,
-            "reference": "ChIJJcRAaqp3bjQR0dZRLSCrVfc",
-            "scope": "GOOGLE",
-            "types": [
-                "liquor_store",
-                "store",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 6,
-            "vicinity": "健康三街460巷51號"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 23.0046639,
-                    "lng": 120.2400295
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 23.00597952989273,
-                        "lng": 120.2413412798927
-                    },
-                    "southwest": {
-                        "lat": 23.00327987010728,
-                        "lng": 120.2386416201073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-            "icon_background_color": "#4B96F3",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
-            "international_phone_number": "+886 6 312 0078",
-            "name": "壹玲菸酒專賣店",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 3024,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/100800024221507659348\">沈正忠</a>"
-                    ],
-                    "photo_reference": "AZLasHo6zpXAaQ0HKbd0nkUr8grUQ89BqW_IJLwjPw49vM_L4a9wHaIpdWvhMiSyR9BPXEdPdwyWqWWYm1Z_fIwOD_lPdR4I52yX8oVK7fTSRowV52Rr39RxKHqBas0E36gXa-huJwfq6TpEV1qn-06T8h-lnLXXkNHL2xv4_DPbx3CPo5xqFFsIzX6K0Y-HkO7711yT_zJahhChiAsAH2BkupsU73xe2kdHA37DJQmP0R1srMIjquioY1QqQCEWFkE7dqflMXRTm-MYt2JizdsCyf5n5RQOGebc-julY9Tg8C24TNqxTs5uvqEU-BxGy-Ak30UiKet86W84rB0T9VorrrV2EOEwQK8Ro_v1s3U7b1UFpmsZdzTIeFzCOn70svlxHX3bBu2XbLRUXm6IN3HcmHcfxG0Da-q5OoijDJ-62uFJDhyx3ODdkpVFPV99Iji-yNRlw_8kco_3oKK7zY0aW7mLCRc7CzqqCOmdn0T9DwvN210NKOOiFV7b3QOoJJlOII_9G-vxexEDR6Cy43nzu5dINp9yJ5vbP3-rt3CWOJ9zfVNF8FT9nI_fioALt7VdNvwvcw",
+                    "photo_reference": "AZLasHqxEWrYa-MftScqp9m_tbD3ui_GSRpKyD-uT98_fuyMASs6OscJLpxEWMD6qeh2Pvay829bc0klHRXMSLx9LZGKQEzAlDUBAeX6cA5FjzTfCGoKrdKojzsJjF-Vqr7acdwoHoDG8poqXXCeP510P34z6uS_f87U8f82BMBchCP-9tuoBAFSoWE0SzLqPMpg78wQyF0PAZWw_WGXt0DiV1k8f8vS7NOQF1R1FeBXefePH66ZXZP8ti54gTq0ykd5oUC7-uq9jt7SKePoek9zZ-17QezT6K6U8G9n6U-kKwfJQ542raOvKq3zXWzHRK5yw-Af4h2Onw4HsNYNgrT3IcASvJZhhXhiUa6aAuKrVbP5xXU3yotjBYg0KssbloUfk0AuKrI3D87pMVrO-vzQUQlJI0V__FQHM5eQYv3OnKdqdkFcQsKCPiWn80BwjaT155KsEKSnw6_W-cw9QcB6nTRS7-mYcPlwRSH9mKWu0VLSj14WUanE8Eh47IWOU4d_bxpQR4bQpcG9eGufBuERegiu0TyLdojKfxjXpbuqPehtoF6uAWlkygd7fc01kzbOe97ShQy8",
                     "width": 4032
                 }
             ],
-            "place_id": "ChIJ8-MZ-Gh3bjQRUBTOtjdeZhE",
-            "rating": 4.7,
-            "reference": "ChIJ8-MZ-Gh3bjQRUBTOtjdeZhE",
+            "place_id": "ChIJManx3YEdbjQRzhpjs7owz2s",
+            "rating": 4.5,
+            "reference": "ChIJManx3YEdbjQRzhpjs7owz2s",
             "scope": "GOOGLE",
             "types": [
-                "liquor_store",
-                "store",
-                "food",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 43,
-            "vicinity": "忠孝路108號"
+            "user_ratings_total": 475,
+            "vicinity": "紅毛港路"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.6603877,
+                    "lng": 120.2994947
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.66179887989272,
+                        "lng": 120.3010809298927
+                    },
+                    "southwest": {
+                        "lat": 22.65909922010728,
+                        "lng": 120.2983812701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 7 588 3485",
+            "name": "凹子底森林公園鳥巢遊戲場",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103406949845893998857\">balunlun8</a>"
+                    ],
+                    "photo_reference": "AZLasHqdPAjQayTBnyc1MiaBo0a9ByGhyEhWXG--Qqkg7TQReK7jejMSIzefIQXp_TpIHo5B_dqJfNWvT7Vd5CW6zCubRXX1Joul58wxag9lajwEJJF1rHpg_OilO-AGdFxhyAggQV5GT-XvuV268SSXjS_rQL1IoO9guuSh9OKC80YRPcERQ9vrziJ61CwjtrwCku2LSVXIHiOJ0DtyHEgfO8T0_nNP2DNVip7Qn-N9_9QiYzB2UHfa2OPdW-g-bhM_kqPbaDb79EwPhLm9mYPenbeUxIYB2p_p-zDEboSyqD8PCa-fiJoReBxMAlLyrL2Dzw1u5E4UveL160DrWAHVDUjeNp_AwQws4ms-53zB-T6T2Xv0lYzUDqrVrSPcl_UPaFVcq_3eOj7udKEUa_YVOyu7NXKV-xWQHBeH-IEp23TXZOwT9wI1ZlKmxCqAdrslRlCdYR0GM9vk6Bej_ZyLKCvCNWWiI3Og3xFTLRSJI-wk_0NDFkPLYYWY6PjBXVIUp3TbIpEVvVJes8mG3XeM3C-d3zbHAGC9PC2cq35m5zY3WoWmIdi1cpGqGlq-HF0iGVz71Bkl",
+                    "width": 3000
+                }
+            ],
+            "place_id": "ChIJwwXqcfgFbjQRNubpaSpN61c",
+            "rating": 4.6,
+            "reference": "ChIJwwXqcfgFbjQRNubpaSpN61c",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 313,
+            "vicinity": "804"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.5934955,
+                    "lng": 120.3463123
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.59501827989272,
+                        "lng": 120.3473957298927
+                    },
+                    "southwest": {
+                        "lat": 22.59231862010727,
+                        "lng": 120.3446960701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "保安公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118441840030976168187\">陳超閔</a>"
+                    ],
+                    "photo_reference": "AZLasHqvwVvjaIaeM5mJOh_AHXS7LA1FhGeFmubmySE9BKoX4e9tGJG22042Zc2sKEFW_qZoP3VnSl1EXUh69S8zG68P_1jsOIsxzQCmG4k90O_iiPx1pi61JvLNCpxccFEK3uP1IXnGTcTkchhb5xaKvn_RZAV_9L3YqahEPgvBS7I3ZqCaNn_pvRikAWoBBL8X-xeAgDiFl5jRgohMiPc2TnIJpjkOnIXYqdKCLT3FrKUnUW8ro7A8QI1oM9GTNRuM9ozfpGE0538AxXdrwP9Sa8S0sewCTT9ge7QIZoS4UOeeeM8CbDKlnAwUYVj1t5C4-FW9-BIHbEQR3JsQQOBSgT4lNM0ViZthR7k1PaZfxLUJb5I8ulTOecxKUHA8XT_34tcs-0aWj1jdwBede5xtTZqbFI8_lb2ArBFBuP_vQChykW0CH2r3_LzoN3_suWPdngAmhH1_lUcOVRmtDeRTV8jji1KzMb-rGPqym0ppHzwWTDYdjfUV37HGX_LPK6hsC-NqHuTumKYI1epUYzrFv3ButW8Sx7N588FbhoCQY6by7jk5GvYRSmV0kXcVDaM3ZnABlqhg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJqcjIGwMdbjQRNqjEDyW2XL0",
+            "rating": 4.5,
+            "reference": "ChIJqcjIGwMdbjQRNqjEDyW2XL0",
+            "scope": "GOOGLE",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 667,
+            "vicinity": "紅毛港路"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.6316019,
+                    "lng": 120.2979874
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.63298687989272,
+                        "lng": 120.2993235298927
+                    },
+                    "southwest": {
+                        "lat": 22.63028722010727,
+                        "lng": 120.2966238701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "娃娃兵親子樂園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101604861164218600796\">單親老爸的奇幻旅程</a>"
+                    ],
+                    "photo_reference": "AZLasHrynkNbjOEAlxWd6P385wQDmvIBN3B0ZL1PHnTE_onKDVONnxGP3jsobDI0wYz1hKVHuQXf2_-Dmtzylb0mEHLZXAAxsW4S2eV1OSZ_F5V85SQ1-SKLrKEVxQ-pZhtxKQ_A9hkcJpDjNXDM4jOTU-suz_I1N5kK2kQ0SLAtYdOHuw057SRVsYG7O3QLfVTjRjtGrek4DRIqbOJ8fkfv5VYyiSXbL_7YN2mDNavfW7hfwDk6lQWfZyjU3GRa72Y77B6kld15zWGvjEXicTQX_OKFqkBn9ySKSWU6SP4J9wuH2irGAgc-SchJ8u83MR_hJOph0YJTG_GTEWg6OKKx1ELXd7Da_MxQJmhMq4K2BdiWvjo3veQewr4UPj1t_pN00gBuwG9BaB1akakn6NV2EGa-GCA_HxcWKxfHWgRZJpO3Jm40vHVhbbb26xYRQDNpxuHHjrYhE4tjNo-SaN18NIuzoPAQ3-wiVq9BFiRfKOPmroWV2bjRERRq9gsqVJzCF8A5Bw3-1glu5ocKgHRpSYrrMwS2ExrqCeLU4ZMxjHXLNW6BQy2c1F-smINGfM0P0qhwE8TTo2rGPw",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJGb6ijUYFbjQRHWuVYw7F37k",
+            "rating": 4.8,
+            "reference": "ChIJGb6ijUYFbjQRHWuVYw7F37k",
+            "scope": "GOOGLE",
+            "types": [
+                "store",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 7548,
+            "vicinity": "六合二路107-1號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.6605207,
+                    "lng": 120.289029
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.66160812989272,
+                        "lng": 120.2903608298927
+                    },
+                    "southwest": {
+                        "lat": 22.65890847010727,
+                        "lng": 120.2876611701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "international_phone_number": "+886 7 337 3318",
+            "name": "秀拉兒童遊戲場(鉛筆公園)",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2608,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107320431089285524102\">劉憲法</a>"
+                    ],
+                    "photo_reference": "AZLasHrBx4itWda_fx7FZrd53UShxlJO2rzxrdoFwD19mH8l7NRAnikGNPAWVAY19QVQ0WKcBym0b2pmmzrOpuwdq0GraBzvuGDFj-TUrEICuXimhn87o5v8kdUnO_LOdhWopry29pffyc26Pr41x0GJ6b40wWfJ3fZq6PxVIczf60pQpCV_FQPVhbcyhBAteo-752WY8rQ-wpyF2sTZiIx_vGGdAgFGVdHYK9nMtqHL1pMBQ6VK77e0TFNkXIE_VraeAYezD4BQA3Ywnr4HRjDc3cwqIT94Le26FGDg0aetYtwUXmJ1zbBdMLycZVPR4sp6vqworFMqQ0fxui6TU8vDmWEp2HO4A4S6ThMbabsosWwh5ZONohMbba-ShXz7FYaUxpNXYgN2VpDRrAhO_6jcV5VzM0iumMvOFE-4jzXCV8elagP04EGkPa5CAFCfLC4IZyA_anm61a9svcXMq5xgR0ISR9FxJVKQIim9yMzgDBKQJupuSS5OAtzbot405WRJkgmSII_lFucVIfiKA_PRI_daN9X9WZZdYLt3AOmdfTthAyJyuDEJGqxvBgB0OlVQnKiTyE2kcxFesg",
+                    "width": 4640
+                }
+            ],
+            "place_id": "ChIJ1y3AJlMEbjQR5qHrMHFtW2E",
+            "rating": 4.1,
+            "reference": "ChIJ1y3AJlMEbjQR5qHrMHFtW2E",
+            "scope": "GOOGLE",
+            "types": [
+                "park",
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 497,
+            "vicinity": "804"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.6062008,
+                    "lng": 120.2972939
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.60752962989272,
+                        "lng": 120.2988704798928
+                    },
+                    "southwest": {
+                        "lat": 22.60482997010728,
+                        "lng": 120.2961708201073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "name": "中油海洋天堂公園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102153025138814708675\">Ching hsuan</a>"
+                    ],
+                    "photo_reference": "AZLasHqUutRa4HtNGV3lyKN_ZhU9yj98b49pGutOipsAFvjL_PaTXws8z_jYcdXVeA3tQFNhPKJd1UnENT1-x_QCa8KQuzLhw4GLFriG37tTN6VUDAu1sqFCkugEjvwVlDlI_r_guKq7kxkcKHNCOSDybZQScVYs4nzf3K8VpA0S7-VqK8vrg9iUaai2DLYuAxEly6UiQIdL4JeYfdC89L42RPyxMWmQLK5L1Ga-cTX7GABdbJ7R6a0IxBDDftYzvnrwGyG6KyJWwBpg_fExQJE8_g97of9Pe_kORmMCRSGfa91HaCpcEKQ0A-BiPYjK_mzvEAPHaE_UnSkIrdyFDnMweESdR1mpti2h4fHzXBULIiLdFetgxi0c22zuo_3VAj34EWuXYNBSmZJbRypIhEYpaDNwqBscTEIjfIN8uRTmlHY_iiZ5Rz_3fCm6kpn8yHpLloxELXiKV8KPgoTCruJ-M4uLcfccsasTwU37UE9mVsdeejXgbBc3rDCdYwTLUU0uWcbxc6sU2bLo3qWjJBv4Bye4zyatiUSF9Yaj54eCpUv-1J-Tx-tyLzeQ7c0XRQ1-FtCCyA",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJ136ku7wDbjQRGjwBUJFmxks",
+            "rating": 3.7,
+            "reference": "ChIJ136ku7wDbjQRGjwBUJFmxks",
+            "scope": "GOOGLE",
+            "types": [
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 579,
+            "vicinity": "復興四路9號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.6498868,
+                    "lng": 120.317805
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.65118552989272,
+                        "lng": 120.3191265298927
+                    },
+                    "southwest": {
+                        "lat": 22.64848587010728,
+                        "lng": 120.3164268701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "巴布熊貓親子樂園灣中店｜高雄夾娃娃機｜親子遊樂場｜",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1108,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112701238509815606345\">巴布熊貓親子樂園灣中店｜高雄夾娃娃機｜親子遊樂場｜</a>"
+                    ],
+                    "photo_reference": "AZLasHpEVMI3ZEUTRJk-j9hxxa8Qn9-cy5pKwbkfY8ztdFBw0hfYSMZjQoz_NBkCszlcW5p_0FhAm6hfLgxvQpT2ZfKkLdfi16OlxABG-YFTI8WajtnQXL0d9ODpp6qfat2x4RZ-RQnJpt1h7hCIICiRUMWYnmI2vK9ElSMPgVVRhSmUuLxK29NYM9itXUTPf8ArFN_pLCQf3BT1VRsUjdZor0VObHR8ywnIo5s_p9dmAJoVV6wa5nWGyB8xSPhNgXrMmiUZOuyKDCqJopCWBXmsX7GpdUQ9zO2txuX9oLe2WV-DEVzLtT8",
+                    "width": 1477
+                }
+            ],
+            "place_id": "ChIJDxTvrX0FbjQRxlOjNue_rfs",
+            "reference": "ChIJDxTvrX0FbjQRxlOjNue_rfs",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "灣中街330號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.611971,
+                    "lng": 120.2989575
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.61334487989273,
+                        "lng": 120.3002977298927
+                    },
+                    "southwest": {
+                        "lat": 22.61064522010728,
+                        "lng": 120.2975980701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "international_phone_number": "+886 912 317 325",
+            "name": "Robar遊樂園",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ86h-mioDbjQRL-r4yLQb5tc",
+            "reference": "ChIJ86h-mioDbjQRL-r4yLQb5tc",
+            "scope": "GOOGLE",
+            "types": [
+                "point_of_interest",
+                "establishment"
+            ],
+            "vicinity": "三多四路127號"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 22.6582126,
+                    "lng": 120.2850347
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 22.65949074999999,
+                        "lng": 120.2864147
+                    },
+                    "southwest": {
+                        "lat": 22.65442695,
+                        "lng": 120.2810787
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+            "icon_background_color": "#4DB546",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+            "international_phone_number": "+886 7 555 0331",
+            "name": "內惟埤文化園區",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3072,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103653189882374570032\">陳棟河</a>"
+                    ],
+                    "photo_reference": "AZLasHp2Q7omwOlboFtM8CN4ZwJHUtkghUCWuQ_TIaNMmWzB5Oz1zlIdYI4UquWjplscROM3abwSHRX09c-KpY93BUj6jVMwJs_xQlnMpZu8sFHD6YQqOLeaXalAfEQPtmYjkxoMaCes-8XLY9Lxw6X7WxXEPWoRyZ635a5_mfs3hAmbFa1536UHSL_GU2BVPy2rA_zNavXUY-KPX8QXRSecGg3SkPGsKEUwEq4uR3KrkVnE58B5j5QdgCRIh46HP35yKlDhXdbxOCkVPSon9CDHE6IgPyHGKYqOOiTmy9K4GA5YAGoQtRRFgngNvGem4LQ7YAjWP_7H-Yo_zlNF3xSQNHpAuuQ8DFU3Sm1fzATz2NEJtIzCYNI95WIOuKXgYByGPu5dSHeGNaRt_B9bZn_XtC8vEpavbfdMChFwAzJfvoC1HvwYjD4cr8yZ8HGqZQVlkVvxU9qTNtPXSAz2_Dmo-E4hTYTsNCcGQuvILEbGt55N0dyLDc4C3qQGTDu767-KBubOqBLQBZS8YhtrahzmL2UuqZBAjA1g4vOnPtrAW-rza1ySg5SRl4ednm4OL8Mp24iMUmlL",
+                    "width": 4096
+                }
+            ],
+            "place_id": "ChIJg_4zjk0EbjQR8_6x8btBsG4",
+            "rating": 4.3,
+            "reference": "ChIJg_4zjk0EbjQR8_6x8btBsG4",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "park",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 5333,
+            "vicinity": "美術館路80號"
         }
     ],
     "status": "OK"

@@ -1,16 +1,16 @@
 {
     "model": "gemma3:4b",
-    "created_at": "2025-12-29T13:31:44.10101Z",
+    "created_at": "2025-12-29T15:48:23.859953Z",
     "message": {
         "role": "assistant",
-        "content": "酒吧, 居酒屋, 啤酒專賣店\n"
+        "content": "遊樂園, 主題樂園, 影視城\n"
     },
     "done": true,
     "done_reason": "stop",
-    "total_duration": 3574457334,
-    "load_duration": 3052571834,
-    "prompt_eval_count": 250,
-    "prompt_eval_duration": 359811375,
-    "eval_count": 14,
-    "eval_duration": 139945666
+    "total_duration": 2450876541,
+    "load_duration": 97516333,
+    "prompt_eval_count": 245,
+    "prompt_eval_duration": 642712291,
+    "eval_count": 15,
+    "eval_duration": 1709941209
 }

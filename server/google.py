@@ -9,7 +9,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 def get_lat_lng(location_name):
     """取得地點經緯度"""
     url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
-    params = {'query': location_name, 'key': API_KEY, 'language': 'zh-TW'}
+    params = {'query': location_name, 'key': GOOGLE_API_KEY, 'language': 'zh-TW'}
     
     try:
         res = requests.get(url, params=params).json()
@@ -28,7 +28,7 @@ def search_places(lat, lng, keyword, radius=1000):
         'location': f"{lat},{lng}",
         'radius': radius,
         'keyword': keyword,
-        'key': API_KEY,
+        'key': GOOGLE_API_KEY,
         'language': 'zh-TW',
         'opennow': True
     }
@@ -68,10 +68,9 @@ def create_data_json(keys_list):
         # 合併 results
         merged_shops["results"].extend(shops.get("results", []))
         
-        # status 可以保持原本的 "OK" 或用最後一次搜尋的 status
         # merged_shops["status"] = shops.get("status", "OK")
         
-        time.sleep(1)  # 避免呼叫過快
+        time.sleep(1) 
 
     data_path = os.path.join(BASE_DIR, "json", "data.json")
     with open(data_path, "w", encoding="utf-8") as f:

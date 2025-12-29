@@ -70,5 +70,63 @@
             "lng": 120.2171461
         },
         "schedule": []
+    },
+    {
+        "id": "0f49a445-63b9-47dd-95c1-61683d517f0a",
+        "created_at": "2025-12-29 23:30:11",
+        "meta": {
+            "trip_name": "哈哈哈",
+            "location": "高雄85大樓",
+            "date": "2025-12-25",
+            "companion": "家庭",
+            "transport": "機車",
+            "lat": 22.6116938,
+            "lng": 120.3001305
+        },
+        "schedule": []
+    },
+    {
+        "id": "b9473f6a-1368-4c8d-b346-47cb2a787108",
+        "created_at": "2025-12-29 23:34:44",
+        "meta": {
+            "trip_name": "555",
+            "location": "高雄85大樓",
+            "date": "2025-12-20",
+            "companion": "家庭",
+            "transport": "機車",
+            "lat": 22.6116938,
+            "lng": 120.3001305
+        },
+        "schedule": []
+    },
+    {
+        "id": "e2a53e6d-f0d6-41f5-b1b8-6dae1649e460",
+        "created_at": "2025-12-29 23:37:28",
+        "meta": {
+            "trip_name": "寒假出遊",
+            "location": "高雄85大樓",
+            "date": "2025/10/20",
+            "companion": "家庭",
+            "transport": "大眾運輸",
+            "lat": 22.6116938,
+            "lng": 120.3001305
+        },
+        "schedule": [
+            {
+                "place_name": "老店麵 鹽水意麵晚上營業",
+                "category": "美食",
+                "time_range": "10:00 - 12:00",
+                "rating": 4,
+                "tags": [
+                    "夜宵",
+                    "家庭友善",
+                    "傳統麵"
+                ],
+                "ai_reason": "鹽水意麵口感順滑，夜間營業不打烊，讓孩子也能隨時享用",
+                "distance_info": "2.25 km",
+                "lat": 22.6319307,
+                "lng": 120.299041
+            }
+        ]
     }
 ]
