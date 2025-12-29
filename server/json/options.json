@@ -1,77 +1,77 @@
 [
     {
-        "place_name": "巴克禮紀念公園",
-        "category": "美食",
-        "time_range": "10:00 - 12:00",
-        "rating": 4.4,
-        "tags": [
-            "落羽松",
-            "IG景點",
-            "情侶必訪"
-        ],
-        "ai_reason": "落羽松林立，漫步其間如置身童話，情侶約會的浪漫打卡熱點。",
-        "distance_info": "3.13 km",
-        "lat": 22.9719929,
-        "lng": 120.2225874
-    },
-    {
-        "place_name": "赤崁文化園區",
-        "category": "美食",
-        "time_range": "10:00 - 12:00",
-        "rating": 4.3,
-        "tags": [
-            "歷史文化",
-            "夜景",
-            "情侶散步"
-        ],
-        "ai_reason": "古蹟與創意藝術交織，夜幕燈光更添情調，是情侶散步的好去處。",
-        "distance_info": "2.53 km",
-        "lat": 22.9970041,
-        "lng": 120.2023948
-    },
-    {
-        "place_name": "神農街",
-        "category": "美食",
-        "time_range": "10:00 - 12:00",
-        "rating": 4.3,
-        "tags": [
-            "文青",
-            "老屋",
-            "打卡景點"
-        ],
-        "ai_reason": "文青小店林立、老屋咖啡香，適合情侶慢慢探索的浪漫街道。",
-        "distance_info": "3.12 km",
-        "lat": 22.9974775,
-        "lng": 120.1964743
-    },
-    {
-        "place_name": "蟲窩",
+        "place_name": "Mizuho Space (Craft Beer啤酒)",
         "category": "美食",
         "time_range": "10:00 - 12:00",
         "rating": 5.0,
         "tags": [
-            "藝術裝置",
-            "隱藏景點",
-            "情侶拍照"
+            "精釀啤酒",
+            "情侶打卡",
+            "IG景點"
         ],
-        "ai_reason": "獨特裝置藝術與自然氛圍融合，情侶拍照、共享奇幻時光的祕密基地。",
-        "distance_info": "1.37 km",
-        "lat": 23.007335,
-        "lng": 120.237526
+        "ai_reason": "情侶共度夜晚，精釀啤酒香氣環繞，氛圍浪漫微醺悠閒時光共譜甜蜜",
+        "distance_info": "13076.12 km",
+        "lat": 0.0,
+        "lng": 0.0
     },
     {
-        "place_name": "退役直升機 NA-506 展示",
+        "place_name": "BeerHotel 精釀生啤專賣店",
         "category": "美食",
         "time_range": "10:00 - 12:00",
-        "rating": 4.6,
+        "rating": 4.8,
         "tags": [
-            "軍事展覽",
-            "拍照打卡",
-            "情侶趣味"
+            "精釀啤酒",
+            "情侶約會",
+            "打卡熱點"
         ],
-        "ai_reason": "巨型直升機靜置於戶外，宏偉又有趣，情侶一起感受軍事歷史的奇特體驗。",
-        "distance_info": "0.67 km",
-        "lat": 22.9955304,
-        "lng": 120.2223611
+        "ai_reason": "浪漫氛圍裡，手工精釀啤酒醇厚，讓你們的約會更添微醺情調",
+        "distance_info": "2.18 km",
+        "lat": 22.9933554,
+        "lng": 120.1939033
+    },
+    {
+        "place_name": "沃隼釀造 WE Drink Beer Company",
+        "category": "美食",
+        "time_range": "10:00 - 12:00",
+        "rating": 4.8,
+        "tags": [
+            "精釀啤酒",
+            "情侶聖地",
+            "隱藏版"
+        ],
+        "ai_reason": "神農街的隱藏酒窩，精釀啤酒濃郁，情侶共享微醺浪漫夜",
+        "distance_info": "1.89 km",
+        "lat": 22.9978599,
+        "lng": 120.19603
+    },
+    {
+        "place_name": "Bären Biergelden 貝倫啤酒館",
+        "category": "美食",
+        "time_range": "10:00 - 12:00",
+        "rating": 4.7,
+        "tags": [
+            "精釀啤酒",
+            "情侶聚會",
+            "復古氛圍"
+        ],
+        "ai_reason": "古色街道裡的啤酒館，氛圍舒適，情侶品嚐多款精釀啤酒",
+        "distance_info": "1.23 km",
+        "lat": 22.9985383,
+        "lng": 120.202385
+    },
+    {
+        "place_name": "Bar Alter",
+        "category": "美食",
+        "time_range": "10:00 - 12:00",
+        "rating": 4.7,
+        "tags": [
+            "啤酒",
+            "情侶夜晚",
+            "打卡熱點"
+        ],
+        "ai_reason": "東門路上的小酒吧，啤酒選擇豐富，適合情侶輕鬆小酌",
+        "distance_info": "1.16 km",
+        "lat": 22.9884151,
+        "lng": 120.2122339
     }
 ]

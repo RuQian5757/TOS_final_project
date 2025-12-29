@@ -1,7 +1,6 @@
 // --- Global State ---
 let navigationStack = ['step-home']; 
 
-// 資料變數
 let itineraryItems = []; // 前端暫存的行程列表
 let currentPendingItem = null; // 當前選擇的項目
 let savedTrips = []; // 歷史紀錄 (從後端抓取)
@@ -17,20 +16,10 @@ let tripSettings = {
     date: '2025/10/20',
     companion: '情侶', 
     transport: '機車',
-    lat: null, // [新增] 起始點緯度
-    lng: null  // [新增] 起始點經度
+    lat: null, 
+    lng: null  
 }; 
 
-function getGoogleStaticMapUrl(lat, lng) {
-    const apiKey = "AIzaSyBBJ0jNpT6u-PzXGVkx3xNbcrX9kYC-fKw"; 
-    
-    const zoom = 15;
-    const size = "600x400";
-    
-    return `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=${zoom}&size=${size}&maptype=roadmap&markers=color:red%7C${lat},${lng}&key=${apiKey}`;
-}
-
-// --- Mock Data (模擬選項，已補上座標) ---
 const mockOptions = [
     { id: 1, name: "文章牛肉湯", type: "美食", rating: 4.8, tags: ["排隊名店"], reason: "經典台南早餐，距離近。", distance: "1.2 km", lat: 22.9985, lng: 120.2130 },
     { id: 2, name: "臺南市美術館 2 館", type: "景點", rating: 4.6, tags: ["冷氣超強", "拍照"], reason: "建築特色美，適合避暑。", distance: "1.5 km", lat: 22.9900, lng: 120.2000 },
@@ -43,9 +32,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const tags = document.querySelectorAll('.tag-btn');
     tags.forEach(btn => {
         btn.addEventListener('click', () => {
-            btn.classList.toggle('bg-gray-100'); btn.classList.toggle('text-gray-600');
-            btn.classList.toggle('bg-blue-100'); btn.classList.toggle('text-blue-600');
-            btn.classList.toggle('border-blue-200');
+            tags.forEach(b => {
+                b.classList.remove('bg-blue-100', 'text-blue-600', 'border-blue-200');
+                b.classList.add('bg-gray-100', 'text-gray-600');
+            });
+
+            btn.classList.remove('bg-gray-100', 'text-gray-600');
+            btn.classList.add('bg-blue-100', 'text-blue-600', 'border-blue-200');
         });
     });
 
@@ -108,8 +101,49 @@ function startInstantMode() {
 }
 
 function startPlanningMode() { 
+    document.querySelectorAll('.tag-btn').forEach(btn => {
+        btn.classList.remove('bg-blue-100', 'text-blue-600', 'border-blue-200');
+        btn.classList.add('bg-gray-100', 'text-gray-600');
+    });
+    const txtArea = document.querySelector('textarea');
+    if(txtArea) txtArea.value = '';
+    const nameInput = document.getElementById('tripNameInput');
+    if(nameInput) nameInput.value = '';
+    const locInput = document.getElementById('locationInput');
+    if(locInput) locInput.value = '';
+
+    const startTimeEl = document.getElementById('blockStartTime');
+    const endTimeEl = document.getElementById('blockEndTime');
+    if(startTimeEl) startTimeEl.value = "10:00";
+    if(endTimeEl) endTimeEl.value = "12:00";
+    
+    const distanceInput = document.querySelector('input[type="range"]');
+    if(distanceInput) distanceInput.value = 5;
+
     isInstantMode = false;
     goToStep('plan-setup'); 
+}
+
+// Get user location
+function getCurrentLocation() {
+    return new Promise((resolve, reject) => {
+        if(!navigator.geolocation) {
+            reject(new Error("您的瀏覽器不支援地理定位功能。"));
+        }
+        else {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    resolve({
+                        lat: position.coords.latitude, 
+                        lng: position.coords.longitude 
+                    });
+                },
+                (error) => {
+                    reject(error);
+                }
+            );
+        }
+    });
 }
 
 // --- [核心] Step 1: 初始化並傳送 Meta ---
@@ -192,6 +226,10 @@ function startNewBlock() {
     });
     const txtArea = document.querySelector('textarea');
     if(txtArea) txtArea.value = '';
+    const nameInput = document.getElementById('tripNameInput');
+    if(nameInput) nameInput.value = '';
+    const locInput = document.getElementById('locationInput');
+    if(locInput) locInput.value = '';
     
     const startTimeEl = document.getElementById('blockStartTime');
     const endTimeEl = document.getElementById('blockEndTime');
@@ -202,14 +240,9 @@ function startNewBlock() {
 }
 
 // --- [核心] Step 2: 生成 AI Prompt ---
-
-// 產生情境資料 (Context JSON)
 function generateAiPayload() {
     let prevLat, prevLng;
 
-    // --- 邏輯 A: 決定經緯度 (前一個地點) ---
-    // 如果目前沒行程 -> 用起始點
-    // 如果有行程 -> 用最後一個行程的點
     if (itineraryItems.length === 0) {
         prevLat = tripSettings.lat;
         prevLng = tripSettings.lng;
@@ -218,34 +251,31 @@ function generateAiPayload() {
         prevLat = lastItem.lat; 
         prevLng = lastItem.lng;
     }
-
-    // --- 邏輯 B: 抓取 UI 輸入值 ---
     
-    // 1. 預計時段
     const startTime = document.getElementById('blockStartTime').value;
     const endTime = document.getElementById('blockEndTime').value;
 
-    // 2. 類型選擇 (抓取所有變藍色的按鈕)
     const selectedTypes = [];
     document.querySelectorAll('.tag-btn').forEach(btn => {
-        // 判斷按鈕是否有被選中的 class (依據你原本的 toggle 邏輯)
         if (btn.classList.contains('bg-blue-100')) {
             selectedTypes.push(btn.innerText);
         }
     });
 
-    // 3. 移動距離限制
+    if (selectedTypes.length === 0) {
+        selectedTypes.push("隨機");
+        console.log("使用者未選擇標籤，系統自動預設為：隨機");
+    }
+
     const distanceInput = document.querySelector('input[type="range"]');
     const radius = distanceInput ? distanceInput.value + " km" : "0.5 km";
 
-    // 4. 額外需求
     const requirementInput = document.querySelector('textarea');
     const extraReq = requirementInput ? requirementInput.value : "";
 
-    // --- 邏輯 C: 組裝最終 JSON ---
     return {
         "time_slot": `${startTime} - ${endTime}`,
-        "category_selection": selectedTypes, // 例如 ["美食", "隨機"]
+        "category_selection": selectedTypes,
         "max_travel_distance": radius,
         "prompt": extraReq,
         "companion": tripSettings.companion,
@@ -256,8 +286,22 @@ function generateAiPayload() {
     };
 }
 
-// 2. 傳送資料給後端
 async function startLoading() {
+    if(isInstantMode) {
+        try {
+            console.log("get position");
+            const position = await getCurrentLocation();
+            tripSettings.lat = position.lat;
+            tripSettings.lng = position.lng;
+
+            console.log("📍 已獲取當前位置:", tripSettings.lat, tripSettings.lng);
+        }
+
+        catch(error) {
+            console.log("Fail to get current location");
+        }
+    }
+
     const loading = document.getElementById('loading-screen');
     const loadingText = document.getElementById('loading-text');
     
@@ -286,11 +330,8 @@ async function startLoading() {
                 const data = await response.json();
                 console.log("✅ 原始 AI 資料:", data.options);
                 
-                // [關鍵修改] 資料欄位轉換 (Mapping)
-                // 將 place.json 的欄位名稱轉換成前端 renderOptions 看得懂的名稱
                 if (Array.isArray(data.options)) {
                     aiGeneratedOptions = data.options.map((item, index) => ({
-                        // 1. 自動產生 ID (因為 json 裡沒有)
                         id: Date.now() + index, 
                         
                         // 2. 欄位對應轉換
@@ -363,8 +404,6 @@ async function ReLoading() {
                 const data = await response.json();
                 console.log("✅ 原始 AI 資料:", data.options);
                 
-                // [關鍵修改] 資料欄位轉換 (Mapping)
-                // 將 place.json 的欄位名稱轉換成前端 renderOptions 看得懂的名稱
                 if (Array.isArray(data.options)) {
                     aiGeneratedOptions = data.options.map((item, index) => ({
                         // 1. 自動產生 ID (因為 json 裡沒有)
@@ -445,7 +484,6 @@ function renderOptions() {
                 </div>
             </div>
             <div class="mt-3 bg-blue-50 p-3 rounded-lg relative">
-                <i class="fa-solid fa-robot text-blue-200 absolute top-2 right-2 text-xl"></i>
                 <p class="text-sm text-gray-700 leading-relaxed"><span class="font-bold text-blue-600">AI 推薦：</span>${opt.reason}</p>
             </div>
         `;
@@ -462,7 +500,7 @@ function selectAndProceed(option) {
     if (option.lat && option.lng) {
         bgImage = `/api/map_image?lat=${option.lat}&lng=${option.lng}`;
     } else {
-        bgImage = getImageUrl(option.type, option.id); // 回退方案
+        bgImage = getImageUrl(option.type, option.id); 
     }
     
     const startTimeEl = document.getElementById('blockStartTime');
@@ -473,7 +511,6 @@ function selectAndProceed(option) {
     document.getElementById('preview-time').innerText = isInstantMode ? "即時出發" : `${startTime} - ${endTime}`;
     document.getElementById('preview-reason').innerText = option.reason;
 
-    // --- [修改 HTML] 確保圖片容器可以正確顯示地圖 ---
     previewContainer.innerHTML = `
         <h2 class="text-2xl font-bold text-gray-800 mb-2">${option.name}</h2>
         
@@ -542,7 +579,6 @@ async function confirmAndAddToDashboard() {
         const startTime = startTimeEl ? startTimeEl.value : "10:00";
         const endTime = endTimeEl ? endTimeEl.value : "12:00";
 
-        // 前端顯示用的物件 (繼承了 mockOptions 的 lat/lng)
         const newItem = {
             ...currentPendingItem, 
             timeRange: `${startTime} - ${endTime}`,
@@ -552,7 +588,6 @@ async function confirmAndAddToDashboard() {
         itineraryItems.sort((a, b) => a.timeRange.localeCompare(b.timeRange));
         renderDashboard();
 
-        // 後端同步
         if (activeServerTripId) {
             try {
                 const itemPayload = {
@@ -565,12 +600,11 @@ async function confirmAndAddToDashboard() {
                         tags: newItem.tags,
                         ai_reason: newItem.reason,
                         distance_info: newItem.distance,
-                        lat: newItem.lat, // 存入座標供下次AI判斷
+                        lat: newItem.lat, 
                         lng: newItem.lng
                     }
                 };
                 
-                // 背景發送不卡頓
                 fetch('/api/add_item', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -714,7 +748,7 @@ function openTripDetail(tripId) {
             <div class="relative pl-8">
                 <div class="absolute -left-[9px] top-6 w-4 h-4 bg-blue-600 rounded-full border-2 border-white shadow ring-2 ring-blue-100"></div>
                 <div class="bg-white border border-gray-100 rounded-xl p-3 flex gap-3 shadow-sm">
-                    <div class="w-14 h-14 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('/static/images/icon2.png')"></div>
+                    <div class="w-14 h-14 bg-gray-200 rounded-lg flex-shrink-0 bg-cover bg-center" style="background-image: url('/static/images/icon.png')"></div>
                     <div class="flex-1 min-w-0">
                         <div class="flex justify-between items-center mb-1">
                             <h4 class="font-bold text-gray-800 truncate">${item.place_name}</h4>
@@ -725,9 +759,6 @@ function openTripDetail(tripId) {
                 </div>
             </div>
             <div class="pl-8 py-1">
-                 <div class="bg-gray-50 text-gray-400 text-[10px] inline-flex items-center px-2 py-0.5 rounded-full">
-                    <i class="fa-solid fa-person-walking mr-1"></i> 移動約 10 分鐘
-                </div>
             </div>
         `;
     });
@@ -780,9 +811,6 @@ function renderDashboard() {
                 </div>
             </div>
              <div class="pl-8 py-1">
-                <div class="bg-gray-50 text-gray-400 text-[10px] inline-flex items-center px-2 py-0.5 rounded-full">
-                    <i class="fa-solid fa-person-walking mr-1"></i> 移動約 10 分鐘
-                </div>
             </div>
         `;
     });
