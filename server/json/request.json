@@ -1,13 +1,13 @@
 {
     "time_slot": "10:00 - 12:00",
     "category_selection": [
-        "景點"
+        "隨機"
     ],
-    "max_travel_distance": "3 km",
+    "max_travel_distance": "5 km",
     "prompt": "",
     "companion": "情侶",
     "coordinates": {
-        "lat": 22.9998999,
-        "lng": 120.2268758
+        "lat": 22.998955,
+        "lng": 120.2171461
     }
 }

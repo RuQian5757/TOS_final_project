@@ -1,131 +1,73 @@
 [
     {
-        "id": "647fe9c1-45d6-4d55-b775-5fba727be01d",
-        "created_at": "2025-12-29 00:44:12",
+        "id": "378e69d7-2050-4e90-a73d-d8a01ecee160",
+        "created_at": "2025-12-29 23:18:29",
         "meta": {
-            "trip_name": "9626556",
-            "location": "台北車站",
+            "trip_name": "最後測試",
+            "location": "成功大學",
             "date": "2025/10/20",
             "companion": "情侶",
             "transport": "大眾運輸",
-            "lat": 25.0474428,
-            "lng": 121.5170955
+            "lat": 22.998955,
+            "lng": 120.2171461
         },
         "schedule": [
             {
-                "place_name": "棉花糖小子-樂華夜市 棉花糖冰淇淋&水果優格燕麥",
+                "place_name": "BeerHotel 精釀生啤專賣店",
                 "category": "美食",
                 "time_range": "10:00 - 12:00",
                 "rating": 4.8,
                 "tags": [
-                    "夜市",
-                    "冰品",
-                    "打卡"
+                    "精釀啤酒",
+                    "情侶約會",
+                    "打卡熱點"
                 ],
-                "ai_reason": "甜蜜棉花糖冰淇淋，配上鮮果優格，浪漫氛圍，情侶必試的夏日清涼。",
-                "distance_info": "4.36 km",
-                "lat": 25.0085019,
-                "lng": 121.5119108
+                "ai_reason": "浪漫氛圍裡，手工精釀啤酒醇厚，讓你們的約會更添微醺情調",
+                "distance_info": "2.18 km",
+                "lat": 22.9933554,
+                "lng": 120.1939033
             }
         ]
     },
     {
-        "id": "2aefa56a-0d6f-449a-b787-f461c4eaeb0f",
-        "created_at": "2025-12-29 00:55:20",
+        "id": "978bfcb6-1c9a-4798-8407-93020b1fe590",
+        "created_at": "2025-12-29 23:19:00",
         "meta": {
-            "trip_name": "45646",
-            "location": "台南",
+            "trip_name": "成功大學之旅",
+            "location": "成功大學",
             "date": "2025/10/20",
             "companion": "情侶",
             "transport": "大眾運輸",
-            "lat": 22.9998999,
-            "lng": 120.2268758
+            "lat": 22.998955,
+            "lng": 120.2171461
         },
         "schedule": []
     },
     {
-        "id": "cc6552fa-574d-4fde-99b1-1adb3bab0280",
-        "created_at": "2025-12-29 01:05:45",
+        "id": "d4409458-c067-449a-b007-b8ebea1f35ad",
+        "created_at": "2025-12-29 23:19:01",
         "meta": {
-            "trip_name": "台南之旅",
-            "location": "台南",
+            "trip_name": "成功大學之旅",
+            "location": "成功大學",
             "date": "2025/10/20",
             "companion": "情侶",
             "transport": "大眾運輸",
-            "lat": 22.9998999,
-            "lng": 120.2268758
+            "lat": 22.998955,
+            "lng": 120.2171461
         },
         "schedule": []
     },
     {
-        "id": "14f0fe99-f2af-4aed-92fb-7bfee7a0d294",
-        "created_at": "2025-12-29 01:05:51",
+        "id": "418bad18-14c3-49a3-b08e-6f30f44e8cfb",
+        "created_at": "2025-12-29 23:19:13",
         "meta": {
-            "trip_name": "台南之旅",
-            "location": "台南",
+            "trip_name": "出去玩",
+            "location": "成功大學",
             "date": "2025/10/20",
             "companion": "情侶",
             "transport": "大眾運輸",
-            "lat": 22.9998999,
-            "lng": 120.2268758
-        },
-        "schedule": []
-    },
-    {
-        "id": "11a234e2-1a6c-4791-af62-3df30c2be3b2",
-        "created_at": "2025-12-29 01:06:01",
-        "meta": {
-            "trip_name": "40404",
-            "location": "台南",
-            "date": "2025/10/20",
-            "companion": "情侶",
-            "transport": "大眾運輸",
-            "lat": 22.9998999,
-            "lng": 120.2268758
-        },
-        "schedule": []
-    },
-    {
-        "id": "4220faa8-b992-4450-a063-3992f027bd2e",
-        "created_at": "2025-12-29 01:06:14",
-        "meta": {
-            "trip_name": "4040777",
-            "location": "台南",
-            "date": "2025/10/20",
-            "companion": "情侶",
-            "transport": "大眾運輸",
-            "lat": 22.9998999,
-            "lng": 120.2268758
-        },
-        "schedule": [
-            {
-                "place_name": "赤崁文化園區",
-                "category": "美食",
-                "time_range": "10:00 - 12:00",
-                "rating": 4.3,
-                "tags": [
-                    "歷史文化",
-                    "夜景",
-                    "情侶散步"
-                ],
-                "ai_reason": "古蹟與創意藝術交織，夜幕燈光更添情調，是情侶散步的好去處。",
-                "distance_info": "2.53 km",
-                "lat": 22.9970041,
-                "lng": 120.2023948
-            }
-        ]
-    },
-    {
-        "id": "6ec67070-2340-45ca-b111-0f77c3eef830",
-        "created_at": "2025-12-29 01:09:49",
-        "meta": {
-            "trip_name": "888",
-            "location": "台南",
-            "date": "2025/10/20",
-            "companion": "情侶",
-            "transport": "大眾運輸",
-            "lat": 22.9998999,
-            "lng": 120.2268758
+            "lat": 22.998955,
+            "lng": 120.2171461
         },
         "schedule": []
     }

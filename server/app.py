@@ -9,7 +9,7 @@ from google import create_data_json, fetch_static_map_image
 
 app = Flask(__name__)
 
-GOOGLE_API_KEY = "AIzaSyBBJ0jNpT6u-PzXGVkx3xNbcrX9kYC-fKw" 
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 BASE_DIR = os.path.dirname(__file__)
 DATA_FILE = os.path.join(BASE_DIR, 'json', 'trips_data.json')
@@ -192,14 +192,14 @@ def generate_ai_prompt():
         print(f"✅ 已將原始需求儲存至 {REQUEST_FILE}")
 
         # call key AI to get 3 keys for google api
-        key_list = generate_keys()
+        # key_list = generate_keys()
         print("Key AI complete !!!")
 
         # call google api to create data.json aka shops in certain radius
-        create_data_json(key_list)
+        # create_data_json(key_list)
         print("Google search complete !!!")
         # call guide RAG AI to create options.json 
-        generate_options_json()
+        # generate_options_json()
         print("RAG AI complete")
 
 

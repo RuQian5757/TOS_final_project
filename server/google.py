@@ -4,7 +4,7 @@ import time, os, re
 
 BASE_DIR = os.path.dirname(__file__)
 # --- 1. 設定區 ---
-API_KEY = "AIzaSyBBJ0jNpT6u-PzXGVkx3xNbcrX9kYC-fKw" 
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 def get_lat_lng(location_name):
     """取得地點經緯度"""
@@ -98,7 +98,7 @@ def fetch_static_map_image(lat, lng):
             f"size={size}&"
             f"maptype=roadmap&"
             f"markers=color:red%7C{lat},{lng}&"
-            f"key={API_KEY}"
+            f"key={GOOGLE_API_KEY}"
         )
         
         response = requests.get(google_url)

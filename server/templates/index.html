@@ -156,8 +156,8 @@
                     </div>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-sm font-semibold text-gray-700 mb-2">移動距離限制: <span id="distVal">0.5</span> km</label>
-                    <input type="range" min="0.5" max="15" step="0.5" value="0.5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600" oninput="document.getElementById('distVal').innerText = this.value">
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">移動距離限制: <span id="distVal">5</span> km</label>
+                    <input type="range" min="0.5" max="15" step="0.5" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600" oninput="document.getElementById('distVal').innerText = this.value">
                 </div>
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-2">額外需求 (Prompt)</label>
@@ -202,14 +202,10 @@
                 <button onclick="goBack()" class="absolute top-4 left-4 bg-white p-2 rounded-full shadow text-gray-700 hover:bg-gray-50">
                     <i class="fa-solid fa-arrow-left"></i>
                 </button>
-                <div class="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full shadow text-xs font-bold text-gray-700">
-                    <i class="fa-solid fa-eye"></i> 預覽模式
-                </div>
             </div>
             <div class="bg-white rounded-t-3xl -mt-6 relative px-6 py-8 min-h-[50vh] shadow-[0_-10px_40px_rgba(0,0,0,0.1)]">
                 <div class="flex justify-between items-start mb-2">
                     <span class="bg-blue-100 text-blue-600 text-xs font-bold px-2 py-1 rounded" id="preview-time">10:00 - 12:00</span>
-                    <span class="text-gray-400 text-xs" id="preview-distance">距離上個點 1.2km</span>
                 </div>
                 <div id="final-selection" class="mb-6"></div>
                 <div class="p-4 bg-gray-50 rounded-xl border border-gray-100 mb-6">
