@@ -65,7 +65,7 @@ Each recommended location includes:
 
 ## System Workflow
 
-
+![流程圖](img/TOC_final.drawio.png)
 
 ## Tech Stack
 
