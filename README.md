@@ -6,9 +6,13 @@ location suggestions based on their preferences.
 
 It leverages a large language model (LLM) powered by Ollama to generate
 location-related keywords, and integrates FAISS to build a retrieval-augmented
-generation (RAG) knowledge base. By combining the Google Places API and
+generation (RAG) knowledge base. 
+
+By combining the Google Places API and
 Google Geolocation API, the system ensures that recommended locations are
-relevant, accurate, and aligned with real-world geographic data.Location keywords are generated using Ollama (LLM). Simultaneously, LLM is combined with FAISS to store vector data, enabling the creation of RAG AI reference data.Connect the Google Place API and Google Geolocation API to ensure that recommended locations meet user requirements.
+relevant, accurate, and aligned with real-world geographic data.Location keywords are generated using Ollama (LLM).
+
+ Simultaneously, LLM is combined with FAISS to store vector data, enabling the creation of RAG AI reference data.Connect the Google Place API and Google Geolocation API to ensure that recommended locations meet user requirements.
 
 ## Features
 
@@ -204,8 +208,8 @@ python /server/app.py
 ```
 You should see output indicating the server is running, for example:
 ```bash
- * Running on http://127.0.0.1:3000
+ * Running on http://127.0.0.1:5000
 ```
 ### Step 3: Open the Web Interface in Browser
 1. Open your preferred web browser (e.g., Chrome).
-2. Navigate to: http://127.0.0.1:3000
+2. Navigate to: http://127.0.0.1:5000
